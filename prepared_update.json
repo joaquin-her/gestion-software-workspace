@@ -1,0 +1,7 @@
+{
+  "cloudId": "https://grupo15gestion.atlassian.net",
+  "issueIdOrKey": "SCRUM-89",
+  "fields": {
+    "description": "h2. Descripción\n\nConfigurar servicios y capacidad\n\nh2. Criterios de Aceptación\n\nEl usuario puede crear/editar servicios | Puede definir capacidad y duración | La configuración se aplica correctamente | Los servicios aparecen en el catálogo\n\nh2. Estimación\n\n3.0 story points"
+  }
+}

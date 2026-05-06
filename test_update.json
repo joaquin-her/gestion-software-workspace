@@ -1,0 +1,9 @@
+{
+  "jira_key": "SCRUM-89",
+  "jira_summary": "[BOOKING] [BASE] Explorar perfil: Ver especialidades del profesional",
+  "backlog_title": "Configurar servicios y capacidad",
+  "backlog_criteria": "El usuario puede crear/editar servicios | Puede definir capacidad y duración | La configuración se aplica correctamente | Los servicios aparecen en el catálogo",
+  "estimation": 3.0,
+  "match_found": true,
+  "needs_update": true
+}
