@@ -52,18 +52,16 @@ Esto habilitará automáticamente el soporte para:
 
 ```
 gestion/
-├── artefactos/                    # Documentos y plantillas de Excel
+├── artefactos/                    # Documentos, plantillas de Excel y entregables
 │   ├── Template Costos.xlsx        # Plantilla de costos (Fixed Price)
 │   ├── Artefactos_original.xlsx    # Datos originales del proyecto
-│   └── Costos_Corregidos.xlsx    # Costos corregidos (generado)
-├── scripts/                      # Scripts de automatización
-│   ├── bulk_update_jira.py       # Actualización masiva de issues Jira
-│   ├── update_jira_stories.py     # Actualización individual de stories
-│   └── test_single_update.py    # Pruebas de actualización
-├── data/                        # Datos y configuraciones
-│   ├── prepared_update.json       # Datos preparados para actualización
-│   └── all_jira_updates.json     # Historial de actualizaciones
-├── docs/                        # Documentación
+│   ├── Matriz_de_Riesgos.xlsx      # Matriz de riesgos del proyecto
+│   └── Costos_Corregidos.xlsx      # Costos corregidos (generado)
+├── scripts/                      # Scripts de automatización y herramientas
+│   ├── generate_presentation.js   # Generador de presentaciones PPTX
+│   └── ...                        # Otros scripts de integración
+├── data/                        # Datos crudos, JSONs y configuraciones temporales
+├── docs/                        # Documentación técnica y guías
 │   └── Instrucciones_Analisis_de_Riesgos.md
 ├── .agent/                       # Configuración maestra del workspace (Skills, MCP)
 ├── setup_workspace.ps1           # Script de vinculación (Windows)

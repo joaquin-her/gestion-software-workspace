@@ -23,3 +23,6 @@ yarn-error.log*
 
 # Excel Temp Files
 ~$*.xlsx
+
+# Node modules
+node_modules/

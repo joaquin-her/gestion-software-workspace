@@ -45,13 +45,20 @@ En caso de encontrar discrepancias al comparar datos:
 - Generación de nuevos artefactos
 - Toma de decisiones iterativa basada en feedback del usuario
 
-## 🛠️ Gestión del Entorno y Configuración
+## 📁 Estructura y Estándares del Repositorio
 
-Para garantizar que el agente funcione de manera consistente en cualquier IDE (Windsurf, Cursor, VS Code), se siguen las siguientes prácticas:
+Para mantener la organización y facilitar la automatización, el agente debe seguir esta estructura:
 
-1.  **Carpeta Maestra `.agent`**: Todas las configuraciones de MCP y Skills residen en esta carpeta. No debe renombrarse.
-2.  **Vinculación Dinámica**: El agente debe verificar o solicitar al usuario que ejecute los scripts de vinculación (`setup_workspace.ps1` o `.sh`) para crear los enlaces simbólicos necesarios.
-3.  **Persistencia**: Cualquier mejora en las habilidades del agente debe realizarse directamente sobre la carpeta `.agent` para que sea persistente y compartida entre todos los entornos de desarrollo.
+- **`/artefactos`**: Destino para archivos finales (.xlsx, .pptx, .pdf).
+- **`/scripts`**: Ubicación para lógica de automatización (.js, .py).
+- **`/data`**: Almacenamiento de archivos intermedios (.json, .csv) y datos crudos.
+- **`/docs`**: Guías, manuales e instrucciones en Markdown.
+- **`/.agent`**: Configuración maestra (Skills/MCP). **No modificar** manualmente.
+
+### Reglas de Oro:
+1. **No ensuciar la raíz**: Todo archivo generado debe ir a su carpeta correspondiente.
+2. **Vinculación**: Asegurar que el entorno esté vinculado mediante `setup_workspace` antes de operar.
+3. **Persistencia**: Las mejoras en Skills deben realizarse en la carpeta `.agent`.
 
 ## Objetivo Final
 Generar artefactos de desarrollo de software estructurados que sirvan como base para proyectos grupales, permitiendo iteraciones y mejoras continuas basadas en las necesidades del equipo.
