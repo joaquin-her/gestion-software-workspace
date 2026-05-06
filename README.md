@@ -7,7 +7,7 @@ Este repositorio contiene herramientas y artefactos para la gestión de proyecto
 ### Clonado del Repositorio
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/joaquin-her/gestion-software-workspace.git
 cd gestion
 ```
 
