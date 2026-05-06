@@ -65,7 +65,9 @@ gestion/
 │   └── all_jira_updates.json     # Historial de actualizaciones
 ├── docs/                        # Documentación
 │   └── Instrucciones_Analisis_de_Riesgos.md
-├── .windsurf/                   # Configuración del workspace (RENOMBRAR)
+├── .agent/                       # Configuración maestra del workspace (Skills, MCP)
+├── setup_workspace.ps1           # Script de vinculación (Windows)
+├── setup_workspace.sh            # Script de vinculación (Linux/Mac)
 └── README.md                     # Este archivo
 ```
 

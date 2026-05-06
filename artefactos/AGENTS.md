@@ -45,5 +45,13 @@ En caso de encontrar discrepancias al comparar datos:
 - Generación de nuevos artefactos
 - Toma de decisiones iterativa basada en feedback del usuario
 
+## 🛠️ Gestión del Entorno y Configuración
+
+Para garantizar que el agente funcione de manera consistente en cualquier IDE (Windsurf, Cursor, VS Code), se siguen las siguientes prácticas:
+
+1.  **Carpeta Maestra `.agent`**: Todas las configuraciones de MCP y Skills residen en esta carpeta. No debe renombrarse.
+2.  **Vinculación Dinámica**: El agente debe verificar o solicitar al usuario que ejecute los scripts de vinculación (`setup_workspace.ps1` o `.sh`) para crear los enlaces simbólicos necesarios.
+3.  **Persistencia**: Cualquier mejora en las habilidades del agente debe realizarse directamente sobre la carpeta `.agent` para que sea persistente y compartida entre todos los entornos de desarrollo.
+
 ## Objetivo Final
 Generar artefactos de desarrollo de software estructurados que sirvan como base para proyectos grupales, permitiendo iteraciones y mejoras continuas basadas en las necesidades del equipo.
