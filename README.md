@@ -20,6 +20,12 @@ cd gestion
 ./setup_workspace.ps1
 ```
 
+```bash
+# En Linux / Mac
+chmod +x setup_workspace.sh
+./setup_workspace.sh
+```
+
 Esto habilitará automáticamente el soporte para:
 - **Windsurf / VS Code** (`.vscode`)
 - **Cursor IDE** (`.cursor`)
