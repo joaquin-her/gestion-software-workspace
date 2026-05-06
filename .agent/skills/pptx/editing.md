@@ -1,5 +1,18 @@
 # Editing Presentations
 
+## Replicating Exact Aesthetics Workflow
+
+If your goal is to **perfectly append or replicate** slides from an existing presentation (to match exact fonts, shadows, borders, shapes, and master styles), **DO NOT use programmatic generators like `python-pptx` or `pptxgenjs` from scratch**. They will fail to preserve the nuanced slide XML metadata and cause an awful "style jump". You must manipulate the XML directly:
+
+1. **Unpack** the target presentation (`python scripts/office/unpack.py template.pptx unpacked/`)
+2. Find the exact slide XML (`unpacked/ppt/slides/slideN.xml`) that has the card/layout you want to duplicate.
+3. Run `add_slide.py` to natively duplicate it (e.g., `python scripts/add_slide.py unpacked/ slideN.xml`).
+4. Apply the `add_slide.py` output explicitly to `unpacked/ppt/presentation.xml` inside `<p:sldIdLst>`.
+5. Edit the text nodes inside your newly duplicated `slideM.xml` directly using `defusedxml.ElementTree` or `replace_file_content` to match the new content, preserving `<a:rPr>`, `<a:pPr>`, and shapes exactly.
+6. **Pack** the presentation back to `.pptx` (`python scripts/office/pack.py unpacked/ output.pptx --original template.pptx`).
+
+---
+
 ## Template-Based Workflow
 
 When using an existing presentation as a template:
@@ -40,6 +53,7 @@ When using an existing presentation as a template:
 6. **Clean**: `python scripts/clean.py unpacked/`
 
 7. **Pack**: `python scripts/office/pack.py unpacked/ output.pptx --original template.pptx`
+8. **Clean up**: Delete the `unpacked/` temporary directory to keep the workspace clean.
 
 ---
 

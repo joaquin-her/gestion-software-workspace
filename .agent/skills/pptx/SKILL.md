@@ -35,6 +35,8 @@ python scripts/office/unpack.py presentation.pptx unpacked/
 
 **Read [editing.md](editing.md) for full details.**
 
+⚠️ **CRITICAL RULE FOR REPLICATING AESTHETICS:** If the user asks to "replicate the aesthetic," "maintain the style," or "copy the exact format" of an existing presentation, **NEVER use `python-pptx` or `pptxgenjs` to append slides from scratch.** Those libraries cannot perfectly copy complex master slide layouts, custom shapes, layered backgrounds, or shadow effects. You **MUST** strictly use the Template-Based Workflow (unpack XML -> duplicate existing slides with `add_slide.py` -> edit text natively in XML -> pack) to ensure 100% coherence.
+
 1. Analyze template with `thumbnail.py`
 2. Unpack → manipulate slides → edit content → clean → pack
 
