@@ -11,22 +11,21 @@ git clone https://github.com/joaquin-her/gestion-software-workspace.git
 cd gestion
 ```
 
-### ⚠️ **Paso Crítico - Renombrar Carpeta de Configuración**
+### ⚠️ **Paso Crítico - Vincular Configuración del Workspace**
 
-**IMPORTANTE**: Después de clonar el repositorio, debe renombrar la carpeta `.windsurf` según el IDE/agent workspace que esté utilizando:
+**IMPORTANTE**: Para que el agente y las herramientas funcionen correctamente en tu IDE, debes ejecutar el script de configuración inicial. Esto crea enlaces (Junctions) desde la carpeta maestra `.agent` hacia las carpetas que los IDEs reconocen, manteniendo todo sincronizado.
 
-```bash
-# Para VS Code con Windsurf
-mv .windsurf .vscode
-
-# Para Cursor IDE
-mv .windsurf .cursor
-
-# Para otros IDEs/workspaces, renombrar según corresponda
-mv .windsurf .<nombre-del-ide>
+```powershell
+# En Windows (PowerShell)
+./setup_workspace.ps1
 ```
 
-Esta carpeta contiene configuraciones específicas del workspace y **debe ser renombrada** para que las herramientas funcionen correctamente en tu entorno.
+Esto habilitará automáticamente el soporte para:
+- **Windsurf / VS Code** (`.vscode`)
+- **Cursor IDE** (`.cursor`)
+- **Generic Agent** (`.agent`)
+
+*Nota: Los enlaces están configurados en el `.gitignore` para que no interfieran con el repositorio.*
 
 ### Configuración del Entorno
 

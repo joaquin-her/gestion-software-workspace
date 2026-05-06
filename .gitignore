@@ -1,0 +1,25 @@
+# IDE Configurations (Linked to .agent)
+.vscode/
+.cursor/
+.windsurf/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Excel Temp Files
+~$*.xlsx
