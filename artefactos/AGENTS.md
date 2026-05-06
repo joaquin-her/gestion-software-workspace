@@ -16,10 +16,11 @@ Los libros y páginas serán artefactos de desarrollo de software que buscan sen
    - A quien le pertenecen
    - De qué categoría son
    - Si son plan premium o free
-
+4. **Iteracion**: se crea un archivo json con la informacion insertada en el archivo CSV para ser utilizado por el usuario y el modelo con el fin de insertar modificaciones
 ### Salida Esperada
 - Un nuevo artefacto: `USM_corregido.xlsx`
 - Un archivo `.csv` con la información solicitada
+- Un archivo `.json` con la información insertada en el archivo CSV
 
 ### Proceso Iterativo
 En iteraciones adicionales se puede solicitar:
