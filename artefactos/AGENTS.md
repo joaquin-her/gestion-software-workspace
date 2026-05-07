@@ -1,64 +1,38 @@
-# Agent de Gestión de Artefactos
+# Agent Context: Proyecto Appointa
 
-## Propósito
-El agente se encargará de usar las herramientas y habilidades disponibles para generar nuevos archivos XMLs en base a uno que se otorgará como contexto, al cual se le pedirán hacer modificaciones y mejoras de manera iterativa.
+Este documento define el contexto, la estructura de datos y los protocolos de operación para agentes de IA que interactúen con los artefactos de este repositorio, independientemente de su proveedor o interfaz (Claude, Windsurf, VS Code, etc.).
 
-## Contexto
-Los libros y páginas serán artefactos de desarrollo de software que buscan sentar bases para un proyecto grupal.
+## 1. Contexto del Proyecto
+**Producto:** Appointa
+**Descripción:** Plataforma SaaS de gestión de turnos online para profesionales independientes y pequeñas clínicas.
+**Modelo:** Freemium (Planes Free y Premium).
+**Pila Tecnológica:** Web, integraciones con WhatsApp y Google Calendar.
 
-## Flujo de Trabajo
+## 2. Mapa de Artefactos (Knowledge Base)
 
-### Ejemplo de Proceso
-1. **Entrada**: Se otorgará un archivo Excel como contexto (ej: `@[artefactos/Artefactos_original.xlsx]`)
-2. **Extracción**: Se pedirá extraer una página específica (ej: "USM Corregido")
-3. **Conversión**: Convertir la página extraída a un archivo CSV con información específica:
-   - Nombres de las historias
-   - A quien le pertenecen
-   - De qué categoría son
-   - Si son plan premium o free
-4. **Iteracion**: se crea un archivo json con la informacion insertada en el archivo CSV para ser utilizado por el usuario y el modelo con el fin de insertar modificaciones
-### Salida Esperada
-- Un nuevo artefacto: `USM_corregido.xlsx`
-- Un archivo `.csv` con la información solicitada
-- Un archivo `.json` con la información insertada en el archivo CSV
+### Fuentes de Información (Local)
+- **Excel Maestro:** `artefactos/Artefactos_original.xlsx` (Contiene los datos técnicos y de cálculo).
+- **Consolidado Markdown:** `artefactos/ARTEFACTOS_CONSOLIDADO.md` (Referencia rápida para lectura de contexto/RAG).
 
-### Proceso Iterativo
-En iteraciones adicionales se puede solicitar:
-- Extraer otra página del artefacto original (ej: "Backlog-US")
-- Comparar con el CSV generado anteriormente
+### Repositorio Cloud (Confluence)
+- **Espacio:** `Appointa (A)`
+- **Página Raíz:** `Artefactos del Proyecto (Excel)` (ID: `4128769`)
+- **Páginas Hijas:** `Product Vision`, `Personas`, `Features`, `User Story Map (USM)`, `WBS`, `Backlog User Stories`, `Planilla de Costos`.
 
-### Manejo de Discrepancias
-En caso de encontrar discrepancias al comparar datos:
+## 3. Protocolos para el Asistente de IA
 
-1. **Preguntar al usuario** qué decisión tomar entre estas opciones:
-   - Crear un nuevo XLSX con ambos conjuntos de datos
-   - Crear un archivo solo con los elementos diferentes (especificando cuáles son)
-   - Mantener solo los datos repetidos o similares
-   - Mantener solo los datos originales
+### Al recibir un pedido de cambio:
+1. **Verificación de Contexto:** Consultar `ARTEFACTOS_CONSOLIDADO.md` antes de proponer ediciones transversales.
+2. **Sincronización:** Si se modifica el Excel local, proponer la actualización de la página correspondiente en Confluence.
+3. **Mantenimiento de Estándares:**
+   - Respetar el formato de tablas Markdown.
+   - Preservar nombres de columnas y emojis de prioridad (⭐).
 
-2. **Proponer opciones adicionales** si existen otras alternativas viables
+## 4. Estructura de Datos para Procesamiento
+Las tablas en los documentos Markdown siguen este esquema de limpieza:
+- Saltos de línea en celdas reemplazados por `<br>`.
+- Pipes (`|`) escapados con `\|`.
+- Valores nulos tratados como strings vacíos.
 
-## Herramientas y Habilidades
-- Manipulación de archivos Excel (.xlsx)
-- Conversión entre formatos (Excel a CSV)
-- Análisis y comparación de datos
-- Generación de nuevos artefactos
-- Toma de decisiones iterativa basada en feedback del usuario
-
-## 📁 Estructura y Estándares del Repositorio
-
-Para mantener la organización y facilitar la automatización, el agente debe seguir esta estructura:
-
-- **`/artefactos`**: Destino para archivos finales (.xlsx, .pptx, .pdf).
-- **`/scripts`**: Ubicación para lógica de automatización (.js, .py).
-- **`/data`**: Almacenamiento de archivos intermedios (.json, .csv) y datos crudos.
-- **`/docs`**: Guías, manuales e instrucciones en Markdown.
-- **`/.agent`**: Configuración maestra (Skills/MCP). **No modificar** manualmente.
-
-### Reglas de Oro:
-1. **No ensuciar la raíz**: Todo archivo generado debe ir a su carpeta correspondiente.
-2. **Vinculación**: Asegurar que el entorno esté vinculado mediante `setup_workspace` antes de operar.
-3. **Persistencia**: Las mejoras en Skills deben realizarse en la carpeta `.agent`.
-
-## Objetivo Final
-Generar artefactos de desarrollo de software estructurados que sirvan como base para proyectos grupales, permitiendo iteraciones y mejoras continuas basadas en las necesidades del equipo.
+---
+*Este documento es auto-mantenido. Si se agrega un nuevo artefacto, actualice la sección 2.*
