@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "10000",
+    "key": "SCRUM-1",
+    "summary": "[AUTH] [BASE] Registrarse con Email y contraseña",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:31:50.289-0300",
+    "description": "h2. Descripción\n\nRegistrarse con Email y contraseña\n\nh2. Criterios de Aceptación\n\n* El registro se completa correctamente\n* La validación es segura\n* El proceso es intuitivo\n* Se envía confirmación\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10001",
+    "key": "SCRUM-2",
+    "summary": "[PERFIL] [BASE] Configurar perfil basico: Cargar nombre, especialidad, foto",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:31:58.685-0300",
+    "description": "h2. Descripción\n\nConfigurar perfil basico: Cargar nombre, especialidad y foto\n\nh2. Criterios de Aceptación\n\n* El perfil se configura correctamente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n* Se valida la información\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10002",
+    "key": "SCRUM-3",
+    "summary": "[SUBS] [BASE] Administrar suscripcion: Ver estado del plan actual",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:32:12.539-0300",
+    "description": "h2. Descripción\n\nAdministrar suscripción: Ver estado del plan actual\n\nh2. Criterios de Aceptación\n\n* El estado se muestra claramente\n* La información es actual\n* Se pueden ver detalles del plan\n* Es fácil de consultar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10003",
+    "key": "SCRUM-4",
+    "summary": "[AUTH] [BASE] Validar Email",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:32:29.849-0300",
+    "description": "h2. Descripción\n\nValidar Email\n\nh2. Criterios de Aceptación\n\n* El email se valida correctamente\n* La confirmación es rápida\n* El proceso es seguro\n* Se envía notificación\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10004",
+    "key": "SCRUM-5",
+    "summary": "[AUTH] [BASE] Iniciar sesión / Recuperar contraseña",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:32:54.390-0300",
+    "description": "h2. Descripción\n\nIniciar sesión / Recuperar contraseña\n\nh2. Criterios de Aceptación\n\n* El inicio de sesión funciona correctamente\n* La recuperación de contraseña es segura\n* El proceso es intuitivo\n* Se valida la información\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10005",
+    "key": "SCRUM-6",
+    "summary": "[AUTH] [BASE] Cambiar contraseña / Eliminar",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:33:04.943-0300",
+    "description": "h2. Descripción\n\nExportar turnos del mes a Excel/CSV\n\nh2. Criterios de Aceptación\n\n* La exportación se genera correctamente\n* El formato es compatible\n* La información es completa\n* Es fácil de descargar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10009",
+    "key": "SCRUM-10",
+    "summary": "[AUTH] [BASE] Cambiar contraseña / Eliminar",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:57:59.718-0300",
+    "description": "h2. Descripción\n\nVer ingresos estimados del mes\n\nh2. Criterios de Aceptación\n\n* Los ingresos se calculan correctamente\n* La información es clara y organizada\n* Se puede filtrar por período\n* Es fácil de consultar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10010",
+    "key": "SCRUM-11",
+    "summary": "[PERFIL] [BASE] Configurar Perfil Básico: Cargar nombre, especialidad y foto",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:15.030-0300",
+    "description": "h2. Descripción\n\nVer servicios más populares\n\nh2. Criterios de Aceptación\n\n* Los servicios populares se muestran claramente\n* La información es relevante\n* Es fácil de identificar\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10011",
+    "key": "SCRUM-12",
+    "summary": "[PERFIL] [BASE] Definir modalidad (Presencial/Virtual)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:20.572-0300",
+    "description": "h2. Descripción\n\nVer historial del cliente\n\nh2. Criterios de Aceptación\n\n* El historial se muestra claramente\n* Incluye todos los turnos pasados\n* La información es completa\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10012",
+    "key": "SCRUM-13",
+    "summary": "[PERFIL] [BASE] Generar link público de reservas",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:24.548-0300",
+    "description": "h2. Descripción\n\nAñadir notas internas al perfil del cliente\n\nh2. Criterios de Aceptación\n\n* Las notas se guardan correctamente\n* La información es privada\n* Se pueden editar fácilmente\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10013",
+    "key": "SCRUM-14",
+    "summary": "[PERFIL] [BASE] Agregar links a Redes Sociales",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:28.182-0300",
+    "description": "h2. Descripción\n\nCrear turno manual\n\nh2. Criterios de Aceptación\n\n* El turno se crea correctamente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n* Se notifica al cliente\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10014",
+    "key": "SCRUM-15",
+    "summary": "[PERFIL] [BASE] Previsualizar perfil público",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:31.861-0300",
+    "description": "h2. Descripción\n\nFiltrar vista por servicio\n\nh2. Criterios de Aceptación\n\n* El filtro funciona correctamente\n* Muestra solo el servicio seleccionado\n* La información es clara\n* Es fácil de usar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10015",
+    "key": "SCRUM-16",
+    "summary": "[PERFIL] [BASE] Editar perfil",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:36.383-0300",
+    "description": "h2. Descripción\n\nAsignar roles (Admin general vs. Empleado)\n\nh2. Criterios de Aceptación\n\n* Los roles se asignan correctamente\n* Los permisos son adecuados\n* El acceso se gestiona correctamente\n* Es fácil de administrar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10016",
+    "key": "SCRUM-17",
+    "summary": "[PERFIL] [PREM] Personalizar preguntas del formulario al cliente",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:40.979-0300",
+    "description": "h2. Descripción\n\nDar de baja/Suspender a un empleado\n\nh2. Criterios de Aceptación\n\n* El empleado se da de baja correctamente\n* El acceso es revocado\n* Los datos se conservan\n* El proceso es seguro\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10017",
+    "key": "SCRUM-18",
+    "summary": "[SUBS] [BASE] Administrar Suscripción: Ver estado del plan actual",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:44.708-0300",
+    "description": "h2. Descripción\n\nCrear y editar perfil de empleado\n\nh2. Criterios de Aceptación\n\n* El perfil se crea correctamente\n* Se puede editar fácilmente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10018",
+    "key": "SCRUM-19",
+    "summary": "[SUBS] [PREM] Hacer Upgrade a Premium",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:58:49.326-0300",
+    "description": "h2. Descripción\n\nConfigurar perfil del local\n\nh2. Criterios de Aceptación\n\n* El perfil se configura correctamente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n* Se valida la información\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10019",
+    "key": "SCRUM-20",
+    "summary": "[SUBS] [BASE] Cancelar Suscripción Premium",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:05.880-0300",
+    "description": "h2. Descripción\n\nSeleccionar servicio al reservar\n\nh2. Criterios de Aceptación\n\n* El servicio se selecciona correctamente\n* La información es clara\n* El proceso es intuitivo\n* Se muestra disponibilidad\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10020",
+    "key": "SCRUM-21",
+    "summary": "[AGENDA] [BASE] Definir estructura base: Establecer días laborables y franjas horarias",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:34.250-0300",
+    "description": "h2. Descripción\n\nEditar datos personales\n\nh2. Criterios de Aceptación\n\n* Los datos se editan correctamente\n* La información se actualiza en tiempo real\n* El proceso es intuitivo\n* Se valida la información\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10021",
+    "key": "SCRUM-22",
+    "summary": "[AGENDA] [BASE] Definir duración estándar del turno",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:41.437-0300",
+    "description": "h2. Descripción\n\nExportar base de datos de clientes\n\nh2. Criterios de Aceptación\n\n* La exportación se genera correctamente\n* El formato es compatible\n* La información es completa\n* Es fácil de descargar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10022",
+    "key": "SCRUM-23",
+    "summary": "[AGENDA] [BASE] Configurar descansos entre turnos",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:44.486-0300",
+    "description": "h2. Descripción\n\nExportar turnos del mes a Excel/CSV\n\nh2. Criterios de Aceptación\n\n* La exportación se genera correctamente\n* El formato es compatible\n* La información es completa\n* Es fácil de descargar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10023",
+    "key": "SCRUM-24",
+    "summary": "[AGENDA] [PREM] Sincronización con Google Calendar",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:49.255-0300",
+    "description": "h2. Descripción\n\nVer total de turnos (Atendidos vs Cancelados)\n\nh2. Criterios de Aceptación\n\n* El total se muestra claramente\n* La información es precisa\n* Se puede filtrar por estado\n* Es fácil de consultar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10024",
+    "key": "SCRUM-25",
+    "summary": "[SERVICIOS] [BASE] Configurar servicios: Crear un servicio",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:53.500-0300",
+    "description": "h2. Descripción\n\nVer cantidad de turnos por profesional\n\nh2. Criterios de Aceptación\n\n* La cantidad se muestra claramente\n* La información es precisa\n* Se puede filtrar por profesional\n* Es fácil de analizar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10025",
+    "key": "SCRUM-26",
+    "summary": "[SERVICIOS] [BASE] Configurar capacidad por turno",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T17:59:56.549-0300",
+    "description": "h2. Descripción\n\nVer ingresos generados por cada empleado\n\nh2. Criterios de Aceptación\n\n* Los ingresos se muestran claramente\n* La información es precisa\n* Se puede filtrar por empleado\n* Es fácil de analizar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10026",
+    "key": "SCRUM-27",
+    "summary": "[SERVICIOS] [BASE] Editar o eliminar servicios",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:00.981-0300",
+    "description": "h2. Descripción\n\nVer ingresos estimados del mes\n\nh2. Criterios de Aceptación\n\n* Los ingresos se calculan correctamente\n* La información es clara y organizada\n* Se puede filtrar por período\n* Es fácil de consultar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10027",
+    "key": "SCRUM-28",
+    "summary": "[SERVICIOS] [PREM] Habilitar cobro de seña por servicio",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:05.221-0300",
+    "description": "h2. Descripción\n\nVer servicios más populares\n\nh2. Criterios de Aceptación\n\n* Los servicios populares se muestran claramente\n* La información es relevante\n* Es fácil de identificar\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10028",
+    "key": "SCRUM-29",
+    "summary": "[TURNOS] [BASE] Manejar excepciones: Pausar agenda temporalmente",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:10.389-0300",
+    "description": "h2. Descripción\n\nVer historial del cliente\n\nh2. Criterios de Aceptación\n\n* El historial se muestra claramente\n* Incluye todos los turnos pasados\n* La información es completa\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10029",
+    "key": "SCRUM-30",
+    "summary": "[TURNOS] [BASE] Bloquear fechas (Vacaciones/Feriados)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:18.582-0300",
+    "description": "h2. Descripción\n\nAñadir notas internas al perfil del cliente\n\nh2. Criterios de Aceptación\n\n* Las notas se guardan correctamente\n* La información es privada\n* Se pueden editar fácilmente\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10030",
+    "key": "SCRUM-31",
+    "summary": "[TURNOS] [BASE] Revisar agenda: Ver panel de turnos (Dashboard)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:26.339-0300",
+    "description": "h2. Descripción\n\nCrear turno manual\n\nh2. Criterios de Aceptación\n\n* El turno se crea correctamente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n* Se notifica al cliente\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10031",
+    "key": "SCRUM-32",
+    "summary": "[TURNOS] [BASE] Ver detalle del turno",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:29.871-0300",
+    "description": "h2. Descripción\n\nFiltrar vista por servicio\n\nh2. Criterios de Aceptación\n\n* El filtro funciona correctamente\n* Muestra solo el servicio seleccionado\n* La información es clara\n* Es fácil de usar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10032",
+    "key": "SCRUM-33",
+    "summary": "[TURNOS] [PREM] Exportar turnos del mes a Excel/CSV",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:33.424-0300",
+    "description": "h2. Descripción\n\nAsignar roles (Admin general vs. Empleado)\n\nh2. Criterios de Aceptación\n\n* Los roles se asignan correctamente\n* Los permisos son adecuados\n* El acceso se gestiona correctamente\n* Es fácil de administrar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10033",
+    "key": "SCRUM-34",
+    "summary": "[TURNOS] [BASE] Administrar reservas: Cancelar el turno de un cliente",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:37.698-0300",
+    "description": "h2. Descripción\n\nDar de baja/Suspender a un empleado\n\nh2. Criterios de Aceptación\n\n* El empleado se da de baja correctamente\n* El acceso es revocado\n* Los datos se conservan\n* El proceso es seguro\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10034",
+    "key": "SCRUM-35",
+    "summary": "[TURNOS] [BASE] Marcar asistencia (Asistió / No asistió)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:42.829-0300",
+    "description": "h2. Descripción\n\nCrear y editar perfil de empleado\n\nh2. Criterios de Aceptación\n\n* El perfil se crea correctamente\n* Se puede editar fácilmente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10035",
+    "key": "SCRUM-36",
+    "summary": "[TURNOS] [BASE] Reprogramar turno desde el panel",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:46.714-0300",
+    "description": "h2. Descripción\n\nConfigurar perfil del local\n\nh2. Criterios de Aceptación\n\n* El perfil se configura correctamente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n* Se valida la información\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10036",
+    "key": "SCRUM-37",
+    "summary": "[TURNOS] [PREM] Gestionar reembolsos de seña",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:50.661-0300",
+    "description": "h2. Descripción\n\nSeleccionar servicio al reservar\n\nh2. Criterios de Aceptación\n\n* El servicio se selecciona correctamente\n* La información es clara\n* El proceso es intuitivo\n* Se muestra disponibilidad\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10037",
+    "key": "SCRUM-38",
+    "summary": "[CLIENTE] [BASE] Seguimiento: Recibir notificaciones sobre cierto cliente",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:00:56.923-0300",
+    "description": "h2. Descripción\n\nEditar datos personales\n\nh2. Criterios de Aceptación\n\n* Los datos se editan correctamente\n* La información se actualiza en tiempo real\n* El proceso es intuitivo\n* Se valida la información\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10038",
+    "key": "SCRUM-39",
+    "summary": "[CLIENTE] [BASE] Botón de contacto rápido por WhatsApp",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:01:00.353-0300",
+    "description": "h2. Descripción\n\nExportar base de datos de clientes\n\nh2. Criterios de Aceptación\n\n* La exportación se genera correctamente\n* El formato es compatible\n* La información es completa\n* Es fácil de descargar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10039",
+    "key": "SCRUM-40",
+    "summary": "[CLIENTE] [BASE] Ver historial del cliente",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:01:04.549-0300",
+    "description": "h2. Descripción\n\nExportar turnos del mes a Excel/CSV\n\nh2. Criterios de Aceptación\n\n* La exportación se genera correctamente\n* El formato es compatible\n* La información es completa\n* Es fácil de descargar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10040",
+    "key": "SCRUM-41",
+    "summary": "[CLIENTE] [PREM] Añadir notas internas privadas",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:01:08.547-0300",
+    "description": "h2. Descripción\n\nVer total de turnos (Atendidos vs Cancelados)\n\nh2. Criterios de Aceptación\n\n* El total se muestra claramente\n* La información es precisa\n* Se puede filtrar por estado\n* Es fácil de consultar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10041",
+    "key": "SCRUM-42",
+    "summary": "[Profesional Ind] Autentificacion y Perfil",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:02:13.342-0300",
+    "description": "h2. Descripción\n\nVer cantidad de turnos por profesional\n\nh2. Criterios de Aceptación\n\n* La cantidad se muestra claramente\n* La información es precisa\n* Se puede filtrar por profesional\n* Es fácil de analizar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10042",
+    "key": "SCRUM-43",
+    "summary": "[Profesional Ind] Configuracion de Agenda",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:02:20.647-0300",
+    "description": "h2. Descripción\n\nVer ingresos generados por cada empleado\n\nh2. Criterios de Aceptación\n\n* Los ingresos se muestran claramente\n* La información es precisa\n* Se puede filtrar por empleado\n* Es fácil de analizar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10043",
+    "key": "SCRUM-44",
+    "summary": "[Profesional Ind] Gestion Diaria de Turnos",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:02:26.893-0300",
+    "description": "h2. Descripción\n\nVer ingresos estimados del mes\n\nh2. Criterios de Aceptación\n\n* Los ingresos se calculan correctamente\n* La información es clara y organizada\n* Se puede filtrar por período\n* Es fácil de consultar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10044",
+    "key": "SCRUM-45",
+    "summary": "[Cliente/Paciente] Acceso a Plataforma",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:03:08.096-0300",
+    "description": "h2. Descripción\n\nVer servicios más populares\n\nh2. Criterios de Aceptación\n\n* Los servicios populares se muestran claramente\n* La información es relevante\n* Es fácil de identificar\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10045",
+    "key": "SCRUM-46",
+    "summary": "[Cliente/Paciente]  Panel Central y pre-reserva",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:03:43.119-0300",
+    "description": "h2. Descripción\n\nVer historial del cliente\n\nh2. Criterios de Aceptación\n\n* El historial se muestra claramente\n* Incluye todos los turnos pasados\n* La información es completa\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10046",
+    "key": "SCRUM-47",
+    "summary": "[Cliente/Paciente] Exploracion y reserva",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:03:53.934-0300",
+    "description": "h2. Descripción\n\nAñadir notas internas al perfil del cliente\n\nh2. Criterios de Aceptación\n\n* Las notas se guardan correctamente\n* La información es privada\n* Se pueden editar fácilmente\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10047",
+    "key": "SCRUM-48",
+    "summary": "[Cliente/Paciente] Autogestion de turnos",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:03:59.981-0300",
+    "description": "h2. Descripción\n\nCrear turno manual\n\nh2. Criterios de Aceptación\n\n* El turno se crea correctamente\n* La información se guarda apropiadamente\n* El proceso es intuitivo\n* Se notifica al cliente\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10048",
+    "key": "SCRUM-49",
+    "summary": "[Grupo de Profesionales] Configuracion de negocio y staff",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:04:33.599-0300",
+    "description": "h2. Descripción\n\nFiltrar vista por servicio\n\nh2. Criterios de Aceptación\n\n* El filtro funciona correctamente\n* Muestra solo el servicio seleccionado\n* La información es clara\n* Es fácil de usar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10049",
+    "key": "SCRUM-50",
+    "summary": "[Grupo de Profesionales] Supervision global de la agenda",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:04:59.820-0300",
+    "description": "h2. Descripción\n\nAsignar roles (Admin general vs. Empleado)\n\nh2. Criterios de Aceptación\n\n* Los roles se asignan correctamente\n* Los permisos son adecuados\n* El acceso se gestiona correctamente\n* Es fácil de administrar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10050",
+    "key": "SCRUM-51",
+    "summary": "[Grupo de Profesionales] Reportes y metricas",
+    "issuetype": "Epic",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:05:05.947-0300",
+    "description": "h2. Descripción\n\nDar de baja/Suspender a un empleado\n\nh2. Criterios de Aceptación\n\n* El empleado se da de baja correctamente\n* El acceso es revocado\n* Los datos se conservan\n* El proceso es seguro\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10051",
+    "key": "SCRUM-52",
+    "summary": "[AUTH] [BASE] Crear cuenta: Registrarse con Email y WhatsApp",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:05:41.265-0300",
+    "description": "h2. Descripción\n\nBloquear agenda de empleado\n\nh2. Criterios de Aceptación\n\n* La agenda se bloquea correctamente\n* No se pueden agendar turnos\n* El estado es visible\n* Es fácil de gestionar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10052",
+    "key": "SCRUM-53",
+    "summary": "[AUTH] [BASE] Validar cuenta (Email)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:05:45.406-0300",
+    "description": "h2. Descripción\n\nFiltrar vista por empleado específico\n\nh2. Criterios de Aceptación\n\n* El filtro funciona correctamente\n* Muestra solo el empleado seleccionado\n* La información es clara\n* Es fácil de usar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10053",
+    "key": "SCRUM-54",
+    "summary": "[AUTH] [BASE] Acceder a la cuenta: Iniciar sesión con Email y Pass",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:05:49.367-0300",
+    "description": "h2. Descripción\n\nConfigurar días/horarios de cada empleado\n\nh2. Criterios de Aceptación\n\n* Los días se configuran correctamente\n* Los horarios se asignan correctamente\n* La información se actualiza en tiempo real\n* Es fácil de gestionar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10054",
+    "key": "SCRUM-55",
+    "summary": "[AUTH] [BASE] Recuperar contraseña",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:05:53.223-0300",
+    "description": "h2. Descripción\n\nCrear/Editar perfil del empleado (Foto, rol)\n\nh2. Criterios de Aceptación\n\n* El perfil se crea correctamente\n* Se puede editar fácilmente\n* La foto se sube correctamente\n* El rol se asigna correctamente\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10055",
+    "key": "SCRUM-56",
+    "summary": "[AUTH] [BASE] Login rápido con Google (OAuth)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:05:57.017-0300",
+    "description": "h2. Descripción\n\nGenerar link público general del negocio\n\nh2. Criterios de Aceptación\n\n* El link se genera correctamente\n* Es accesible públicamente\n* Muestra información relevante\n* Es fácil de compartir\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10056",
+    "key": "SCRUM-57",
+    "summary": "[USER] [BASE] Gestionar perfil personal: Editar datos (Nombre, Celular)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:06:00.288-0300",
+    "description": "h2. Descripción\n\nEditar o eliminar servicios\n\nh2. Criterios de Aceptación\n\n* Los servicios se pueden editar fácilmente\n* Los servicios se pueden eliminar\n* La información se actualiza correctamente\n* El proceso es seguro\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10057",
+    "key": "SCRUM-58",
+    "summary": "[USER] [BASE] Cambiar contraseña",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:06:06.581-0300",
+    "description": "h2. Descripción\n\nVer historial global del cliente en el local\n\nh2. Criterios de Aceptación\n\n* El historial se muestra claramente\n* Incluye todos los turnos pasados\n* La información es completa\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10058",
+    "key": "SCRUM-59",
+    "summary": "[USER] [BASE] Eliminar mi cuenta",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:06:09.928-0300",
+    "description": "h2. Descripción\n\nAñadir notas internas al perfil del cliente\n\nh2. Criterios de Aceptación\n\n* Las notas se guardan correctamente\n* La información es privada\n* Se pueden editar fácilmente\n* El diseño es intuitivo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10059",
+    "key": "SCRUM-60",
+    "summary": "[DASH] [BASE] Dashboard de Inicio: Ver resumen de próximos turnos agendados",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:06:16.640-0300",
+    "description": "h2. Descripción\n\nVer base de datos de clientes del local\n\nh2. Criterios de Aceptación\n\n* La base de datos es accesible\n* La información es completa\n* Los datos son seguros\n* Es fácil de consultar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10060",
+    "key": "SCRUM-61",
+    "summary": "[DASH] [BASE] Ver notificaciones/alertas importantes",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:10:48.368-0300",
+    "description": "h2. Descripción\n\nReasignar turno de un empleado a otro\n\nh2. Criterios de Aceptación\n\n* El turno se puede reasignar fácilmente\n* La información se actualiza en tiempo real\n* Se notifica a ambos empleados\n* El proceso es seguro\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10061",
+    "key": "SCRUM-62",
+    "summary": "[DASH] [BASE] Mis Profesionales: Ver lista de profesionales previos",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:10:51.813-0300",
+    "description": "h2. Descripción\n\nVer calendario con todos los turnos de todos los locales\n\nh2. Criterios de Aceptación\n\n* El calendario muestra todos los turnos\n* La información es clara y organizada\n* Se puede filtrar por local\n* Es fácil de consultar\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10062",
+    "key": "SCRUM-63",
+    "summary": "[DASH] [BASE] Botón de \"Volver a reservar\"",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:10:55.043-0300",
+    "description": "h2. Descripción\n\nBotón de \"Volver a reservar\"\n\nh2. Criterios de Aceptación\n\n* El botón es visible y accesible\n* Redirige a la página de reserva\n* La navegación es fluida\n* El diseño es consistente\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10063",
+    "key": "SCRUM-64",
+    "summary": "[DASH] [BASE] Guardar un profesional en \"Favoritos\"",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:10:58.297-0300",
+    "description": "h2. Descripción\n\nGuardar un profesional en \"Favoritos\"\n\nh2. Criterios de Aceptación\n\n* El profesional se puede guardar en favoritos\n* La lista de favoritos es accesible\n* La información es persistente\n* Es fácil de gestionar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10064",
+    "key": "SCRUM-65",
+    "summary": "[PAGOS] [BASE] Historial de Pagos: Ver historial de señas pagadas",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:11:02.532-0300",
+    "description": "h2. Descripción\n\nVer historial de señas pagadas\n\nh2. Criterios de Aceptación\n\n* El historial se muestra claramente\n* Incluye fechas y montos\n* La información es completa\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10065",
+    "key": "SCRUM-66",
+    "summary": "[PAGOS] [BASE] Descargar comprobante de turno/seña",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:11:05.742-0300",
+    "description": "h2. Descripción\n\nDescargar comprobante de turno/seña\n\nh2. Criterios de Aceptación\n\n* El comprobante se genera automáticamente\n* Incluye todos los datos necesarios\n* El formato es PDF\n* Es fácil de descargar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10066",
+    "key": "SCRUM-67",
+    "summary": "[BOOKING] [BASE] Explorar perfil: Aterrizar en URL pública del profesional",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:11:08.823-0300",
+    "description": "h2. Descripción\n\nAterrizar en URL pública directa\n\nh2. Criterios de Aceptación\n\n* La URL pública es accesible\n* El diseño es profesional\n* La información es completa\n* Es fácil de compartir\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10067",
+    "key": "SCRUM-68",
+    "summary": "[BOOKING] [BASE] Ver descripción y modalidad",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:11:13.929-0300",
+    "description": "h2. Descripción\n\nVer estado actual\n\nh2. Criterios de Aceptación\n\n* El estado se muestra claramente\n* Incluye información relevante\n* La información es actualizada\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10068",
+    "key": "SCRUM-69",
+    "summary": "[BOOKING] [BASE] Ver lista de servicios y duraciones",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:11:18.285-0300",
+    "description": "h2. Descripción\n\nVer disponibilidad inmediata\n\nh2. Criterios de Aceptación\n\n* La disponibilidad se muestra en tiempo real\n* Los horarios son claros\n* La información se actualiza automáticamente\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10069",
+    "key": "SCRUM-70",
+    "summary": "[BOOKING] [BASE] Filtrar servicios por categoría",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:11:22.527-0300",
+    "description": "h2. Descripción\n\nVer contacto de emergencia\n\nh2. Criterios de Aceptación\n\n* El contacto de emergencia es claro\n* Incluye teléfono y email\n* La información es verificable\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10070",
+    "key": "SCRUM-71",
+    "summary": "[BOOKING] [BASE] Elegir disponibilidad: Navegar por el calendario",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:12:17.261-0300",
+    "description": "h2. Descripción\n\nVer sobre nosotros\n\nh2. Criterios de Aceptación\n\n* La información sobre nosotros es clara\n* Incluye historia y misión\n* El contenido es relevante\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10071",
+    "key": "SCRUM-72",
+    "summary": "[BOOKING] [BASE] Ver horarios disponibles en real-time",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:12.470-0300",
+    "description": "h2. Descripción\n\nVer política de privacidad\n\nh2. Criterios de Aceptación\n\n* La política de privacidad es clara\n* La información es comprensible\n* Los términos son justos\n* Es fácil de aceptar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10072",
+    "key": "SCRUM-73",
+    "summary": "[BOOKING] [BASE] Seleccionar franja horaria",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:17.120-0300",
+    "description": "h2. Descripción\n\nVer términos y condiciones\n\nh2. Criterios de Aceptación\n\n* Los términos se muestran claramente\n* La información es comprensible\n* Los términos son justos\n* Es fácil de aceptar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10073",
+    "key": "SCRUM-74",
+    "summary": "[BOOKING] [BASE] Seleccionar el servicio deseado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:20.729-0300",
+    "description": "h2. Descripción\n\nVer FAQs\n\nh2. Criterios de Aceptación\n\n* Las FAQs se muestran claramente\n* Incluye preguntas y respuestas\n* La información es útil\n* El diseño es intuitivo\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10074",
+    "key": "SCRUM-75",
+    "summary": "[BOOKING] [BASE] Confirmar y abonar: Completar datos básicos / Comentarios",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:23.597-0300",
+    "description": "h2. Descripción\n\nVer testimonios\n\nh2. Criterios de Aceptación\n\n* Los testimonios se muestran claramente\n* Incluye nombre y comentario\n* La información es verificable\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10075",
+    "key": "SCRUM-76",
+    "summary": "[BOOKING] [BASE] Confirmar reserva (Pantalla de éxito)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:27.590-0300",
+    "description": "h2. Descripción\n\nVer videos\n\nh2. Criterios de Aceptación\n\n* Los videos se muestran claramente\n* Incluye título y descripción\n* La información es relevante\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10076",
+    "key": "SCRUM-77",
+    "summary": "[BOOKING] [BASE] Completar formulario personalizado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:31.405-0300",
+    "description": "h2. Descripción\n\nVer publicaciones\n\nh2. Criterios de Aceptación\n\n* Las publicaciones se muestran claramente\n* Incluye fechas y contenido\n* La información es relevante\n* El diseño es atractivo\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10077",
+    "key": "SCRUM-78",
+    "summary": "[MIS-TURNOS] [BASE] Revisar mis turnos: Ver panel de \"Mis Turnos\"",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:34.459-0300",
+    "description": "h2. Descripción\n\nVer premios y reconocimientos\n\nh2. Criterios de Aceptación\n\n* Los premios se muestran claramente\n* Incluye fechas y descripciones\n* La información es verificable\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10078",
+    "key": "SCRUM-79",
+    "summary": "[MIS-TURNOS] [BASE] Ver historial de turnos pasados",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:38.289-0300",
+    "description": "h2. Descripción\n\nVer certificaciones\n\nh2. Criterios de Aceptación\n\n* Las certificaciones se muestran claramente\n* Incluye fechas y emisor\n* La información es verificable\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10079",
+    "key": "SCRUM-80",
+    "summary": "[MIS-TURNOS] [BASE] Ver detalle (Dirección, link de Zoom, etc.)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:42.067-0300",
+    "description": "h2. Descripción\n\nVer redes sociales\n\nh2. Criterios de Aceptación\n\n* Las redes sociales se muestran claramente\n* Incluye iconos y enlaces\n* La información es verificable\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10080",
+    "key": "SCRUM-81",
+    "summary": "[MIS-TURNOS] [BASE] Ver estado de pagos / señas",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:15:46.177-0300",
+    "description": "h2. Descripción\n\nVer horarios de atención\n\nh2. Criterios de Aceptación\n\n* Los horarios se muestran claramente\n* Incluye días y horas\n* La información es precisa\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10081",
+    "key": "SCRUM-82",
+    "summary": "[GESTION] [BASE] Modificar reserva: Cancelar turno reservado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:16:04.517-0300",
+    "description": "h2. Descripción\n\nVer métodos de pago\n\nh2. Criterios de Aceptación\n\n* Los métodos de pago se muestran claramente\n* Incluye tarjetas y efectivo\n* La información es segura\n* Es fácil de usar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10082",
+    "key": "SCRUM-83",
+    "summary": "[GESTION] [BASE] Indicar motivo de cancelación",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:16:08.502-0300",
+    "description": "h2. Descripción\n\nVer política de cancelación\n\nh2. Criterios de Aceptación\n\n* La política de cancelación es clara\n* Los plazos son razonables\n* La información es visible\n* Los términos son justos\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10083",
+    "key": "SCRUM-84",
+    "summary": "[GESTION] [BASE] Reprogramar turno (Mover fecha)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:16:13.075-0300",
+    "description": "h2. Descripción\n\nVer tarifas del profesional\n\nh2. Criterios de Aceptación\n\n* Las tarifas se muestran claramente\n* Incluye precios y descripciones\n* La información es transparente\n* Es fácil de entender\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10084",
+    "key": "SCRUM-85",
+    "summary": "[NOTIF] [BASE] Recibir confirmación de reserva por Email",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:16:18.167-0300",
+    "description": "h2. Descripción\n\nVer disponibilidad del profesional\n\nh2. Criterios de Aceptación\n\n* La disponibilidad se muestra en tiempo real\n* Los horarios son claros y precisos\n* La información se actualiza automáticamente\n* Es fácil de consultar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10085",
+    "key": "SCRUM-86",
+    "summary": "[NOTIF] [BASE] Recibir aviso si el profesional cancela",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:16:22.776-0300",
+    "description": "h2. Descripción\n\nVer idiomas del profesional\n\nh2. Criterios de Aceptación\n\n* Los idiomas se muestran claramente\n* Incluye nivel de dominio\n* La información es relevante\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10086",
+    "key": "SCRUM-87",
+    "summary": "[NOTIF] [PREM] Recibir recordatorio por WhatsApp (24hs)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:16:26.697-0300",
+    "description": "h2. Descripción\n\nVer formación del profesional\n\nh2. Criterios de Aceptación\n\n* La formación se muestra claramente\n* Incluye títulos y fechas\n* La información es verificable\n* El diseño es profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10087",
+    "key": "SCRUM-88",
+    "summary": "[ADMIN] [PREM] Configurar perfil del local: Cargar nombre, logo y dirección",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:06.206-0300",
+    "description": "h2. Descripción\n\nVer experiencia del profesional\n\nh2. Criterios de Aceptación\n\n* El usuario puede ver su experiencia\n* La información es clara y relevante\n* La experiencia se muestra en orden cronológico\n* Los datos son verificables\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10088",
+    "key": "SCRUM-89",
+    "summary": "[ADMIN] [PREM] Generar link público general del negocio",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:09.552-0300",
+    "description": "h2. Descripción\n\nConfigurar servicios y capacidad\n\nh2. Criterios de Aceptación\n\nEl usuario puede crear/editar servicios | Puede definir capacidad y duración | La configuración se aplica correctamente | Los servicios aparecen en el catálogo\n\nh2. Estimación\n\n3.0 story points"
+  },
+  {
+    "id": "10089",
+    "key": "SCRUM-90",
+    "summary": "[ADMIN] [PREM] Configurar horarios de apertura del local",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:12.583-0300",
+    "description": "h2. Descripción\n\nVer biografía del profesional\n\nh2. Criterios de Aceptación\n\n* La biografía es completa y profesional\n* El texto es fácil de leer\n* La información es relevante\n* El diseño es atractivo\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10090",
+    "key": "SCRUM-91",
+    "summary": "[STAFF] [PREM] Administrar Staff: Invitar profesionales por email",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:16.628-0300",
+    "description": "h2. Descripción\n\nVer información de contacto\n\nh2. Criterios de Aceptación\n\n* La información de contacto es visible\n* Incluye teléfono, email y redes sociales\n* Los datos son verificables\n* Es fácil de usar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10091",
+    "key": "SCRUM-92",
+    "summary": "[STAFF] [PREM] Crear/Editar perfil del empleado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:20.224-0300",
+    "description": "h2. Descripción\n\nVer ubicación del profesional\n\nh2. Criterios de Aceptación\n\n* La dirección se muestra claramente\n* Incluye mapa con indicaciones\n* La información es precisa\n* Es fácil de encontrar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10092",
+    "key": "SCRUM-93",
+    "summary": "[STAFF] [PREM] Dar de baja/Suspender a un empleado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:24.558-0300",
+    "description": "h2. Descripción\n\nVer galería de fotos\n\nh2. Criterios de Aceptación\n\n* Las fotos se muestran en alta calidad\n* La galería es fácil de navegar\n* Las imágenes cargan rápidamente\n* El diseño es atractivo y profesional\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10093",
+    "key": "SCRUM-94",
+    "summary": "[STAFF] [PREM] Asignar servicios y horarios: Definir qué servicios da cada empleado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:28.992-0300",
+    "description": "h2. Descripción\n\nVer reseñas del profesional\n\nh2. Criterios de Aceptación\n\n* Las reseñas se muestran claramente\n* Incluye calificación y comentarios\n* La información es verificada\n* Es fácil de leer y navegar\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10094",
+    "key": "SCRUM-95",
+    "summary": "[STAFF] [PREM] Configurar días/horarios de cada empleado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:32.829-0300",
+    "description": "h2. Descripción\n\nVer disponibilidad horaria\n\nh2. Criterios de Aceptación\n\n* El usuario puede ver su agenda\n* Puede seleccionar fechas y horas disponibles\n* Las reservas se confirman automáticamente\n* Se actualiza el calendario en tiempo real\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10095",
+    "key": "SCRUM-96",
+    "summary": "[STAFF] [PREM] Asignar roles (Admin general vs. Empleado)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:17:35.863-0300",
+    "description": "h2. Descripción\n\nVer servicios del profesional\n\nh2. Criterios de Aceptación\n\n* Los servicios se muestran claramente\n* Incluye descripción y precios\n* La información está organizada\n* Es fácil de navegar\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10096",
+    "key": "SCRUM-97",
+    "summary": "[GLOBAL] [PREM] Monitorear agenda: Ver calendario unificado (Todos los empleados)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:02.963-0300",
+    "description": "h2. Descripción\n\nAterrizar en URL pública del profesional\n\nh2. Criterios de Aceptación\n\n* La URL pública es accesible\n* El perfil se carga correctamente\n* La información es visible para visitantes\n* El diseño es profesional y atractivo\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10097",
+    "key": "SCRUM-98",
+    "summary": "[GLOBAL] [PREM] Filtrar vista por empleado específico",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:06.573-0300",
+    "description": "h2. Descripción\n\nBuscar cliente\n\nh2. Criterios de Aceptación\n\n* El sistema permite buscar por nombre\n* Los resultados aparecen rápidamente\n* La búsqueda es precisa y relevante\n* Se muestra información básica del cliente\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10098",
+    "key": "SCRUM-99",
+    "summary": "[GLOBAL] [PREM] Filtrar vista por servicio",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:10.348-0300",
+    "description": "h2. Descripción\n\nVer perfil del cliente\n\nh2. Criterios de Aceptación\n\n* El usuario puede acceder a su perfil\n* Puede editar la información personal\n* Los cambios se guardan correctamente\n* La foto se carga y muestra adecuadamente\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10099",
+    "key": "SCRUM-100",
+    "summary": "[GLOBAL] [PREM] Gestión administrativa: Reasignar turno de un empleado a otro",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:14.687-0300",
+    "description": "h2. Descripción\n\nCrear nuevo cliente\n\nh2. Criterios de Aceptación\n\n* El usuario puede completar el formulario de registro\n* El sistema valida los datos ingresados correctamente\n* Se genera confirmación de registro\n* El usuario recibe email de bienvenida\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10100",
+    "key": "SCRUM-101",
+    "summary": "[GLOBAL] [PREM] Bloquear agenda de empleado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:20.382-0300",
+    "description": "h2. Descripción\n\nEliminar cliente\n\nh2. Criterios de Aceptación\n\n* El usuario puede completar el formulario de registro\n* El sistema valida los datos ingresados correctamente\n* Se genera confirmación de registro\n* El usuario recibe email de bienvenida\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10101",
+    "key": "SCRUM-102",
+    "summary": "[GLOBAL] [PREM] Crear turno manual",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:24.988-0300",
+    "description": "h2. Descripción\n\nEditar datos del cliente\n\nh2. Criterios de Aceptación\n\n* El usuario puede acceder a su perfil\n* Puede editar la información personal\n* Los cambios se guardan correctamente\n* La foto se carga y muestra adecuadamente\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10102",
+    "key": "SCRUM-103",
+    "summary": "[CRM] [PREM] Base de clientes compartida: Ver base de datos del local",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:30.566-0300",
+    "description": "h2. Descripción\n\nVer base de datos del local\n\nh2. Criterios de Aceptación\n\n* El profesional puede ver información de clientes\n* Puede agregar notas privadas\n* El historial se actualiza automáticamente\n* Los datos están protegidos y seguros\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10103",
+    "key": "SCRUM-104",
+    "summary": "[CRM] [PREM] Ver historial global del cliente en el local",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:37.216-0300",
+    "description": "h2. Descripción\n\nVer historial global del cliente en el local\n\nh2. Criterios de Aceptación\n\n* El profesional puede ver información de clientes\n* Puede agregar notas privadas\n* El historial se actualiza automáticamente\n* Los datos están protegidos y seguros\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10104",
+    "key": "SCRUM-105",
+    "summary": "[CRM] [PREM] Añadir notas internas al perfil del cliente",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:19:44.800-0300",
+    "description": "h2. Descripción\n\nAñadir notas internas al perfil del cliente\n\nh2. Criterios de Aceptación\n\n* El usuario puede acceder a su perfil\n* Puede editar la información personal\n* Los cambios se guardan correctamente\n* La foto se carga y muestra adecuadamente\n\nh2. Estimación\n\n2 story points"
+  },
+  {
+    "id": "10105",
+    "key": "SCRUM-106",
+    "summary": "[METRICAS] [PREM] Analítica: Ver total de turnos (Atendidos vs Cancelados)",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:21.237-0300",
+    "description": "h2. Descripción\n\nVer tasa de ocupación de turnos\n\nh2. Criterios de Aceptación\n\n* El usuario puede ver su agenda\n* Puede seleccionar fechas y horas disponibles\n* Las reservas se confirman automáticamente\n* Se actualiza el calendario en tiempo real\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10106",
+    "key": "SCRUM-107",
+    "summary": "[METRICAS] [PREM] Ver ingresos estimados del mes",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:26.270-0300",
+    "description": "h2. Descripción\n\nVer total de turnos (Atendidos vs Cancelados)\n\nh2. Criterios de Aceptación\n\n* El usuario puede ver su agenda\n* Puede seleccionar fechas y horas disponibles\n* Las reservas se confirman automáticamente\n* Se actualiza el calendario en tiempo real\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10107",
+    "key": "SCRUM-108",
+    "summary": "[METRICAS] [PREM] Ver servicios más populares",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:31.068-0300",
+    "description": "h2. Descripción\n\nVer servicios más populares\n\nh2. Criterios de Aceptación\n\n* El usuario puede crear/editar servicios\n* Puede definir capacidad y duración\n* La configuración se aplica correctamente\n* Los servicios aparecen en el catálogo\n\nh2. Estimación\n\n3 story points"
+  },
+  {
+    "id": "10108",
+    "key": "SCRUM-109",
+    "summary": "[METRICAS] [PREM] Rendimiento: Ver cantidad de turnos por profesional",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:35.119-0300",
+    "description": "h2. Descripción\n\nVer cantidad de turnos por profesional\n\nh2. Criterios de Aceptación\n\n* El usuario puede ver su agenda\n* Puede seleccionar fechas y horas disponibles\n* Las reservas se confirman automáticamente\n* Se actualiza el calendario en tiempo real\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10109",
+    "key": "SCRUM-110",
+    "summary": "[METRICAS] [PREM] Ver ingresos generados por cada empleado",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:39.022-0300",
+    "description": "h2. Descripción\n\nVer ingresos generados por cada empleado\n\nh2. Criterios de Aceptación\n\n* La funcionalidad está disponible y operativa\n* El sistema responde correctamente a las interacciones\n* La interfaz es intuitiva y fácil de usar\n* Se cumplen los requisitos del negocio\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10110",
+    "key": "SCRUM-111",
+    "summary": "[DATA] [PREM] Exportación: Exportar base de datos de clientes",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:43.206-0300",
+    "description": "h2. Descripción\n\nExportar base de datos de clientes\n\nh2. Criterios de Aceptación\n\n* El profesional puede ver información de clientes\n* Puede agregar notas privadas\n* El historial se actualiza automáticamente\n* Los datos están protegidos y seguros\n\nh2. Estimación\n\n5 story points"
+  },
+  {
+    "id": "10111",
+    "key": "SCRUM-112",
+    "summary": "[DATA] [PREM] Exportar liquidación mensual a Excel/CSV",
+    "issuetype": "Story",
+    "priority": "Medium",
+    "status": "Por hacer",
+    "created": "2026-04-28T18:20:47.693-0300",
+    "description": "h2. Descripción\n\nExportar liquidación mensual a Excel/CSV\n\nh2. Criterios de Aceptación\n\n* El usuario puede ver su agenda\n* Puede seleccionar fechas y horas disponibles\n* Las reservas se confirman automáticamente\n* Se actualiza el calendario en tiempo real\n\nh2. Estimación\n\n5 story points"
+  }
+]

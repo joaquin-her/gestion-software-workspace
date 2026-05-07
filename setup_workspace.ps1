@@ -19,7 +19,7 @@ foreach ($target in $targets) {
             New-Item -ItemType Junction -Path $target -Target $sourceDir | Out-Null
             Write-Host "Exito: $target vinculado a $sourceDir" -ForegroundColor Green
         } catch {
-            Write-Host "Error al crear el enlace para $target: $($_.Exception.Message)" -ForegroundColor Red
+            Write-Host "Error al crear el enlace para ${target}: $($_.Exception.Message)" -ForegroundColor Red
         }
     }
 }
