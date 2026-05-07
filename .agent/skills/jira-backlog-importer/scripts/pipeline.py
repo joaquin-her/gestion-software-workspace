@@ -1,0 +1,144 @@
+import argparse
+import openpyxl
+import re
+import json
+import os
+
+def step1_extract_and_reformat():
+    # 1. extract_backlog_us
+    print("Extrayendo hoja 'Backlog-US' desde Artefactos.xlsx...")
+    wb_source = openpyxl.load_workbook('artefactos/Artefactos.xlsx', data_only=True)
+    if 'Backlog-US' not in wb_source.sheetnames:
+        raise ValueError("No se encontró la hoja 'Backlog-US' en Artefactos.xlsx")
+    
+    wb_dest = openpyxl.Workbook()
+    wb_dest.remove(wb_dest.active)
+    
+    ws_dest = wb_dest.create_sheet('Backlog-US')
+    ws_source = wb_source['Backlog-US']
+    
+    for row in ws_source.iter_rows(values_only=True):
+        ws_dest.append(row)
+    
+    os.makedirs('artefactos/output/backlog', exist_ok=True)
+    out_file = 'artefactos/output/backlog/Backlog-US.xlsx'
+    
+    # 2. reformat
+    print("Reformateando la hoja 'Backlog-US'...")
+    if 'Backlog-reformated' in wb_dest.sheetnames:
+        wb_dest.remove(wb_dest['Backlog-reformated'])
+    
+    ws_new = wb_dest.create_sheet('Backlog-reformated')
+    ws_new.append(["Numero", "Titulo", "Prioridad", "Estimacion", "Descripcion", "Criterios de aceptacion"])
+    
+    def clean_value(prefix, val):
+        if not val or val == 'None':
+            return None
+        val = str(val).strip()
+        pattern = re.compile(f'^{prefix}\\s*:?\\s*', re.IGNORECASE)
+        val = pattern.sub('', val)
+        if val == '':
+            return None
+        return val
+
+    rows = list(ws_dest.iter_rows(values_only=True))
+    for i in range(0, len(rows), 4):
+        row1 = rows[i]
+        if not row1 or all(x is None for x in row1):
+            continue
+        row2 = rows[i+1] if i+1 < len(rows) else []
+        row3 = rows[i+2] if i+2 < len(rows) else []
+        
+        nro = clean_value('Nro', row1[0] if len(row1) > 0 else None)
+        titulo = clean_value('T.tulo', row1[1] if len(row1) > 1 else None)
+        prioridad = clean_value('Prioridad', row1[2] if len(row1) > 2 else None)
+        estimacion = clean_value('Estimaci.n', row1[3] if len(row1) > 3 else None)
+        desc = clean_value('Descripci.n', row2[0] if len(row2) > 0 else None)
+        crit = clean_value('Criterios de Aceptaci.n', row3[0] if len(row3) > 0 else None)
+        
+        ws_new.append([nro, titulo, prioridad, estimacion, desc, crit])
+
+    wb_dest.save(out_file)
+    print(f"-> Excel guardado en {out_file} con la hoja 'Backlog-reformated'.")
+
+    # 3. extract_to_json
+    print("Generando JSON desde 'Backlog-reformated'...")
+    tickets = []
+    rows = list(ws_new.iter_rows(values_only=True))
+    headers = [str(h).strip() if h else f"Col_{i}" for i, h in enumerate(rows[0])]
+
+    for row in rows[1:]:
+        if not any(row):
+            continue
+        ticket = {}
+        for i, col_name in enumerate(headers):
+            val = row[i] if i < len(row) else None
+            ticket[col_name] = None if (val == 'None' or val is None) else str(val).strip()
+        tickets.append(ticket)
+
+    os.makedirs('data', exist_ok=True)
+    with open('data/backlog.json', 'w', encoding='utf-8') as f:
+        json.dump(tickets, f, indent=2, ensure_ascii=False)
+    
+    print(f"-> Exportado JSON con {len(tickets)} historias a data/backlog.json")
+
+def step2_generate_jira_tickets():
+    print("Generando tickets formato Jira desde backlog.json y tareas.json...")
+    with open('data/backlog.json', 'r', encoding='utf-8') as f:
+        backlog = json.load(f)
+
+    with open('data/tareas.json', 'r', encoding='utf-8') as f:
+        tareas = json.load(f)
+
+    jira_tickets = []
+    issue_id_counter = 1
+
+    for story in backlog:
+        story_id = str(issue_id_counter)
+        issue_id_counter += 1
+        
+        desc = story.get('Descripcion', '')
+        if story.get('Criterios de aceptacion'):
+            desc += '\n\n*Criterios de Aceptación:*\n' + story['Criterios de aceptacion']
+
+        story_points = None
+        if story.get('Estimacion') and story['Estimacion'].isdigit():
+            story_points = int(story['Estimacion'])
+
+        jira_tickets.append({
+            "summary": story['Titulo'],
+            "description": desc,
+            "issueType": "Story",
+            "storyPoints": story_points,
+            "issueId": story_id
+        })
+        
+        historia_tareas = next((t for t in tareas if t['Historia'] == story['Titulo']), None)
+        if historia_tareas and 'Tareas' in historia_tareas:
+            for tarea in historia_tareas['Tareas']:
+                task_id = str(issue_id_counter)
+                issue_id_counter += 1
+                jira_tickets.append({
+                    "summary": tarea['Titulo'],
+                    "description": f"Sub-tarea del área {tarea['Tipo']} para la historia: {story['Titulo']}",
+                    "issueType": "Sub-task",
+                    "parentId": story_id,
+                    "labels": [tarea['Tipo'].replace(" ", "")]
+                })
+
+    with open('data/jira_tickets.json', 'w', encoding='utf-8') as f:
+        json.dump(jira_tickets, f, indent=2, ensure_ascii=False)
+    print(f"-> Generado data/jira_tickets.json con {len(jira_tickets)} tickets (Historias + Sub-tareas).")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Pipeline del Jira Backlog Importer")
+    parser.add_argument('--pre-ai', action='store_true', help='(Paso 1) Extrae y formatea el Excel, y genera data/backlog.json')
+    parser.add_argument('--post-ai', action='store_true', help='(Paso 3) Empaqueta data/backlog.json y data/tareas.json en formato Jira')
+    args = parser.parse_args()
+
+    if args.pre_ai:
+        step1_extract_and_reformat()
+    elif args.post_ai:
+        step2_generate_jira_tickets()
+    else:
+        parser.print_help()
