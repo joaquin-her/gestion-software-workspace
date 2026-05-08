@@ -82,35 +82,50 @@ def step1_extract_and_reformat():
     
     print(f"-> Exportado JSON con {len(tickets)} historias a data/backlog.json")
 
-def step2_generate_jira_tickets():
-    print("Generando tickets formato Jira desde backlog.json y tareas.json...")
-    with open('data/backlog.json', 'r', encoding='utf-8') as f:
+def step2_generate_jira_tickets(backlog_file='data/backlog.json', tareas_file='data/tareas.json', output_file='data/jira_tickets.json'):
+    print(f"Generando tickets formato Jira desde {backlog_file} y {tareas_file}...")
+    if not os.path.exists(backlog_file) or not os.path.exists(tareas_file):
+        print(f"Error: No se encuentran los archivos {backlog_file} o {tareas_file}")
+        return
+
+    with open(backlog_file, 'r', encoding='utf-8') as f:
         backlog = json.load(f)
 
-    with open('data/tareas.json', 'r', encoding='utf-8') as f:
+    with open(tareas_file, 'r', encoding='utf-8') as f:
         tareas = json.load(f)
 
     jira_tickets = []
     issue_id_counter = 1
 
     for story in backlog:
+        if not story.get('Titulo'):
+            continue
+            
         story_id = str(issue_id_counter)
         issue_id_counter += 1
         
         desc = story.get('Descripcion', '')
         if story.get('Criterios de aceptacion'):
             desc += '\n\n*Criterios de Aceptación:*\n' + story['Criterios de aceptacion']
+        
+        # Si la historia viene del USM, puede tener metadatos extra
+        if story.get('Rol'):
+            desc = f"*Rol:* {story['Rol']}\n*Categoría:* {story.get('Categoria', 'N/A')}\n\n" + desc
 
         story_points = None
-        if story.get('Estimacion') and story['Estimacion'].isdigit():
+        if story.get('Estimacion') and str(story['Estimacion']).isdigit():
             story_points = int(story['Estimacion'])
+
+        # Preservar etiquetas si existen (caso USM)
+        story_labels = story.get('Labels', [])
 
         jira_tickets.append({
             "summary": story['Titulo'],
             "description": desc,
             "issueType": "Story",
             "storyPoints": story_points,
-            "issueId": story_id
+            "issueId": story_id,
+            "labels": story_labels
         })
         
         historia_tareas = next((t for t in tareas if t['Historia'] == story['Titulo']), None)
@@ -118,27 +133,39 @@ def step2_generate_jira_tickets():
             for tarea in historia_tareas['Tareas']:
                 task_id = str(issue_id_counter)
                 issue_id_counter += 1
+                
+                # Las subtareas heredan etiquetas de la historia + su propio tipo
+                task_labels = story_labels + [tarea['Tipo'].replace(" ", "")]
+                
                 jira_tickets.append({
                     "summary": tarea['Titulo'],
                     "description": f"Sub-tarea del área {tarea['Tipo']} para la historia: {story['Titulo']}",
                     "issueType": "Sub-task",
                     "parentId": story_id,
-                    "labels": [tarea['Tipo'].replace(" ", "")]
+                    "labels": task_labels
                 })
 
-    with open('data/jira_tickets.json', 'w', encoding='utf-8') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(jira_tickets, f, indent=2, ensure_ascii=False)
-    print(f"-> Generado data/jira_tickets.json con {len(jira_tickets)} tickets (Historias + Sub-tareas).")
+    print(f"-> Generado {output_file} con {len(jira_tickets)} tickets.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Pipeline del Jira Backlog Importer")
     parser.add_argument('--pre-ai', action='store_true', help='(Paso 1) Extrae y formatea el Excel, y genera data/backlog.json')
     parser.add_argument('--post-ai', action='store_true', help='(Paso 3) Empaqueta data/backlog.json y data/tareas.json en formato Jira')
+    parser.add_argument('--usm', action='store_true', help='Indica que se debe procesar el archivo del USM')
     args = parser.parse_args()
 
     if args.pre_ai:
         step1_extract_and_reformat()
     elif args.post_ai:
-        step2_generate_jira_tickets()
+        if args.usm:
+            step2_generate_jira_tickets(
+                backlog_file='data/usm_backlog.json',
+                tareas_file='data/tareas_usm.json',
+                output_file='data/jira_tickets_usm.json'
+            )
+        else:
+            step2_generate_jira_tickets()
     else:
         parser.print_help()
