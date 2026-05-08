@@ -1,0 +1,4006 @@
+[
+  {
+    "summary": "Registrarse con Email y Contraseña",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero registrarse con email y contraseña para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite registrarse con email y contraseña correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Registrarse con Email y Contraseña)",
+    "description": "Sub-tarea técnica para: Registrarse con Email y Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Registrarse con Email y Contraseña",
+    "description": "Sub-tarea técnica para: Registrarse con Email y Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Registrarse con Email y Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar Perfil Básico",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero configurar perfil básico para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite configurar perfil básico correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "5",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Configurar Perfil Básico",
+    "description": "Sub-tarea técnica para: Configurar Perfil Básico",
+    "issueType": "Sub-task",
+    "parentId": "5",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Configurar Perfil Básico",
+    "description": "Sub-tarea técnica para: Configurar Perfil Básico",
+    "issueType": "Sub-task",
+    "parentId": "5",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Administrar Suscripción",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero administrar suscripción para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite administrar suscripción correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "8",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Administrar Suscripción",
+    "description": "Sub-tarea técnica para: Administrar Suscripción",
+    "issueType": "Sub-task",
+    "parentId": "8",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Administrar Suscripción",
+    "description": "Sub-tarea técnica para: Administrar Suscripción",
+    "issueType": "Sub-task",
+    "parentId": "8",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Definir estructura base",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero definir estructura base para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite definir estructura base correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Definir estructura base",
+    "description": "Sub-tarea técnica para: Definir estructura base",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Definir estructura base",
+    "description": "Sub-tarea técnica para: Definir estructura base",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Definir estructura base",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar servicios y capacidad",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero configurar servicios y capacidad para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite configurar servicios y capacidad correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar servicios y capacidad",
+    "description": "Sub-tarea técnica para: Configurar servicios y capacidad",
+    "issueType": "Sub-task",
+    "parentId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar servicios y capacidad",
+    "description": "Sub-tarea técnica para: Configurar servicios y capacidad",
+    "issueType": "Sub-task",
+    "parentId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Configurar servicios y capacidad",
+    "issueType": "Sub-task",
+    "parentId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Revisar agenda",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero revisar agenda para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite revisar agenda correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "19",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Revisar agenda",
+    "description": "Sub-tarea técnica para: Revisar agenda",
+    "issueType": "Sub-task",
+    "parentId": "19",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Revisar agenda",
+    "description": "Sub-tarea técnica para: Revisar agenda",
+    "issueType": "Sub-task",
+    "parentId": "19",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Administrar reservas",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero administrar reservas para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite administrar reservas correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "22",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "API CRUD para Administrar reservas",
+    "description": "Sub-tarea técnica para: Administrar reservas",
+    "issueType": "Sub-task",
+    "parentId": "22",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Administrar reservas",
+    "description": "Sub-tarea técnica para: Administrar reservas",
+    "issueType": "Sub-task",
+    "parentId": "22",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Seguimiento de clientes",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero seguimiento de clientes para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite seguimiento de clientes correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "25",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Seguimiento de clientes",
+    "description": "Sub-tarea técnica para: Seguimiento de clientes",
+    "issueType": "Sub-task",
+    "parentId": "25",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Seguimiento de clientes",
+    "description": "Sub-tarea técnica para: Seguimiento de clientes",
+    "issueType": "Sub-task",
+    "parentId": "25",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Validar Email",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero validar email para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite validar email correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Validar Email)",
+    "description": "Sub-tarea técnica para: Validar Email",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Validar Email",
+    "description": "Sub-tarea técnica para: Validar Email",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Validar Email",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cargar nombre, especialidad y foto",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero cargar nombre, especialidad y foto para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite cargar nombre, especialidad y foto correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "32",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cargar nombre, especialidad y foto",
+    "description": "Sub-tarea técnica para: Cargar nombre, especialidad y foto",
+    "issueType": "Sub-task",
+    "parentId": "32",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cargar nombre, especialidad y foto",
+    "description": "Sub-tarea técnica para: Cargar nombre, especialidad y foto",
+    "issueType": "Sub-task",
+    "parentId": "32",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver estado del plan actual",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero ver estado del plan actual para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver estado del plan actual correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "35",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver estado del plan actual",
+    "description": "Sub-tarea técnica para: Ver estado del plan actual",
+    "issueType": "Sub-task",
+    "parentId": "35",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver estado del plan actual",
+    "description": "Sub-tarea técnica para: Ver estado del plan actual",
+    "issueType": "Sub-task",
+    "parentId": "35",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Establecer días laborables y franjas horarias",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero establecer días laborables y franjas horarias para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite establecer días laborables y franjas horarias correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "38",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Establecer días laborables y franjas horarias",
+    "description": "Sub-tarea técnica para: Establecer días laborables y franjas horarias",
+    "issueType": "Sub-task",
+    "parentId": "38",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Establecer días laborables y franjas horarias",
+    "description": "Sub-tarea técnica para: Establecer días laborables y franjas horarias",
+    "issueType": "Sub-task",
+    "parentId": "38",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear un servicio",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero crear un servicio para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite crear un servicio correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "41",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Crear un servicio",
+    "description": "Sub-tarea técnica para: Crear un servicio",
+    "issueType": "Sub-task",
+    "parentId": "41",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Crear un servicio",
+    "description": "Sub-tarea técnica para: Crear un servicio",
+    "issueType": "Sub-task",
+    "parentId": "41",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver panel de turnos (Dashboard)",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero ver panel de turnos (dashboard) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver panel de turnos (dashboard) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "44",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver panel de turnos (Dashboard)",
+    "description": "Sub-tarea técnica para: Ver panel de turnos (Dashboard)",
+    "issueType": "Sub-task",
+    "parentId": "44",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver panel de turnos (Dashboard)",
+    "description": "Sub-tarea técnica para: Ver panel de turnos (Dashboard)",
+    "issueType": "Sub-task",
+    "parentId": "44",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Cancelar el turno de un cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero cancelar el turno de un cliente para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite cancelar el turno de un cliente correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "47",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cancelar el turno de un cliente",
+    "description": "Sub-tarea técnica para: Cancelar el turno de un cliente",
+    "issueType": "Sub-task",
+    "parentId": "47",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cancelar el turno de un cliente",
+    "description": "Sub-tarea técnica para: Cancelar el turno de un cliente",
+    "issueType": "Sub-task",
+    "parentId": "47",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir notificaciones sobre cierto cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero recibir notificaciones sobre cierto cliente para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite recibir notificaciones sobre cierto cliente correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "50",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir notificaciones sobre cierto cliente",
+    "description": "Sub-tarea técnica para: Recibir notificaciones sobre cierto cliente",
+    "issueType": "Sub-task",
+    "parentId": "50",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir notificaciones sobre cierto cliente",
+    "description": "Sub-tarea técnica para: Recibir notificaciones sobre cierto cliente",
+    "issueType": "Sub-task",
+    "parentId": "50",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Iniciar Sesión / Recuperar Contraseña",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero iniciar sesión / recuperar contraseña para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite iniciar sesión / recuperar contraseña correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Iniciar Sesión / Recuperar Contraseña)",
+    "description": "Sub-tarea técnica para: Iniciar Sesión / Recuperar Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Iniciar Sesión / Recuperar Contraseña",
+    "description": "Sub-tarea técnica para: Iniciar Sesión / Recuperar Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Iniciar Sesión / Recuperar Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir modalidad (Presencial/Virtual)",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero definir modalidad (presencial/virtual) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite definir modalidad (presencial/virtual) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "57",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Definir modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea técnica para: Definir modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "57",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Definir modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea técnica para: Definir modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "57",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Hacer Upgrade a Premium",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero hacer upgrade a premium para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite hacer upgrade a premium correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "60",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Hacer Upgrade a Premium",
+    "description": "Sub-tarea técnica para: Hacer Upgrade a Premium",
+    "issueType": "Sub-task",
+    "parentId": "60",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Hacer Upgrade a Premium",
+    "description": "Sub-tarea técnica para: Hacer Upgrade a Premium",
+    "issueType": "Sub-task",
+    "parentId": "60",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir duración estándar del turno",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero definir duración estándar del turno para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite definir duración estándar del turno correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Definir duración estándar del turno",
+    "description": "Sub-tarea técnica para: Definir duración estándar del turno",
+    "issueType": "Sub-task",
+    "parentId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Definir duración estándar del turno",
+    "description": "Sub-tarea técnica para: Definir duración estándar del turno",
+    "issueType": "Sub-task",
+    "parentId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Definir duración estándar del turno",
+    "issueType": "Sub-task",
+    "parentId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar capacidad por turno",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero configurar capacidad por turno para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite configurar capacidad por turno correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar capacidad por turno",
+    "description": "Sub-tarea técnica para: Configurar capacidad por turno",
+    "issueType": "Sub-task",
+    "parentId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar capacidad por turno",
+    "description": "Sub-tarea técnica para: Configurar capacidad por turno",
+    "issueType": "Sub-task",
+    "parentId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Configurar capacidad por turno",
+    "issueType": "Sub-task",
+    "parentId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver detalle del turno",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero ver detalle del turno para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver detalle del turno correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "71",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver detalle del turno",
+    "description": "Sub-tarea técnica para: Ver detalle del turno",
+    "issueType": "Sub-task",
+    "parentId": "71",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver detalle del turno",
+    "description": "Sub-tarea técnica para: Ver detalle del turno",
+    "issueType": "Sub-task",
+    "parentId": "71",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Marcar asistencia (Asistió / No asistió)",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero marcar asistencia (asistió / no asistió) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite marcar asistencia (asistió / no asistió) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "74",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Marcar asistencia (Asistió / No asistió)",
+    "description": "Sub-tarea técnica para: Marcar asistencia (Asistió / No asistió)",
+    "issueType": "Sub-task",
+    "parentId": "74",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Marcar asistencia (Asistió / No asistió)",
+    "description": "Sub-tarea técnica para: Marcar asistencia (Asistió / No asistió)",
+    "issueType": "Sub-task",
+    "parentId": "74",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Botón de contacto rápido por WhatsApp",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero botón de contacto rápido por whatsapp para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite botón de contacto rápido por whatsapp correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "77",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Botón de contacto rápido por WhatsApp",
+    "description": "Sub-tarea técnica para: Botón de contacto rápido por WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "77",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Botón de contacto rápido por WhatsApp",
+    "description": "Sub-tarea técnica para: Botón de contacto rápido por WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "77",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cambiar contraseña / Eliminar",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero cambiar contraseña / eliminar para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite cambiar contraseña / eliminar correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "80",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cambiar contraseña / Eliminar",
+    "description": "Sub-tarea técnica para: Cambiar contraseña / Eliminar",
+    "issueType": "Sub-task",
+    "parentId": "80",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cambiar contraseña / Eliminar",
+    "description": "Sub-tarea técnica para: Cambiar contraseña / Eliminar",
+    "issueType": "Sub-task",
+    "parentId": "80",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Generar link público de reservas",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo profesional\nquiero obtener un link público único para mi perfil\npara compartirlo con clientes por WhatsApp, redes o web y que puedan reservar\n\n*Criterios de Aceptación:*\n- El sistema genera automáticamente una URL pública única por profesional.\n- El profesional puede copiar el link desde su panel con un botón.\n- El link redirige a la vista pública del profesional con sus servicios y disponibilidad.\n- El link es accesible sin necesidad de estar logueado.\n- Si el profesional pausa su agenda, el link sigue accesible pero indica que no hay disponibilidad.",
+    "issueType": "Story",
+    "storyPoints": 5,
+    "issueId": "83",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Generar link público de reservas",
+    "description": "Sub-tarea técnica para: Generar link público de reservas",
+    "issueType": "Sub-task",
+    "parentId": "83",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Generar link público de reservas",
+    "description": "Sub-tarea técnica para: Generar link público de reservas",
+    "issueType": "Sub-task",
+    "parentId": "83",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cancelar Suscripción Premium",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero cancelar suscripción premium para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite cancelar suscripción premium correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Integración de pasarela de pagos para Cancelar Suscripción Premium",
+    "description": "Sub-tarea técnica para: Cancelar Suscripción Premium",
+    "issueType": "Sub-task",
+    "parentId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Flujo de confirmación y feedback de pago para Cancelar Suscripción Premium",
+    "description": "Sub-tarea técnica para: Cancelar Suscripción Premium",
+    "issueType": "Sub-task",
+    "parentId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Registro contable y estado de transacción",
+    "description": "Sub-tarea técnica para: Cancelar Suscripción Premium",
+    "issueType": "Sub-task",
+    "parentId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "BaseDeDatos"
+    ]
+  },
+  {
+    "summary": "Configurar descansos entre turnos",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero configurar descansos entre turnos para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite configurar descansos entre turnos correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar descansos entre turnos",
+    "description": "Sub-tarea técnica para: Configurar descansos entre turnos",
+    "issueType": "Sub-task",
+    "parentId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar descansos entre turnos",
+    "description": "Sub-tarea técnica para: Configurar descansos entre turnos",
+    "issueType": "Sub-task",
+    "parentId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Configurar descansos entre turnos",
+    "issueType": "Sub-task",
+    "parentId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar o eliminar servicios",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero editar o eliminar servicios para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite editar o eliminar servicios correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Editar o eliminar servicios",
+    "description": "Sub-tarea técnica para: Editar o eliminar servicios",
+    "issueType": "Sub-task",
+    "parentId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Editar o eliminar servicios",
+    "description": "Sub-tarea técnica para: Editar o eliminar servicios",
+    "issueType": "Sub-task",
+    "parentId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Editar o eliminar servicios",
+    "issueType": "Sub-task",
+    "parentId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Exportar turnos del mes a Excel/CSV",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero exportar turnos del mes a excel/csv para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite exportar turnos del mes a excel/csv correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "98",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Generación de archivo (Excel/CSV) para Exportar turnos del mes a Excel/CSV",
+    "description": "Sub-tarea técnica para: Exportar turnos del mes a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "98",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descarga de archivos desde UI",
+    "description": "Sub-tarea técnica para: Exportar turnos del mes a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "98",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Reprogramar turno desde el panel",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero reprogramar turno desde el panel para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite reprogramar turno desde el panel correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "101",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Reprogramar turno desde el panel",
+    "description": "Sub-tarea técnica para: Reprogramar turno desde el panel",
+    "issueType": "Sub-task",
+    "parentId": "101",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Reprogramar turno desde el panel",
+    "description": "Sub-tarea técnica para: Reprogramar turno desde el panel",
+    "issueType": "Sub-task",
+    "parentId": "101",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial del cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero ver historial del cliente para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver historial del cliente correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "104",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial del cliente",
+    "description": "Sub-tarea técnica para: Ver historial del cliente",
+    "issueType": "Sub-task",
+    "parentId": "104",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial del cliente",
+    "description": "Sub-tarea técnica para: Ver historial del cliente",
+    "issueType": "Sub-task",
+    "parentId": "104",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Agregar links a Redes Sociales",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero agregar links a redes sociales para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite agregar links a redes sociales correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "107",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Agregar links a Redes Sociales",
+    "description": "Sub-tarea técnica para: Agregar links a Redes Sociales",
+    "issueType": "Sub-task",
+    "parentId": "107",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Agregar links a Redes Sociales",
+    "description": "Sub-tarea técnica para: Agregar links a Redes Sociales",
+    "issueType": "Sub-task",
+    "parentId": "107",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Sincronización con Google Calendar",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero sincronización con google calendar para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite sincronización con google calendar correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "110",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Sincronización con Google Calendar",
+    "description": "Sub-tarea técnica para: Sincronización con Google Calendar",
+    "issueType": "Sub-task",
+    "parentId": "110",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Sincronización con Google Calendar",
+    "description": "Sub-tarea técnica para: Sincronización con Google Calendar",
+    "issueType": "Sub-task",
+    "parentId": "110",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Habilitar cobro de seña por servicio",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\nComo Profesional independiente quiero habilitar cobro de seña por servicio para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite habilitar cobro de seña por servicio correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "113",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Habilitar cobro de seña por servicio",
+    "description": "Sub-tarea técnica para: Habilitar cobro de seña por servicio",
+    "issueType": "Sub-task",
+    "parentId": "113",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Habilitar cobro de seña por servicio",
+    "description": "Sub-tarea técnica para: Habilitar cobro de seña por servicio",
+    "issueType": "Sub-task",
+    "parentId": "113",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Añadir notas internas privadas",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\nComo Profesional independiente quiero añadir notas internas privadas para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite añadir notas internas privadas correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "116",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Añadir notas internas privadas",
+    "description": "Sub-tarea técnica para: Añadir notas internas privadas",
+    "issueType": "Sub-task",
+    "parentId": "116",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Añadir notas internas privadas",
+    "description": "Sub-tarea técnica para: Añadir notas internas privadas",
+    "issueType": "Sub-task",
+    "parentId": "116",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar perfil",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero editar perfil para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite editar perfil correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "119",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Editar perfil",
+    "description": "Sub-tarea técnica para: Editar perfil",
+    "issueType": "Sub-task",
+    "parentId": "119",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Editar perfil",
+    "description": "Sub-tarea técnica para: Editar perfil",
+    "issueType": "Sub-task",
+    "parentId": "119",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Personalizar preguntas del formulario al cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\nComo Profesional independiente quiero personalizar preguntas del formulario al cliente para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite personalizar preguntas del formulario al cliente correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "122",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Personalizar preguntas del formulario al cliente",
+    "description": "Sub-tarea técnica para: Personalizar preguntas del formulario al cliente",
+    "issueType": "Sub-task",
+    "parentId": "122",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Personalizar preguntas del formulario al cliente",
+    "description": "Sub-tarea técnica para: Personalizar preguntas del formulario al cliente",
+    "issueType": "Sub-task",
+    "parentId": "122",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear cuenta",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero crear cuenta para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite crear cuenta correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Crear cuenta)",
+    "description": "Sub-tarea técnica para: Crear cuenta",
+    "issueType": "Sub-task",
+    "parentId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Crear cuenta",
+    "description": "Sub-tarea técnica para: Crear cuenta",
+    "issueType": "Sub-task",
+    "parentId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Crear cuenta",
+    "issueType": "Sub-task",
+    "parentId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Acceder a la cuenta",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero acceder a la cuenta para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite acceder a la cuenta correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "129",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Acceder a la cuenta",
+    "description": "Sub-tarea técnica para: Acceder a la cuenta",
+    "issueType": "Sub-task",
+    "parentId": "129",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Acceder a la cuenta",
+    "description": "Sub-tarea técnica para: Acceder a la cuenta",
+    "issueType": "Sub-task",
+    "parentId": "129",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Gestionar perfil personal",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero gestionar perfil personal para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite gestionar perfil personal correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "132",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Gestionar perfil personal",
+    "description": "Sub-tarea técnica para: Gestionar perfil personal",
+    "issueType": "Sub-task",
+    "parentId": "132",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Gestionar perfil personal",
+    "description": "Sub-tarea técnica para: Gestionar perfil personal",
+    "issueType": "Sub-task",
+    "parentId": "132",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Dashboard de Inicio",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero dashboard de inicio para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite dashboard de inicio correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "135",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Dashboard de Inicio",
+    "description": "Sub-tarea técnica para: Dashboard de Inicio",
+    "issueType": "Sub-task",
+    "parentId": "135",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Dashboard de Inicio",
+    "description": "Sub-tarea técnica para: Dashboard de Inicio",
+    "issueType": "Sub-task",
+    "parentId": "135",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Mis Profesionales",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero mis profesionales para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite mis profesionales correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "138",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Mis Profesionales",
+    "description": "Sub-tarea técnica para: Mis Profesionales",
+    "issueType": "Sub-task",
+    "parentId": "138",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Mis Profesionales",
+    "description": "Sub-tarea técnica para: Mis Profesionales",
+    "issueType": "Sub-task",
+    "parentId": "138",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Historial de Pagos",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero historial de pagos para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite historial de pagos correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "141",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Historial de Pagos",
+    "description": "Sub-tarea técnica para: Historial de Pagos",
+    "issueType": "Sub-task",
+    "parentId": "141",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Historial de Pagos",
+    "description": "Sub-tarea técnica para: Historial de Pagos",
+    "issueType": "Sub-task",
+    "parentId": "141",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Explorar perfil y servicios",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero explorar perfil y servicios para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite explorar perfil y servicios correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "144",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Explorar perfil y servicios",
+    "description": "Sub-tarea técnica para: Explorar perfil y servicios",
+    "issueType": "Sub-task",
+    "parentId": "144",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Explorar perfil y servicios",
+    "description": "Sub-tarea técnica para: Explorar perfil y servicios",
+    "issueType": "Sub-task",
+    "parentId": "144",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Elegir disponibilidad",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero elegir disponibilidad para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite elegir disponibilidad correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "147",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Elegir disponibilidad",
+    "description": "Sub-tarea técnica para: Elegir disponibilidad",
+    "issueType": "Sub-task",
+    "parentId": "147",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Elegir disponibilidad",
+    "description": "Sub-tarea técnica para: Elegir disponibilidad",
+    "issueType": "Sub-task",
+    "parentId": "147",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Confirmar y abonar",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero confirmar y abonar para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite confirmar y abonar correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "150",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Confirmar y abonar",
+    "description": "Sub-tarea técnica para: Confirmar y abonar",
+    "issueType": "Sub-task",
+    "parentId": "150",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Confirmar y abonar",
+    "description": "Sub-tarea técnica para: Confirmar y abonar",
+    "issueType": "Sub-task",
+    "parentId": "150",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Revisar mis turnos",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero revisar mis turnos para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite revisar mis turnos correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "153",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Revisar mis turnos",
+    "description": "Sub-tarea técnica para: Revisar mis turnos",
+    "issueType": "Sub-task",
+    "parentId": "153",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Revisar mis turnos",
+    "description": "Sub-tarea técnica para: Revisar mis turnos",
+    "issueType": "Sub-task",
+    "parentId": "153",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Modificar reserva",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero modificar reserva para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite modificar reserva correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "156",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Modificar reserva",
+    "description": "Sub-tarea técnica para: Modificar reserva",
+    "issueType": "Sub-task",
+    "parentId": "156",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Modificar reserva",
+    "description": "Sub-tarea técnica para: Modificar reserva",
+    "issueType": "Sub-task",
+    "parentId": "156",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Notificaciones y Sincronización",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero notificaciones y sincronización para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite notificaciones y sincronización correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "159",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Notificaciones y Sincronización",
+    "description": "Sub-tarea técnica para: Notificaciones y Sincronización",
+    "issueType": "Sub-task",
+    "parentId": "159",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Notificaciones y Sincronización",
+    "description": "Sub-tarea técnica para: Notificaciones y Sincronización",
+    "issueType": "Sub-task",
+    "parentId": "159",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Registrarse con Email y WhatsApp",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero registrarse con email y whatsapp para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite registrarse con email y whatsapp correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Registrarse con Email y WhatsApp)",
+    "description": "Sub-tarea técnica para: Registrarse con Email y WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Registrarse con Email y WhatsApp",
+    "description": "Sub-tarea técnica para: Registrarse con Email y WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Registrarse con Email y WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Iniciar sesión con Email y Pass",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero iniciar sesión con email y pass para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite iniciar sesión con email y pass correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Iniciar sesión con Email y Pass)",
+    "description": "Sub-tarea técnica para: Iniciar sesión con Email y Pass",
+    "issueType": "Sub-task",
+    "parentId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Iniciar sesión con Email y Pass",
+    "description": "Sub-tarea técnica para: Iniciar sesión con Email y Pass",
+    "issueType": "Sub-task",
+    "parentId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Iniciar sesión con Email y Pass",
+    "issueType": "Sub-task",
+    "parentId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar mis datos (Nombre, Celular)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero editar mis datos (nombre, celular) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite editar mis datos (nombre, celular) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "170",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "API CRUD para Editar mis datos (Nombre, Celular)",
+    "description": "Sub-tarea técnica para: Editar mis datos (Nombre, Celular)",
+    "issueType": "Sub-task",
+    "parentId": "170",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Editar mis datos (Nombre, Celular)",
+    "description": "Sub-tarea técnica para: Editar mis datos (Nombre, Celular)",
+    "issueType": "Sub-task",
+    "parentId": "170",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver resumen de próximos turnos agendados",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero ver resumen de próximos turnos agendados para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver resumen de próximos turnos agendados correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "173",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver resumen de próximos turnos agendados",
+    "description": "Sub-tarea técnica para: Ver resumen de próximos turnos agendados",
+    "issueType": "Sub-task",
+    "parentId": "173",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver resumen de próximos turnos agendados",
+    "description": "Sub-tarea técnica para: Ver resumen de próximos turnos agendados",
+    "issueType": "Sub-task",
+    "parentId": "173",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver lista de profesionales con los que ya se atendió",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero ver lista de profesionales con los que ya se atendió para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver lista de profesionales con los que ya se atendió correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "176",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver lista de profesionales con los que ya se atendió",
+    "description": "Sub-tarea técnica para: Ver lista de profesionales con los que ya se atendió",
+    "issueType": "Sub-task",
+    "parentId": "176",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver lista de profesionales con los que ya se atendió",
+    "description": "Sub-tarea técnica para: Ver lista de profesionales con los que ya se atendió",
+    "issueType": "Sub-task",
+    "parentId": "176",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver historial de señas pagadas",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero ver historial de señas pagadas para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver historial de señas pagadas correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "179",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial de señas pagadas",
+    "description": "Sub-tarea técnica para: Ver historial de señas pagadas",
+    "issueType": "Sub-task",
+    "parentId": "179",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial de señas pagadas",
+    "description": "Sub-tarea técnica para: Ver historial de señas pagadas",
+    "issueType": "Sub-task",
+    "parentId": "179",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Aterrizar en URL pública del profesional",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero aterrizar en url pública del profesional para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite aterrizar en url pública del profesional correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "182",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Aterrizar en URL pública del profesional",
+    "description": "Sub-tarea técnica para: Aterrizar en URL pública del profesional",
+    "issueType": "Sub-task",
+    "parentId": "182",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Aterrizar en URL pública del profesional",
+    "description": "Sub-tarea técnica para: Aterrizar en URL pública del profesional",
+    "issueType": "Sub-task",
+    "parentId": "182",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Navegar por el calendario (Mes/Semana)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero navegar por el calendario (mes/semana) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite navegar por el calendario (mes/semana) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "185",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Navegar por el calendario (Mes/Semana)",
+    "description": "Sub-tarea técnica para: Navegar por el calendario (Mes/Semana)",
+    "issueType": "Sub-task",
+    "parentId": "185",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Navegar por el calendario (Mes/Semana)",
+    "description": "Sub-tarea técnica para: Navegar por el calendario (Mes/Semana)",
+    "issueType": "Sub-task",
+    "parentId": "185",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Completar datos básicos / Comentarios",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero completar datos básicos / comentarios para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite completar datos básicos / comentarios correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "188",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Completar datos básicos / Comentarios",
+    "description": "Sub-tarea técnica para: Completar datos básicos / Comentarios",
+    "issueType": "Sub-task",
+    "parentId": "188",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Completar datos básicos / Comentarios",
+    "description": "Sub-tarea técnica para: Completar datos básicos / Comentarios",
+    "issueType": "Sub-task",
+    "parentId": "188",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver panel de \"Mis Turnos\" (Próximos)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero ver panel de \"mis turnos\" (próximos) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver panel de \"mis turnos\" (próximos) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "191",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver panel de \"Mis Turnos\" (Próximos)",
+    "description": "Sub-tarea técnica para: Ver panel de \"Mis Turnos\" (Próximos)",
+    "issueType": "Sub-task",
+    "parentId": "191",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver panel de \"Mis Turnos\" (Próximos)",
+    "description": "Sub-tarea técnica para: Ver panel de \"Mis Turnos\" (Próximos)",
+    "issueType": "Sub-task",
+    "parentId": "191",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Cancelar turno reservado",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero cancelar turno reservado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite cancelar turno reservado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "194",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cancelar turno reservado",
+    "description": "Sub-tarea técnica para: Cancelar turno reservado",
+    "issueType": "Sub-task",
+    "parentId": "194",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cancelar turno reservado",
+    "description": "Sub-tarea técnica para: Cancelar turno reservado",
+    "issueType": "Sub-task",
+    "parentId": "194",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir confirmación de reserva por Email",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero recibir confirmación de reserva por email para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite recibir confirmación de reserva por email correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "197",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir confirmación de reserva por Email",
+    "description": "Sub-tarea técnica para: Recibir confirmación de reserva por Email",
+    "issueType": "Sub-task",
+    "parentId": "197",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir confirmación de reserva por Email",
+    "description": "Sub-tarea técnica para: Recibir confirmación de reserva por Email",
+    "issueType": "Sub-task",
+    "parentId": "197",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Validar cuenta (Email)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero validar cuenta (email) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite validar cuenta (email) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Validar cuenta (Email))",
+    "description": "Sub-tarea técnica para: Validar cuenta (Email)",
+    "issueType": "Sub-task",
+    "parentId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Validar cuenta (Email)",
+    "description": "Sub-tarea técnica para: Validar cuenta (Email)",
+    "issueType": "Sub-task",
+    "parentId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea técnica para: Validar cuenta (Email)",
+    "issueType": "Sub-task",
+    "parentId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recuperar contraseña",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\nComo Cliente Paciente quiero recuperar contraseña para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite recuperar contraseña correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "204",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recuperar contraseña",
+    "description": "Sub-tarea técnica para: Recuperar contraseña",
+    "issueType": "Sub-task",
+    "parentId": "204",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recuperar contraseña",
+    "description": "Sub-tarea técnica para: Recuperar contraseña",
+    "issueType": "Sub-task",
+    "parentId": "204",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver notificaciones/alertas importantes",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero ver notificaciones/alertas importantes para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver notificaciones/alertas importantes correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "207",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver notificaciones/alertas importantes",
+    "description": "Sub-tarea técnica para: Ver notificaciones/alertas importantes",
+    "issueType": "Sub-task",
+    "parentId": "207",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver notificaciones/alertas importantes",
+    "description": "Sub-tarea técnica para: Ver notificaciones/alertas importantes",
+    "issueType": "Sub-task",
+    "parentId": "207",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero botón de \"volver a reservar\" (acceso rápido al perfil) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite botón de \"volver a reservar\" (acceso rápido al perfil) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "210",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "description": "Sub-tarea técnica para: Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "issueType": "Sub-task",
+    "parentId": "210",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "description": "Sub-tarea técnica para: Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "issueType": "Sub-task",
+    "parentId": "210",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descargar comprobante de turno/seña",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero descargar comprobante de turno/seña para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite descargar comprobante de turno/seña correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "213",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Descargar comprobante de turno/seña",
+    "description": "Sub-tarea técnica para: Descargar comprobante de turno/seña",
+    "issueType": "Sub-task",
+    "parentId": "213",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Descargar comprobante de turno/seña",
+    "description": "Sub-tarea técnica para: Descargar comprobante de turno/seña",
+    "issueType": "Sub-task",
+    "parentId": "213",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver descripción y modalidad (Presencial/Virtual)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero ver descripción y modalidad (presencial/virtual) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver descripción y modalidad (presencial/virtual) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "216",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver descripción y modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea técnica para: Ver descripción y modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "216",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver descripción y modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea técnica para: Ver descripción y modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "216",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver horarios disponibles en tiempo real",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero ver horarios disponibles en tiempo real para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver horarios disponibles en tiempo real correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "219",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver horarios disponibles en tiempo real",
+    "description": "Sub-tarea técnica para: Ver horarios disponibles en tiempo real",
+    "issueType": "Sub-task",
+    "parentId": "219",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver horarios disponibles en tiempo real",
+    "description": "Sub-tarea técnica para: Ver horarios disponibles en tiempo real",
+    "issueType": "Sub-task",
+    "parentId": "219",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Confirmar reserva (Pantalla de éxito)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero confirmar reserva (pantalla de éxito) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite confirmar reserva (pantalla de éxito) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "222",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Confirmar reserva (Pantalla de éxito)",
+    "description": "Sub-tarea técnica para: Confirmar reserva (Pantalla de éxito)",
+    "issueType": "Sub-task",
+    "parentId": "222",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Confirmar reserva (Pantalla de éxito)",
+    "description": "Sub-tarea técnica para: Confirmar reserva (Pantalla de éxito)",
+    "issueType": "Sub-task",
+    "parentId": "222",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial de turnos pasados",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero ver historial de turnos pasados para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver historial de turnos pasados correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "225",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial de turnos pasados",
+    "description": "Sub-tarea técnica para: Ver historial de turnos pasados",
+    "issueType": "Sub-task",
+    "parentId": "225",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial de turnos pasados",
+    "description": "Sub-tarea técnica para: Ver historial de turnos pasados",
+    "issueType": "Sub-task",
+    "parentId": "225",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Indicar motivo de cancelación",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero indicar motivo de cancelación para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite indicar motivo de cancelación correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "228",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Indicar motivo de cancelación",
+    "description": "Sub-tarea técnica para: Indicar motivo de cancelación",
+    "issueType": "Sub-task",
+    "parentId": "228",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Indicar motivo de cancelación",
+    "description": "Sub-tarea técnica para: Indicar motivo de cancelación",
+    "issueType": "Sub-task",
+    "parentId": "228",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir aviso si el profesional le cancela",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero recibir aviso si el profesional le cancela para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite recibir aviso si el profesional le cancela correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "231",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir aviso si el profesional le cancela",
+    "description": "Sub-tarea técnica para: Recibir aviso si el profesional le cancela",
+    "issueType": "Sub-task",
+    "parentId": "231",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir aviso si el profesional le cancela",
+    "description": "Sub-tarea técnica para: Recibir aviso si el profesional le cancela",
+    "issueType": "Sub-task",
+    "parentId": "231",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Guardar un profesional en \"Favoritos\"",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\nComo Cliente Paciente quiero guardar un profesional en \"favoritos\" para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite guardar un profesional en \"favoritos\" correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "234",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Guardar un profesional en \"Favoritos\"",
+    "description": "Sub-tarea técnica para: Guardar un profesional en \"Favoritos\"",
+    "issueType": "Sub-task",
+    "parentId": "234",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Guardar un profesional en \"Favoritos\"",
+    "description": "Sub-tarea técnica para: Guardar un profesional en \"Favoritos\"",
+    "issueType": "Sub-task",
+    "parentId": "234",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver lista de servicios y duraciones",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero ver lista de servicios y duraciones para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver lista de servicios y duraciones correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "237",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver lista de servicios y duraciones",
+    "description": "Sub-tarea técnica para: Ver lista de servicios y duraciones",
+    "issueType": "Sub-task",
+    "parentId": "237",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver lista de servicios y duraciones",
+    "description": "Sub-tarea técnica para: Ver lista de servicios y duraciones",
+    "issueType": "Sub-task",
+    "parentId": "237",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Seleccionar franja horaria",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero seleccionar franja horaria para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite seleccionar franja horaria correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "240",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Seleccionar franja horaria",
+    "description": "Sub-tarea técnica para: Seleccionar franja horaria",
+    "issueType": "Sub-task",
+    "parentId": "240",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Seleccionar franja horaria",
+    "description": "Sub-tarea técnica para: Seleccionar franja horaria",
+    "issueType": "Sub-task",
+    "parentId": "240",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Completar formulario personalizado",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero completar formulario personalizado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite completar formulario personalizado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "243",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Completar formulario personalizado",
+    "description": "Sub-tarea técnica para: Completar formulario personalizado",
+    "issueType": "Sub-task",
+    "parentId": "243",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Completar formulario personalizado",
+    "description": "Sub-tarea técnica para: Completar formulario personalizado",
+    "issueType": "Sub-task",
+    "parentId": "243",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver detalle (Dirección, link de Zoom, etc.)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero ver detalle (dirección, link de zoom, etc.) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver detalle (dirección, link de zoom, etc.) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "246",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver detalle (Dirección, link de Zoom, etc.)",
+    "description": "Sub-tarea técnica para: Ver detalle (Dirección, link de Zoom, etc.)",
+    "issueType": "Sub-task",
+    "parentId": "246",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver detalle (Dirección, link de Zoom, etc.)",
+    "description": "Sub-tarea técnica para: Ver detalle (Dirección, link de Zoom, etc.)",
+    "issueType": "Sub-task",
+    "parentId": "246",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Recibir recordatorio por WhatsApp (24hs)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero recibir recordatorio por whatsapp (24hs) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite recibir recordatorio por whatsapp (24hs) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "249",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir recordatorio por WhatsApp (24hs)",
+    "description": "Sub-tarea técnica para: Recibir recordatorio por WhatsApp (24hs)",
+    "issueType": "Sub-task",
+    "parentId": "249",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir recordatorio por WhatsApp (24hs)",
+    "description": "Sub-tarea técnica para: Recibir recordatorio por WhatsApp (24hs)",
+    "issueType": "Sub-task",
+    "parentId": "249",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Seleccionar el servicio deseado",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero seleccionar el servicio deseado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite seleccionar el servicio deseado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "252",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Seleccionar el servicio deseado",
+    "description": "Sub-tarea técnica para: Seleccionar el servicio deseado",
+    "issueType": "Sub-task",
+    "parentId": "252",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Seleccionar el servicio deseado",
+    "description": "Sub-tarea técnica para: Seleccionar el servicio deseado",
+    "issueType": "Sub-task",
+    "parentId": "252",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver estado de pagos / señas realizadas",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\nComo Cliente Paciente quiero ver estado de pagos / señas realizadas para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver estado de pagos / señas realizadas correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "255",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver estado de pagos / señas realizadas",
+    "description": "Sub-tarea técnica para: Ver estado de pagos / señas realizadas",
+    "issueType": "Sub-task",
+    "parentId": "255",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver estado de pagos / señas realizadas",
+    "description": "Sub-tarea técnica para: Ver estado de pagos / señas realizadas",
+    "issueType": "Sub-task",
+    "parentId": "255",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Filtrar servicios por categoría",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\nComo Cliente Paciente quiero filtrar servicios por categoría para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite filtrar servicios por categoría correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "258",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Filtrar servicios por categoría",
+    "description": "Sub-tarea técnica para: Filtrar servicios por categoría",
+    "issueType": "Sub-task",
+    "parentId": "258",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Filtrar servicios por categoría",
+    "description": "Sub-tarea técnica para: Filtrar servicios por categoría",
+    "issueType": "Sub-task",
+    "parentId": "258",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar perfil del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo administrador de un local con varios profesionales\nquiero cargar los datos del local (nombre, logo, dirección, horarios)\npara que los clientes vean la información del negocio en lugar de un profesional individual\n\n*Criterios de Aceptación:*\n- El administrador puede cargar nombre del local, logo, dirección y horarios de apertura.\n- El sistema genera un link público general del negocio.\n- El perfil público del local muestra todos los profesionales del staff con sus servicios.\n- Los horarios de apertura del local limitan los horarios disponibles de los empleados.\n- El administrador puede editar los datos del local en cualquier momento.",
+    "issueType": "Story",
+    "storyPoints": 5,
+    "issueId": "261",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Configurar perfil del local",
+    "description": "Sub-tarea técnica para: Configurar perfil del local",
+    "issueType": "Sub-task",
+    "parentId": "261",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Configurar perfil del local",
+    "description": "Sub-tarea técnica para: Configurar perfil del local",
+    "issueType": "Sub-task",
+    "parentId": "261",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Administrar Staff (Empleados)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero administrar staff (empleados) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite administrar staff (empleados) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "264",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Administrar Staff (Empleados)",
+    "description": "Sub-tarea técnica para: Administrar Staff (Empleados)",
+    "issueType": "Sub-task",
+    "parentId": "264",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Administrar Staff (Empleados)",
+    "description": "Sub-tarea técnica para: Administrar Staff (Empleados)",
+    "issueType": "Sub-task",
+    "parentId": "264",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Asignar servicios y horarios",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero asignar servicios y horarios para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite asignar servicios y horarios correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "267",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Asignar servicios y horarios",
+    "description": "Sub-tarea técnica para: Asignar servicios y horarios",
+    "issueType": "Sub-task",
+    "parentId": "267",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Asignar servicios y horarios",
+    "description": "Sub-tarea técnica para: Asignar servicios y horarios",
+    "issueType": "Sub-task",
+    "parentId": "267",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Monitorear agenda unificada",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero monitorear agenda unificada para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite monitorear agenda unificada correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "270",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Monitorear agenda unificada",
+    "description": "Sub-tarea técnica para: Monitorear agenda unificada",
+    "issueType": "Sub-task",
+    "parentId": "270",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Monitorear agenda unificada",
+    "description": "Sub-tarea técnica para: Monitorear agenda unificada",
+    "issueType": "Sub-task",
+    "parentId": "270",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Gestión administrativa",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero gestión administrativa para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite gestión administrativa correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "273",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Gestión administrativa",
+    "description": "Sub-tarea técnica para: Gestión administrativa",
+    "issueType": "Sub-task",
+    "parentId": "273",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Gestión administrativa",
+    "description": "Sub-tarea técnica para: Gestión administrativa",
+    "issueType": "Sub-task",
+    "parentId": "273",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Base de clientes compartida",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero base de clientes compartida para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite base de clientes compartida correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "276",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Base de clientes compartida",
+    "description": "Sub-tarea técnica para: Base de clientes compartida",
+    "issueType": "Sub-task",
+    "parentId": "276",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Base de clientes compartida",
+    "description": "Sub-tarea técnica para: Base de clientes compartida",
+    "issueType": "Sub-task",
+    "parentId": "276",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Analítica de negocio",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero analítica de negocio para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite analítica de negocio correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "279",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Analítica de negocio",
+    "description": "Sub-tarea técnica para: Analítica de negocio",
+    "issueType": "Sub-task",
+    "parentId": "279",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Analítica de negocio",
+    "description": "Sub-tarea técnica para: Analítica de negocio",
+    "issueType": "Sub-task",
+    "parentId": "279",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Rendimiento por empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero rendimiento por empleado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite rendimiento por empleado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "282",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Rendimiento por empleado",
+    "description": "Sub-tarea técnica para: Rendimiento por empleado",
+    "issueType": "Sub-task",
+    "parentId": "282",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Rendimiento por empleado",
+    "description": "Sub-tarea técnica para: Rendimiento por empleado",
+    "issueType": "Sub-task",
+    "parentId": "282",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Exportación de datos",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero exportación de datos para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite exportación de datos correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "285",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Exportación de datos",
+    "description": "Sub-tarea técnica para: Exportación de datos",
+    "issueType": "Sub-task",
+    "parentId": "285",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Exportación de datos",
+    "description": "Sub-tarea técnica para: Exportación de datos",
+    "issueType": "Sub-task",
+    "parentId": "285",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cargar nombre, logo y dirección del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero cargar nombre, logo y dirección del local para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite cargar nombre, logo y dirección del local correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "288",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cargar nombre, logo y dirección del local",
+    "description": "Sub-tarea técnica para: Cargar nombre, logo y dirección del local",
+    "issueType": "Sub-task",
+    "parentId": "288",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cargar nombre, logo y dirección del local",
+    "description": "Sub-tarea técnica para: Cargar nombre, logo y dirección del local",
+    "issueType": "Sub-task",
+    "parentId": "288",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Invitar profesionales por email",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero invitar profesionales por email para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite invitar profesionales por email correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "291",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Invitar profesionales por email",
+    "description": "Sub-tarea técnica para: Invitar profesionales por email",
+    "issueType": "Sub-task",
+    "parentId": "291",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Invitar profesionales por email",
+    "description": "Sub-tarea técnica para: Invitar profesionales por email",
+    "issueType": "Sub-task",
+    "parentId": "291",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir qué servicios da cada empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero definir qué servicios da cada empleado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite definir qué servicios da cada empleado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "294",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Definir qué servicios da cada empleado",
+    "description": "Sub-tarea técnica para: Definir qué servicios da cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "294",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Definir qué servicios da cada empleado",
+    "description": "Sub-tarea técnica para: Definir qué servicios da cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "294",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver calendario con todos los turnos de todos los empleados",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero ver calendario con todos los turnos de todos los empleados para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver calendario con todos los turnos de todos los empleados correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "297",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver calendario con todos los turnos de todos los empleados",
+    "description": "Sub-tarea técnica para: Ver calendario con todos los turnos de todos los empleados",
+    "issueType": "Sub-task",
+    "parentId": "297",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver calendario con todos los turnos de todos los empleados",
+    "description": "Sub-tarea técnica para: Ver calendario con todos los turnos de todos los empleados",
+    "issueType": "Sub-task",
+    "parentId": "297",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Reasignar turno de un empleado a otro",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero reasignar turno de un empleado a otro para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite reasignar turno de un empleado a otro correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "300",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Reasignar turno de un empleado a otro",
+    "description": "Sub-tarea técnica para: Reasignar turno de un empleado a otro",
+    "issueType": "Sub-task",
+    "parentId": "300",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Reasignar turno de un empleado a otro",
+    "description": "Sub-tarea técnica para: Reasignar turno de un empleado a otro",
+    "issueType": "Sub-task",
+    "parentId": "300",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver base de datos de clientes del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero ver base de datos de clientes del local para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver base de datos de clientes del local correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "303",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver base de datos de clientes del local",
+    "description": "Sub-tarea técnica para: Ver base de datos de clientes del local",
+    "issueType": "Sub-task",
+    "parentId": "303",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver base de datos de clientes del local",
+    "description": "Sub-tarea técnica para: Ver base de datos de clientes del local",
+    "issueType": "Sub-task",
+    "parentId": "303",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver total de turnos (Atendidos vs Cancelados)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero ver total de turnos (atendidos vs cancelados) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver total de turnos (atendidos vs cancelados) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "306",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver total de turnos (Atendidos vs Cancelados)",
+    "description": "Sub-tarea técnica para: Ver total de turnos (Atendidos vs Cancelados)",
+    "issueType": "Sub-task",
+    "parentId": "306",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver total de turnos (Atendidos vs Cancelados)",
+    "description": "Sub-tarea técnica para: Ver total de turnos (Atendidos vs Cancelados)",
+    "issueType": "Sub-task",
+    "parentId": "306",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver cantidad de turnos por profesional",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero ver cantidad de turnos por profesional para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver cantidad de turnos por profesional correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "309",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver cantidad de turnos por profesional",
+    "description": "Sub-tarea técnica para: Ver cantidad de turnos por profesional",
+    "issueType": "Sub-task",
+    "parentId": "309",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver cantidad de turnos por profesional",
+    "description": "Sub-tarea técnica para: Ver cantidad de turnos por profesional",
+    "issueType": "Sub-task",
+    "parentId": "309",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Exportar base de datos de clientes",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero exportar base de datos de clientes para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite exportar base de datos de clientes correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "312",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Generación de archivo (Excel/CSV) para Exportar base de datos de clientes",
+    "description": "Sub-tarea técnica para: Exportar base de datos de clientes",
+    "issueType": "Sub-task",
+    "parentId": "312",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descarga de archivos desde UI",
+    "description": "Sub-tarea técnica para: Exportar base de datos de clientes",
+    "issueType": "Sub-task",
+    "parentId": "312",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Generar link público general del negocio",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero generar link público general del negocio para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite generar link público general del negocio correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "315",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Generar link público general del negocio",
+    "description": "Sub-tarea técnica para: Generar link público general del negocio",
+    "issueType": "Sub-task",
+    "parentId": "315",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Generar link público general del negocio",
+    "description": "Sub-tarea técnica para: Generar link público general del negocio",
+    "issueType": "Sub-task",
+    "parentId": "315",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear/Editar perfil del empleado (Foto, rol)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero crear/editar perfil del empleado (foto, rol) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite crear/editar perfil del empleado (foto, rol) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "318",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Crear/Editar perfil del empleado (Foto, rol)",
+    "description": "Sub-tarea técnica para: Crear/Editar perfil del empleado (Foto, rol)",
+    "issueType": "Sub-task",
+    "parentId": "318",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Crear/Editar perfil del empleado (Foto, rol)",
+    "description": "Sub-tarea técnica para: Crear/Editar perfil del empleado (Foto, rol)",
+    "issueType": "Sub-task",
+    "parentId": "318",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar días/horarios de cada empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero configurar días/horarios de cada empleado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite configurar días/horarios de cada empleado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar días/horarios de cada empleado",
+    "description": "Sub-tarea técnica para: Configurar días/horarios de cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar días/horarios de cada empleado",
+    "description": "Sub-tarea técnica para: Configurar días/horarios de cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Configurar días/horarios de cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Filtrar vista por empleado específico",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero filtrar vista por empleado específico para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite filtrar vista por empleado específico correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "325",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Filtrar vista por empleado específico",
+    "description": "Sub-tarea técnica para: Filtrar vista por empleado específico",
+    "issueType": "Sub-task",
+    "parentId": "325",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Filtrar vista por empleado específico",
+    "description": "Sub-tarea técnica para: Filtrar vista por empleado específico",
+    "issueType": "Sub-task",
+    "parentId": "325",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Bloquear agenda de empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero bloquear agenda de empleado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite bloquear agenda de empleado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "328",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Bloquear agenda de empleado",
+    "description": "Sub-tarea técnica para: Bloquear agenda de empleado",
+    "issueType": "Sub-task",
+    "parentId": "328",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Bloquear agenda de empleado",
+    "description": "Sub-tarea técnica para: Bloquear agenda de empleado",
+    "issueType": "Sub-task",
+    "parentId": "328",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial global del cliente en el local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero ver historial global del cliente en el local para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver historial global del cliente en el local correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "331",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial global del cliente en el local",
+    "description": "Sub-tarea técnica para: Ver historial global del cliente en el local",
+    "issueType": "Sub-task",
+    "parentId": "331",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial global del cliente en el local",
+    "description": "Sub-tarea técnica para: Ver historial global del cliente en el local",
+    "issueType": "Sub-task",
+    "parentId": "331",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver ingresos estimados del mes",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero ver ingresos estimados del mes para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver ingresos estimados del mes correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "334",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver ingresos estimados del mes",
+    "description": "Sub-tarea técnica para: Ver ingresos estimados del mes",
+    "issueType": "Sub-task",
+    "parentId": "334",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver ingresos estimados del mes",
+    "description": "Sub-tarea técnica para: Ver ingresos estimados del mes",
+    "issueType": "Sub-task",
+    "parentId": "334",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver ingresos generados por cada empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero ver ingresos generados por cada empleado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver ingresos generados por cada empleado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "337",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver ingresos generados por cada empleado",
+    "description": "Sub-tarea técnica para: Ver ingresos generados por cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "337",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver ingresos generados por cada empleado",
+    "description": "Sub-tarea técnica para: Ver ingresos generados por cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "337",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Exportar liquidación mensual a Excel/CSV",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero exportar liquidación mensual a excel/csv para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite exportar liquidación mensual a excel/csv correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "340",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Generación de archivo (Excel/CSV) para Exportar liquidación mensual a Excel/CSV",
+    "description": "Sub-tarea técnica para: Exportar liquidación mensual a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "340",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descarga de archivos desde UI",
+    "description": "Sub-tarea técnica para: Exportar liquidación mensual a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "340",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar horarios de apertura del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero configurar horarios de apertura del local para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite configurar horarios de apertura del local correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar horarios de apertura del local",
+    "description": "Sub-tarea técnica para: Configurar horarios de apertura del local",
+    "issueType": "Sub-task",
+    "parentId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar horarios de apertura del local",
+    "description": "Sub-tarea técnica para: Configurar horarios de apertura del local",
+    "issueType": "Sub-task",
+    "parentId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea técnica para: Configurar horarios de apertura del local",
+    "issueType": "Sub-task",
+    "parentId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Dar de baja/Suspender a un empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero dar de baja/suspender a un empleado para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite dar de baja/suspender a un empleado correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "347",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Dar de baja/Suspender a un empleado",
+    "description": "Sub-tarea técnica para: Dar de baja/Suspender a un empleado",
+    "issueType": "Sub-task",
+    "parentId": "347",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Dar de baja/Suspender a un empleado",
+    "description": "Sub-tarea técnica para: Dar de baja/Suspender a un empleado",
+    "issueType": "Sub-task",
+    "parentId": "347",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Asignar roles (Admin general vs. Empleado)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\nComo Grupo de profesionales quiero asignar roles (admin general vs. empleado) para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite asignar roles (admin general vs. empleado) correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "350",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Asignar roles (Admin general vs. Empleado)",
+    "description": "Sub-tarea técnica para: Asignar roles (Admin general vs. Empleado)",
+    "issueType": "Sub-task",
+    "parentId": "350",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Asignar roles (Admin general vs. Empleado)",
+    "description": "Sub-tarea técnica para: Asignar roles (Admin general vs. Empleado)",
+    "issueType": "Sub-task",
+    "parentId": "350",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Filtrar vista por servicio",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero filtrar vista por servicio para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite filtrar vista por servicio correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "353",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Filtrar vista por servicio",
+    "description": "Sub-tarea técnica para: Filtrar vista por servicio",
+    "issueType": "Sub-task",
+    "parentId": "353",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Filtrar vista por servicio",
+    "description": "Sub-tarea técnica para: Filtrar vista por servicio",
+    "issueType": "Sub-task",
+    "parentId": "353",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear turno manual",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero crear turno manual para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite crear turno manual correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "356",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Crear turno manual",
+    "description": "Sub-tarea técnica para: Crear turno manual",
+    "issueType": "Sub-task",
+    "parentId": "356",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Crear turno manual",
+    "description": "Sub-tarea técnica para: Crear turno manual",
+    "issueType": "Sub-task",
+    "parentId": "356",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Añadir notas internas al perfil del cliente",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\nComo Grupo de profesionales quiero añadir notas internas al perfil del cliente para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite añadir notas internas al perfil del cliente correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "359",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Añadir notas internas al perfil del cliente",
+    "description": "Sub-tarea técnica para: Añadir notas internas al perfil del cliente",
+    "issueType": "Sub-task",
+    "parentId": "359",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Añadir notas internas al perfil del cliente",
+    "description": "Sub-tarea técnica para: Añadir notas internas al perfil del cliente",
+    "issueType": "Sub-task",
+    "parentId": "359",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver servicios más populares",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\nComo Grupo de profesionales quiero ver servicios más populares para mejorar la eficiencia del sistema.\n\n*Criterios de Aceptación:*\n- El sistema permite ver servicios más populares correctamente.\n- Se valida la integridad de los datos.\n- El usuario recibe feedback del resultado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "362",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver servicios más populares",
+    "description": "Sub-tarea técnica para: Ver servicios más populares",
+    "issueType": "Sub-task",
+    "parentId": "362",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver servicios más populares",
+    "description": "Sub-tarea técnica para: Ver servicios más populares",
+    "issueType": "Sub-task",
+    "parentId": "362",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  }
+]

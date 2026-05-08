@@ -1,0 +1,4006 @@
+[
+  {
+    "summary": "Registrarse con Email y Contraseña",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Registrarse con Email y Contraseña)",
+    "description": "Sub-tarea del área Backend para la historia: Registrarse con Email y Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Registrarse con Email y Contraseña",
+    "description": "Sub-tarea del área Frontend para la historia: Registrarse con Email y Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Registrarse con Email y Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar Perfil Básico",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "5",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Configurar Perfil Básico",
+    "description": "Sub-tarea del área Backend para la historia: Configurar Perfil Básico",
+    "issueType": "Sub-task",
+    "parentId": "5",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Configurar Perfil Básico",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar Perfil Básico",
+    "issueType": "Sub-task",
+    "parentId": "5",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Administrar Suscripción",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "8",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Administrar Suscripción",
+    "description": "Sub-tarea del área Backend para la historia: Administrar Suscripción",
+    "issueType": "Sub-task",
+    "parentId": "8",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Administrar Suscripción",
+    "description": "Sub-tarea del área Frontend para la historia: Administrar Suscripción",
+    "issueType": "Sub-task",
+    "parentId": "8",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Definir estructura base",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Definir estructura base",
+    "description": "Sub-tarea del área Backend para la historia: Definir estructura base",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Definir estructura base",
+    "description": "Sub-tarea del área Frontend para la historia: Definir estructura base",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Definir estructura base",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar servicios y capacidad",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar servicios y capacidad",
+    "description": "Sub-tarea del área Backend para la historia: Configurar servicios y capacidad",
+    "issueType": "Sub-task",
+    "parentId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar servicios y capacidad",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar servicios y capacidad",
+    "issueType": "Sub-task",
+    "parentId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Configurar servicios y capacidad",
+    "issueType": "Sub-task",
+    "parentId": "15",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Revisar agenda",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "19",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Revisar agenda",
+    "description": "Sub-tarea del área Backend para la historia: Revisar agenda",
+    "issueType": "Sub-task",
+    "parentId": "19",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Revisar agenda",
+    "description": "Sub-tarea del área Frontend para la historia: Revisar agenda",
+    "issueType": "Sub-task",
+    "parentId": "19",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Administrar reservas",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "22",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "API CRUD para Administrar reservas",
+    "description": "Sub-tarea del área Backend para la historia: Administrar reservas",
+    "issueType": "Sub-task",
+    "parentId": "22",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Administrar reservas",
+    "description": "Sub-tarea del área Frontend para la historia: Administrar reservas",
+    "issueType": "Sub-task",
+    "parentId": "22",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Seguimiento de clientes",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "25",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Seguimiento de clientes",
+    "description": "Sub-tarea del área Frontend para la historia: Seguimiento de clientes",
+    "issueType": "Sub-task",
+    "parentId": "25",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Seguimiento de clientes",
+    "description": "Sub-tarea del área Backend para la historia: Seguimiento de clientes",
+    "issueType": "Sub-task",
+    "parentId": "25",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Validar Email",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Validar Email)",
+    "description": "Sub-tarea del área Backend para la historia: Validar Email",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Validar Email",
+    "description": "Sub-tarea del área Frontend para la historia: Validar Email",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Validar Email",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cargar nombre, especialidad y foto",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "32",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cargar nombre, especialidad y foto",
+    "description": "Sub-tarea del área Frontend para la historia: Cargar nombre, especialidad y foto",
+    "issueType": "Sub-task",
+    "parentId": "32",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cargar nombre, especialidad y foto",
+    "description": "Sub-tarea del área Backend para la historia: Cargar nombre, especialidad y foto",
+    "issueType": "Sub-task",
+    "parentId": "32",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver estado del plan actual",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "35",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver estado del plan actual",
+    "description": "Sub-tarea del área Backend para la historia: Ver estado del plan actual",
+    "issueType": "Sub-task",
+    "parentId": "35",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver estado del plan actual",
+    "description": "Sub-tarea del área Frontend para la historia: Ver estado del plan actual",
+    "issueType": "Sub-task",
+    "parentId": "35",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Establecer días laborables y franjas horarias",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "38",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Establecer días laborables y franjas horarias",
+    "description": "Sub-tarea del área Frontend para la historia: Establecer días laborables y franjas horarias",
+    "issueType": "Sub-task",
+    "parentId": "38",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Establecer días laborables y franjas horarias",
+    "description": "Sub-tarea del área Backend para la historia: Establecer días laborables y franjas horarias",
+    "issueType": "Sub-task",
+    "parentId": "38",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear un servicio",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "41",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Crear un servicio",
+    "description": "Sub-tarea del área Frontend para la historia: Crear un servicio",
+    "issueType": "Sub-task",
+    "parentId": "41",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Crear un servicio",
+    "description": "Sub-tarea del área Backend para la historia: Crear un servicio",
+    "issueType": "Sub-task",
+    "parentId": "41",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver panel de turnos (Dashboard)",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "44",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver panel de turnos (Dashboard)",
+    "description": "Sub-tarea del área Backend para la historia: Ver panel de turnos (Dashboard)",
+    "issueType": "Sub-task",
+    "parentId": "44",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver panel de turnos (Dashboard)",
+    "description": "Sub-tarea del área Frontend para la historia: Ver panel de turnos (Dashboard)",
+    "issueType": "Sub-task",
+    "parentId": "44",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Cancelar el turno de un cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "47",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cancelar el turno de un cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Cancelar el turno de un cliente",
+    "issueType": "Sub-task",
+    "parentId": "47",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cancelar el turno de un cliente",
+    "description": "Sub-tarea del área Backend para la historia: Cancelar el turno de un cliente",
+    "issueType": "Sub-task",
+    "parentId": "47",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir notificaciones sobre cierto cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "50",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir notificaciones sobre cierto cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Recibir notificaciones sobre cierto cliente",
+    "issueType": "Sub-task",
+    "parentId": "50",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir notificaciones sobre cierto cliente",
+    "description": "Sub-tarea del área Backend para la historia: Recibir notificaciones sobre cierto cliente",
+    "issueType": "Sub-task",
+    "parentId": "50",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Iniciar Sesión / Recuperar Contraseña",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Iniciar Sesión / Recuperar Contraseña)",
+    "description": "Sub-tarea del área Backend para la historia: Iniciar Sesión / Recuperar Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Iniciar Sesión / Recuperar Contraseña",
+    "description": "Sub-tarea del área Frontend para la historia: Iniciar Sesión / Recuperar Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Iniciar Sesión / Recuperar Contraseña",
+    "issueType": "Sub-task",
+    "parentId": "53",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir modalidad (Presencial/Virtual)",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "57",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Definir modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea del área Backend para la historia: Definir modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "57",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Definir modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea del área Frontend para la historia: Definir modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "57",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Hacer Upgrade a Premium",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "60",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Hacer Upgrade a Premium",
+    "description": "Sub-tarea del área Frontend para la historia: Hacer Upgrade a Premium",
+    "issueType": "Sub-task",
+    "parentId": "60",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Hacer Upgrade a Premium",
+    "description": "Sub-tarea del área Backend para la historia: Hacer Upgrade a Premium",
+    "issueType": "Sub-task",
+    "parentId": "60",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir duración estándar del turno",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Definir duración estándar del turno",
+    "description": "Sub-tarea del área Backend para la historia: Definir duración estándar del turno",
+    "issueType": "Sub-task",
+    "parentId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Definir duración estándar del turno",
+    "description": "Sub-tarea del área Frontend para la historia: Definir duración estándar del turno",
+    "issueType": "Sub-task",
+    "parentId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Definir duración estándar del turno",
+    "issueType": "Sub-task",
+    "parentId": "63",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar capacidad por turno",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar capacidad por turno",
+    "description": "Sub-tarea del área Backend para la historia: Configurar capacidad por turno",
+    "issueType": "Sub-task",
+    "parentId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar capacidad por turno",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar capacidad por turno",
+    "issueType": "Sub-task",
+    "parentId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Configurar capacidad por turno",
+    "issueType": "Sub-task",
+    "parentId": "67",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver detalle del turno",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "71",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver detalle del turno",
+    "description": "Sub-tarea del área Backend para la historia: Ver detalle del turno",
+    "issueType": "Sub-task",
+    "parentId": "71",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver detalle del turno",
+    "description": "Sub-tarea del área Frontend para la historia: Ver detalle del turno",
+    "issueType": "Sub-task",
+    "parentId": "71",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Marcar asistencia (Asistió / No asistió)",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "74",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Marcar asistencia (Asistió / No asistió)",
+    "description": "Sub-tarea del área Frontend para la historia: Marcar asistencia (Asistió / No asistió)",
+    "issueType": "Sub-task",
+    "parentId": "74",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Marcar asistencia (Asistió / No asistió)",
+    "description": "Sub-tarea del área Backend para la historia: Marcar asistencia (Asistió / No asistió)",
+    "issueType": "Sub-task",
+    "parentId": "74",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Botón de contacto rápido por WhatsApp",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "77",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Botón de contacto rápido por WhatsApp",
+    "description": "Sub-tarea del área Frontend para la historia: Botón de contacto rápido por WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "77",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Botón de contacto rápido por WhatsApp",
+    "description": "Sub-tarea del área Backend para la historia: Botón de contacto rápido por WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "77",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cambiar contraseña / Eliminar",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "80",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cambiar contraseña / Eliminar",
+    "description": "Sub-tarea del área Frontend para la historia: Cambiar contraseña / Eliminar",
+    "issueType": "Sub-task",
+    "parentId": "80",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cambiar contraseña / Eliminar",
+    "description": "Sub-tarea del área Backend para la historia: Cambiar contraseña / Eliminar",
+    "issueType": "Sub-task",
+    "parentId": "80",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Generar link público de reservas",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "83",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Generar link público de reservas",
+    "description": "Sub-tarea del área Frontend para la historia: Generar link público de reservas",
+    "issueType": "Sub-task",
+    "parentId": "83",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Generar link público de reservas",
+    "description": "Sub-tarea del área Backend para la historia: Generar link público de reservas",
+    "issueType": "Sub-task",
+    "parentId": "83",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cancelar Suscripción Premium",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Integración de pasarela de pagos para Cancelar Suscripción Premium",
+    "description": "Sub-tarea del área Backend para la historia: Cancelar Suscripción Premium",
+    "issueType": "Sub-task",
+    "parentId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Flujo de confirmación y feedback de pago para Cancelar Suscripción Premium",
+    "description": "Sub-tarea del área Frontend para la historia: Cancelar Suscripción Premium",
+    "issueType": "Sub-task",
+    "parentId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Registro contable y estado de transacción",
+    "description": "Sub-tarea del área BaseDeDatos para la historia: Cancelar Suscripción Premium",
+    "issueType": "Sub-task",
+    "parentId": "86",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "BaseDeDatos"
+    ]
+  },
+  {
+    "summary": "Configurar descansos entre turnos",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar descansos entre turnos",
+    "description": "Sub-tarea del área Backend para la historia: Configurar descansos entre turnos",
+    "issueType": "Sub-task",
+    "parentId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar descansos entre turnos",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar descansos entre turnos",
+    "issueType": "Sub-task",
+    "parentId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Configurar descansos entre turnos",
+    "issueType": "Sub-task",
+    "parentId": "90",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar o eliminar servicios",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Editar o eliminar servicios",
+    "description": "Sub-tarea del área Backend para la historia: Editar o eliminar servicios",
+    "issueType": "Sub-task",
+    "parentId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Editar o eliminar servicios",
+    "description": "Sub-tarea del área Frontend para la historia: Editar o eliminar servicios",
+    "issueType": "Sub-task",
+    "parentId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Editar o eliminar servicios",
+    "issueType": "Sub-task",
+    "parentId": "94",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Exportar turnos del mes a Excel/CSV",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "98",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Generación de archivo (Excel/CSV) para Exportar turnos del mes a Excel/CSV",
+    "description": "Sub-tarea del área Backend para la historia: Exportar turnos del mes a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "98",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descarga de archivos desde UI",
+    "description": "Sub-tarea del área Frontend para la historia: Exportar turnos del mes a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "98",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Reprogramar turno desde el panel",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "101",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Reprogramar turno desde el panel",
+    "description": "Sub-tarea del área Frontend para la historia: Reprogramar turno desde el panel",
+    "issueType": "Sub-task",
+    "parentId": "101",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Reprogramar turno desde el panel",
+    "description": "Sub-tarea del área Backend para la historia: Reprogramar turno desde el panel",
+    "issueType": "Sub-task",
+    "parentId": "101",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial del cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "104",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial del cliente",
+    "description": "Sub-tarea del área Backend para la historia: Ver historial del cliente",
+    "issueType": "Sub-task",
+    "parentId": "104",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial del cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Ver historial del cliente",
+    "issueType": "Sub-task",
+    "parentId": "104",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Agregar links a Redes Sociales",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "107",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Agregar links a Redes Sociales",
+    "description": "Sub-tarea del área Frontend para la historia: Agregar links a Redes Sociales",
+    "issueType": "Sub-task",
+    "parentId": "107",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Agregar links a Redes Sociales",
+    "description": "Sub-tarea del área Backend para la historia: Agregar links a Redes Sociales",
+    "issueType": "Sub-task",
+    "parentId": "107",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Sincronización con Google Calendar",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "110",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Sincronización con Google Calendar",
+    "description": "Sub-tarea del área Frontend para la historia: Sincronización con Google Calendar",
+    "issueType": "Sub-task",
+    "parentId": "110",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Sincronización con Google Calendar",
+    "description": "Sub-tarea del área Backend para la historia: Sincronización con Google Calendar",
+    "issueType": "Sub-task",
+    "parentId": "110",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Habilitar cobro de seña por servicio",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Configuración de agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "113",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Habilitar cobro de seña por servicio",
+    "description": "Sub-tarea del área Frontend para la historia: Habilitar cobro de seña por servicio",
+    "issueType": "Sub-task",
+    "parentId": "113",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Habilitar cobro de seña por servicio",
+    "description": "Sub-tarea del área Backend para la historia: Habilitar cobro de seña por servicio",
+    "issueType": "Sub-task",
+    "parentId": "113",
+    "labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Añadir notas internas privadas",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Gestión diaria de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "116",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Añadir notas internas privadas",
+    "description": "Sub-tarea del área Frontend para la historia: Añadir notas internas privadas",
+    "issueType": "Sub-task",
+    "parentId": "116",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Añadir notas internas privadas",
+    "description": "Sub-tarea del área Backend para la historia: Añadir notas internas privadas",
+    "issueType": "Sub-task",
+    "parentId": "116",
+    "labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar perfil",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "119",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "API CRUD para Editar perfil",
+    "description": "Sub-tarea del área Backend para la historia: Editar perfil",
+    "issueType": "Sub-task",
+    "parentId": "119",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Editar perfil",
+    "description": "Sub-tarea del área Frontend para la historia: Editar perfil",
+    "issueType": "Sub-task",
+    "parentId": "119",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Personalizar preguntas del formulario al cliente",
+    "description": "*Rol:* Profesional independiente\n*Categoría:* Autenticación y Perfil\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "122",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Personalizar preguntas del formulario al cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Personalizar preguntas del formulario al cliente",
+    "issueType": "Sub-task",
+    "parentId": "122",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Personalizar preguntas del formulario al cliente",
+    "description": "Sub-tarea del área Backend para la historia: Personalizar preguntas del formulario al cliente",
+    "issueType": "Sub-task",
+    "parentId": "122",
+    "labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear cuenta",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Crear cuenta)",
+    "description": "Sub-tarea del área Backend para la historia: Crear cuenta",
+    "issueType": "Sub-task",
+    "parentId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Crear cuenta",
+    "description": "Sub-tarea del área Frontend para la historia: Crear cuenta",
+    "issueType": "Sub-task",
+    "parentId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Crear cuenta",
+    "issueType": "Sub-task",
+    "parentId": "125",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Acceder a la cuenta",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "129",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Acceder a la cuenta",
+    "description": "Sub-tarea del área Frontend para la historia: Acceder a la cuenta",
+    "issueType": "Sub-task",
+    "parentId": "129",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Acceder a la cuenta",
+    "description": "Sub-tarea del área Backend para la historia: Acceder a la cuenta",
+    "issueType": "Sub-task",
+    "parentId": "129",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Gestionar perfil personal",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "132",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Gestionar perfil personal",
+    "description": "Sub-tarea del área Frontend para la historia: Gestionar perfil personal",
+    "issueType": "Sub-task",
+    "parentId": "132",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Gestionar perfil personal",
+    "description": "Sub-tarea del área Backend para la historia: Gestionar perfil personal",
+    "issueType": "Sub-task",
+    "parentId": "132",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Dashboard de Inicio",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "135",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Dashboard de Inicio",
+    "description": "Sub-tarea del área Backend para la historia: Dashboard de Inicio",
+    "issueType": "Sub-task",
+    "parentId": "135",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Dashboard de Inicio",
+    "description": "Sub-tarea del área Frontend para la historia: Dashboard de Inicio",
+    "issueType": "Sub-task",
+    "parentId": "135",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Mis Profesionales",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "138",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Mis Profesionales",
+    "description": "Sub-tarea del área Frontend para la historia: Mis Profesionales",
+    "issueType": "Sub-task",
+    "parentId": "138",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Mis Profesionales",
+    "description": "Sub-tarea del área Backend para la historia: Mis Profesionales",
+    "issueType": "Sub-task",
+    "parentId": "138",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Historial de Pagos",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "141",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Historial de Pagos",
+    "description": "Sub-tarea del área Backend para la historia: Historial de Pagos",
+    "issueType": "Sub-task",
+    "parentId": "141",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Historial de Pagos",
+    "description": "Sub-tarea del área Frontend para la historia: Historial de Pagos",
+    "issueType": "Sub-task",
+    "parentId": "141",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Explorar perfil y servicios",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "144",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Explorar perfil y servicios",
+    "description": "Sub-tarea del área Frontend para la historia: Explorar perfil y servicios",
+    "issueType": "Sub-task",
+    "parentId": "144",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Explorar perfil y servicios",
+    "description": "Sub-tarea del área Backend para la historia: Explorar perfil y servicios",
+    "issueType": "Sub-task",
+    "parentId": "144",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Elegir disponibilidad",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "147",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Elegir disponibilidad",
+    "description": "Sub-tarea del área Frontend para la historia: Elegir disponibilidad",
+    "issueType": "Sub-task",
+    "parentId": "147",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Elegir disponibilidad",
+    "description": "Sub-tarea del área Backend para la historia: Elegir disponibilidad",
+    "issueType": "Sub-task",
+    "parentId": "147",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Confirmar y abonar",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "150",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Confirmar y abonar",
+    "description": "Sub-tarea del área Frontend para la historia: Confirmar y abonar",
+    "issueType": "Sub-task",
+    "parentId": "150",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Confirmar y abonar",
+    "description": "Sub-tarea del área Backend para la historia: Confirmar y abonar",
+    "issueType": "Sub-task",
+    "parentId": "150",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Revisar mis turnos",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "153",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Revisar mis turnos",
+    "description": "Sub-tarea del área Backend para la historia: Revisar mis turnos",
+    "issueType": "Sub-task",
+    "parentId": "153",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Revisar mis turnos",
+    "description": "Sub-tarea del área Frontend para la historia: Revisar mis turnos",
+    "issueType": "Sub-task",
+    "parentId": "153",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Modificar reserva",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "156",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Modificar reserva",
+    "description": "Sub-tarea del área Frontend para la historia: Modificar reserva",
+    "issueType": "Sub-task",
+    "parentId": "156",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Modificar reserva",
+    "description": "Sub-tarea del área Backend para la historia: Modificar reserva",
+    "issueType": "Sub-task",
+    "parentId": "156",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Notificaciones y Sincronización",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "159",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Notificaciones y Sincronización",
+    "description": "Sub-tarea del área Frontend para la historia: Notificaciones y Sincronización",
+    "issueType": "Sub-task",
+    "parentId": "159",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Notificaciones y Sincronización",
+    "description": "Sub-tarea del área Backend para la historia: Notificaciones y Sincronización",
+    "issueType": "Sub-task",
+    "parentId": "159",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Registrarse con Email y WhatsApp",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Registrarse con Email y WhatsApp)",
+    "description": "Sub-tarea del área Backend para la historia: Registrarse con Email y WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Registrarse con Email y WhatsApp",
+    "description": "Sub-tarea del área Frontend para la historia: Registrarse con Email y WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Registrarse con Email y WhatsApp",
+    "issueType": "Sub-task",
+    "parentId": "162",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Iniciar sesión con Email y Pass",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Iniciar sesión con Email y Pass)",
+    "description": "Sub-tarea del área Backend para la historia: Iniciar sesión con Email y Pass",
+    "issueType": "Sub-task",
+    "parentId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Iniciar sesión con Email y Pass",
+    "description": "Sub-tarea del área Frontend para la historia: Iniciar sesión con Email y Pass",
+    "issueType": "Sub-task",
+    "parentId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Iniciar sesión con Email y Pass",
+    "issueType": "Sub-task",
+    "parentId": "166",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar mis datos (Nombre, Celular)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "170",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "API CRUD para Editar mis datos (Nombre, Celular)",
+    "description": "Sub-tarea del área Backend para la historia: Editar mis datos (Nombre, Celular)",
+    "issueType": "Sub-task",
+    "parentId": "170",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Editar mis datos (Nombre, Celular)",
+    "description": "Sub-tarea del área Frontend para la historia: Editar mis datos (Nombre, Celular)",
+    "issueType": "Sub-task",
+    "parentId": "170",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver resumen de próximos turnos agendados",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "173",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver resumen de próximos turnos agendados",
+    "description": "Sub-tarea del área Backend para la historia: Ver resumen de próximos turnos agendados",
+    "issueType": "Sub-task",
+    "parentId": "173",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver resumen de próximos turnos agendados",
+    "description": "Sub-tarea del área Frontend para la historia: Ver resumen de próximos turnos agendados",
+    "issueType": "Sub-task",
+    "parentId": "173",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver lista de profesionales con los que ya se atendió",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "176",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver lista de profesionales con los que ya se atendió",
+    "description": "Sub-tarea del área Backend para la historia: Ver lista de profesionales con los que ya se atendió",
+    "issueType": "Sub-task",
+    "parentId": "176",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver lista de profesionales con los que ya se atendió",
+    "description": "Sub-tarea del área Frontend para la historia: Ver lista de profesionales con los que ya se atendió",
+    "issueType": "Sub-task",
+    "parentId": "176",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver historial de señas pagadas",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "179",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial de señas pagadas",
+    "description": "Sub-tarea del área Backend para la historia: Ver historial de señas pagadas",
+    "issueType": "Sub-task",
+    "parentId": "179",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial de señas pagadas",
+    "description": "Sub-tarea del área Frontend para la historia: Ver historial de señas pagadas",
+    "issueType": "Sub-task",
+    "parentId": "179",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Aterrizar en URL pública del profesional",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "182",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Aterrizar en URL pública del profesional",
+    "description": "Sub-tarea del área Frontend para la historia: Aterrizar en URL pública del profesional",
+    "issueType": "Sub-task",
+    "parentId": "182",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Aterrizar en URL pública del profesional",
+    "description": "Sub-tarea del área Backend para la historia: Aterrizar en URL pública del profesional",
+    "issueType": "Sub-task",
+    "parentId": "182",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Navegar por el calendario (Mes/Semana)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "185",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Navegar por el calendario (Mes/Semana)",
+    "description": "Sub-tarea del área Frontend para la historia: Navegar por el calendario (Mes/Semana)",
+    "issueType": "Sub-task",
+    "parentId": "185",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Navegar por el calendario (Mes/Semana)",
+    "description": "Sub-tarea del área Backend para la historia: Navegar por el calendario (Mes/Semana)",
+    "issueType": "Sub-task",
+    "parentId": "185",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Completar datos básicos / Comentarios",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "188",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Completar datos básicos / Comentarios",
+    "description": "Sub-tarea del área Frontend para la historia: Completar datos básicos / Comentarios",
+    "issueType": "Sub-task",
+    "parentId": "188",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Completar datos básicos / Comentarios",
+    "description": "Sub-tarea del área Backend para la historia: Completar datos básicos / Comentarios",
+    "issueType": "Sub-task",
+    "parentId": "188",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver panel de \"Mis Turnos\" (Próximos)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "191",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver panel de \"Mis Turnos\" (Próximos)",
+    "description": "Sub-tarea del área Backend para la historia: Ver panel de \"Mis Turnos\" (Próximos)",
+    "issueType": "Sub-task",
+    "parentId": "191",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver panel de \"Mis Turnos\" (Próximos)",
+    "description": "Sub-tarea del área Frontend para la historia: Ver panel de \"Mis Turnos\" (Próximos)",
+    "issueType": "Sub-task",
+    "parentId": "191",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Cancelar turno reservado",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "194",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cancelar turno reservado",
+    "description": "Sub-tarea del área Frontend para la historia: Cancelar turno reservado",
+    "issueType": "Sub-task",
+    "parentId": "194",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cancelar turno reservado",
+    "description": "Sub-tarea del área Backend para la historia: Cancelar turno reservado",
+    "issueType": "Sub-task",
+    "parentId": "194",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir confirmación de reserva por Email",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "197",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir confirmación de reserva por Email",
+    "description": "Sub-tarea del área Frontend para la historia: Recibir confirmación de reserva por Email",
+    "issueType": "Sub-task",
+    "parentId": "197",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir confirmación de reserva por Email",
+    "description": "Sub-tarea del área Backend para la historia: Recibir confirmación de reserva por Email",
+    "issueType": "Sub-task",
+    "parentId": "197",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Validar cuenta (Email)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Implementar lógica de Auth (Validar cuenta (Email))",
+    "description": "Sub-tarea del área Backend para la historia: Validar cuenta (Email)",
+    "issueType": "Sub-task",
+    "parentId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Desarrollar UI de Autenticación para Validar cuenta (Email)",
+    "description": "Sub-tarea del área Frontend para la historia: Validar cuenta (Email)",
+    "issueType": "Sub-task",
+    "parentId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar esquema de seguridad y tokens",
+    "description": "Sub-tarea del área Backend para la historia: Validar cuenta (Email)",
+    "issueType": "Sub-task",
+    "parentId": "200",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recuperar contraseña",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Acceso a la plataforma\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "204",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recuperar contraseña",
+    "description": "Sub-tarea del área Frontend para la historia: Recuperar contraseña",
+    "issueType": "Sub-task",
+    "parentId": "204",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recuperar contraseña",
+    "description": "Sub-tarea del área Backend para la historia: Recuperar contraseña",
+    "issueType": "Sub-task",
+    "parentId": "204",
+    "labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver notificaciones/alertas importantes",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "207",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver notificaciones/alertas importantes",
+    "description": "Sub-tarea del área Backend para la historia: Ver notificaciones/alertas importantes",
+    "issueType": "Sub-task",
+    "parentId": "207",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver notificaciones/alertas importantes",
+    "description": "Sub-tarea del área Frontend para la historia: Ver notificaciones/alertas importantes",
+    "issueType": "Sub-task",
+    "parentId": "207",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "210",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "description": "Sub-tarea del área Frontend para la historia: Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "issueType": "Sub-task",
+    "parentId": "210",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "description": "Sub-tarea del área Backend para la historia: Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "issueType": "Sub-task",
+    "parentId": "210",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descargar comprobante de turno/seña",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "213",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Descargar comprobante de turno/seña",
+    "description": "Sub-tarea del área Frontend para la historia: Descargar comprobante de turno/seña",
+    "issueType": "Sub-task",
+    "parentId": "213",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Descargar comprobante de turno/seña",
+    "description": "Sub-tarea del área Backend para la historia: Descargar comprobante de turno/seña",
+    "issueType": "Sub-task",
+    "parentId": "213",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver descripción y modalidad (Presencial/Virtual)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "216",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver descripción y modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea del área Backend para la historia: Ver descripción y modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "216",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver descripción y modalidad (Presencial/Virtual)",
+    "description": "Sub-tarea del área Frontend para la historia: Ver descripción y modalidad (Presencial/Virtual)",
+    "issueType": "Sub-task",
+    "parentId": "216",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver horarios disponibles en tiempo real",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "219",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver horarios disponibles en tiempo real",
+    "description": "Sub-tarea del área Backend para la historia: Ver horarios disponibles en tiempo real",
+    "issueType": "Sub-task",
+    "parentId": "219",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver horarios disponibles en tiempo real",
+    "description": "Sub-tarea del área Frontend para la historia: Ver horarios disponibles en tiempo real",
+    "issueType": "Sub-task",
+    "parentId": "219",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Confirmar reserva (Pantalla de éxito)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "222",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Confirmar reserva (Pantalla de éxito)",
+    "description": "Sub-tarea del área Frontend para la historia: Confirmar reserva (Pantalla de éxito)",
+    "issueType": "Sub-task",
+    "parentId": "222",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Confirmar reserva (Pantalla de éxito)",
+    "description": "Sub-tarea del área Backend para la historia: Confirmar reserva (Pantalla de éxito)",
+    "issueType": "Sub-task",
+    "parentId": "222",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial de turnos pasados",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "225",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial de turnos pasados",
+    "description": "Sub-tarea del área Backend para la historia: Ver historial de turnos pasados",
+    "issueType": "Sub-task",
+    "parentId": "225",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial de turnos pasados",
+    "description": "Sub-tarea del área Frontend para la historia: Ver historial de turnos pasados",
+    "issueType": "Sub-task",
+    "parentId": "225",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Indicar motivo de cancelación",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "228",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Indicar motivo de cancelación",
+    "description": "Sub-tarea del área Frontend para la historia: Indicar motivo de cancelación",
+    "issueType": "Sub-task",
+    "parentId": "228",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Indicar motivo de cancelación",
+    "description": "Sub-tarea del área Backend para la historia: Indicar motivo de cancelación",
+    "issueType": "Sub-task",
+    "parentId": "228",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir aviso si el profesional le cancela",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "231",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir aviso si el profesional le cancela",
+    "description": "Sub-tarea del área Frontend para la historia: Recibir aviso si el profesional le cancela",
+    "issueType": "Sub-task",
+    "parentId": "231",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir aviso si el profesional le cancela",
+    "description": "Sub-tarea del área Backend para la historia: Recibir aviso si el profesional le cancela",
+    "issueType": "Sub-task",
+    "parentId": "231",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Guardar un profesional en \"Favoritos\"",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Panel central y de re-reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "234",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Guardar un profesional en \"Favoritos\"",
+    "description": "Sub-tarea del área Frontend para la historia: Guardar un profesional en \"Favoritos\"",
+    "issueType": "Sub-task",
+    "parentId": "234",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Guardar un profesional en \"Favoritos\"",
+    "description": "Sub-tarea del área Backend para la historia: Guardar un profesional en \"Favoritos\"",
+    "issueType": "Sub-task",
+    "parentId": "234",
+    "labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver lista de servicios y duraciones",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "237",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver lista de servicios y duraciones",
+    "description": "Sub-tarea del área Backend para la historia: Ver lista de servicios y duraciones",
+    "issueType": "Sub-task",
+    "parentId": "237",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver lista de servicios y duraciones",
+    "description": "Sub-tarea del área Frontend para la historia: Ver lista de servicios y duraciones",
+    "issueType": "Sub-task",
+    "parentId": "237",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Seleccionar franja horaria",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "240",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Seleccionar franja horaria",
+    "description": "Sub-tarea del área Frontend para la historia: Seleccionar franja horaria",
+    "issueType": "Sub-task",
+    "parentId": "240",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Seleccionar franja horaria",
+    "description": "Sub-tarea del área Backend para la historia: Seleccionar franja horaria",
+    "issueType": "Sub-task",
+    "parentId": "240",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Completar formulario personalizado",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "243",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Completar formulario personalizado",
+    "description": "Sub-tarea del área Frontend para la historia: Completar formulario personalizado",
+    "issueType": "Sub-task",
+    "parentId": "243",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Completar formulario personalizado",
+    "description": "Sub-tarea del área Backend para la historia: Completar formulario personalizado",
+    "issueType": "Sub-task",
+    "parentId": "243",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver detalle (Dirección, link de Zoom, etc.)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "246",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver detalle (Dirección, link de Zoom, etc.)",
+    "description": "Sub-tarea del área Backend para la historia: Ver detalle (Dirección, link de Zoom, etc.)",
+    "issueType": "Sub-task",
+    "parentId": "246",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver detalle (Dirección, link de Zoom, etc.)",
+    "description": "Sub-tarea del área Frontend para la historia: Ver detalle (Dirección, link de Zoom, etc.)",
+    "issueType": "Sub-task",
+    "parentId": "246",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Recibir recordatorio por WhatsApp (24hs)",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "249",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Recibir recordatorio por WhatsApp (24hs)",
+    "description": "Sub-tarea del área Frontend para la historia: Recibir recordatorio por WhatsApp (24hs)",
+    "issueType": "Sub-task",
+    "parentId": "249",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Recibir recordatorio por WhatsApp (24hs)",
+    "description": "Sub-tarea del área Backend para la historia: Recibir recordatorio por WhatsApp (24hs)",
+    "issueType": "Sub-task",
+    "parentId": "249",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Seleccionar el servicio deseado",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "252",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Seleccionar el servicio deseado",
+    "description": "Sub-tarea del área Frontend para la historia: Seleccionar el servicio deseado",
+    "issueType": "Sub-task",
+    "parentId": "252",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Seleccionar el servicio deseado",
+    "description": "Sub-tarea del área Backend para la historia: Seleccionar el servicio deseado",
+    "issueType": "Sub-task",
+    "parentId": "252",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver estado de pagos / señas realizadas",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Autogestión de turnos\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "255",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver estado de pagos / señas realizadas",
+    "description": "Sub-tarea del área Backend para la historia: Ver estado de pagos / señas realizadas",
+    "issueType": "Sub-task",
+    "parentId": "255",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver estado de pagos / señas realizadas",
+    "description": "Sub-tarea del área Frontend para la historia: Ver estado de pagos / señas realizadas",
+    "issueType": "Sub-task",
+    "parentId": "255",
+    "labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Filtrar servicios por categoría",
+    "description": "*Rol:* Cliente Paciente\n*Categoría:* Exploración y reserva\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "258",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Filtrar servicios por categoría",
+    "description": "Sub-tarea del área Frontend para la historia: Filtrar servicios por categoría",
+    "issueType": "Sub-task",
+    "parentId": "258",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Filtrar servicios por categoría",
+    "description": "Sub-tarea del área Backend para la historia: Filtrar servicios por categoría",
+    "issueType": "Sub-task",
+    "parentId": "258",
+    "labels": [
+      "ClientePaciente",
+      "ExploracionYReserva",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar perfil del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "261",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Configurar perfil del local",
+    "description": "Sub-tarea del área Backend para la historia: Configurar perfil del local",
+    "issueType": "Sub-task",
+    "parentId": "261",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Configurar perfil del local",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar perfil del local",
+    "issueType": "Sub-task",
+    "parentId": "261",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Administrar Staff (Empleados)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "264",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Administrar Staff (Empleados)",
+    "description": "Sub-tarea del área Backend para la historia: Administrar Staff (Empleados)",
+    "issueType": "Sub-task",
+    "parentId": "264",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Administrar Staff (Empleados)",
+    "description": "Sub-tarea del área Frontend para la historia: Administrar Staff (Empleados)",
+    "issueType": "Sub-task",
+    "parentId": "264",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Asignar servicios y horarios",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "267",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Asignar servicios y horarios",
+    "description": "Sub-tarea del área Frontend para la historia: Asignar servicios y horarios",
+    "issueType": "Sub-task",
+    "parentId": "267",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Asignar servicios y horarios",
+    "description": "Sub-tarea del área Backend para la historia: Asignar servicios y horarios",
+    "issueType": "Sub-task",
+    "parentId": "267",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Monitorear agenda unificada",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "270",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Monitorear agenda unificada",
+    "description": "Sub-tarea del área Frontend para la historia: Monitorear agenda unificada",
+    "issueType": "Sub-task",
+    "parentId": "270",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Monitorear agenda unificada",
+    "description": "Sub-tarea del área Backend para la historia: Monitorear agenda unificada",
+    "issueType": "Sub-task",
+    "parentId": "270",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Gestión administrativa",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "273",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Gestión administrativa",
+    "description": "Sub-tarea del área Frontend para la historia: Gestión administrativa",
+    "issueType": "Sub-task",
+    "parentId": "273",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Gestión administrativa",
+    "description": "Sub-tarea del área Backend para la historia: Gestión administrativa",
+    "issueType": "Sub-task",
+    "parentId": "273",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Base de clientes compartida",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "276",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Base de clientes compartida",
+    "description": "Sub-tarea del área Frontend para la historia: Base de clientes compartida",
+    "issueType": "Sub-task",
+    "parentId": "276",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Base de clientes compartida",
+    "description": "Sub-tarea del área Backend para la historia: Base de clientes compartida",
+    "issueType": "Sub-task",
+    "parentId": "276",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Analítica de negocio",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "279",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Analítica de negocio",
+    "description": "Sub-tarea del área Frontend para la historia: Analítica de negocio",
+    "issueType": "Sub-task",
+    "parentId": "279",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Analítica de negocio",
+    "description": "Sub-tarea del área Backend para la historia: Analítica de negocio",
+    "issueType": "Sub-task",
+    "parentId": "279",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Rendimiento por empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "282",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Rendimiento por empleado",
+    "description": "Sub-tarea del área Frontend para la historia: Rendimiento por empleado",
+    "issueType": "Sub-task",
+    "parentId": "282",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Rendimiento por empleado",
+    "description": "Sub-tarea del área Backend para la historia: Rendimiento por empleado",
+    "issueType": "Sub-task",
+    "parentId": "282",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Exportación de datos",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "285",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Exportación de datos",
+    "description": "Sub-tarea del área Frontend para la historia: Exportación de datos",
+    "issueType": "Sub-task",
+    "parentId": "285",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Exportación de datos",
+    "description": "Sub-tarea del área Backend para la historia: Exportación de datos",
+    "issueType": "Sub-task",
+    "parentId": "285",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cargar nombre, logo y dirección del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "288",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Cargar nombre, logo y dirección del local",
+    "description": "Sub-tarea del área Frontend para la historia: Cargar nombre, logo y dirección del local",
+    "issueType": "Sub-task",
+    "parentId": "288",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Cargar nombre, logo y dirección del local",
+    "description": "Sub-tarea del área Backend para la historia: Cargar nombre, logo y dirección del local",
+    "issueType": "Sub-task",
+    "parentId": "288",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Invitar profesionales por email",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "291",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Invitar profesionales por email",
+    "description": "Sub-tarea del área Frontend para la historia: Invitar profesionales por email",
+    "issueType": "Sub-task",
+    "parentId": "291",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Invitar profesionales por email",
+    "description": "Sub-tarea del área Backend para la historia: Invitar profesionales por email",
+    "issueType": "Sub-task",
+    "parentId": "291",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir qué servicios da cada empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "294",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Definir qué servicios da cada empleado",
+    "description": "Sub-tarea del área Backend para la historia: Definir qué servicios da cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "294",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Definir qué servicios da cada empleado",
+    "description": "Sub-tarea del área Frontend para la historia: Definir qué servicios da cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "294",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver calendario con todos los turnos de todos los empleados",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "297",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver calendario con todos los turnos de todos los empleados",
+    "description": "Sub-tarea del área Backend para la historia: Ver calendario con todos los turnos de todos los empleados",
+    "issueType": "Sub-task",
+    "parentId": "297",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver calendario con todos los turnos de todos los empleados",
+    "description": "Sub-tarea del área Frontend para la historia: Ver calendario con todos los turnos de todos los empleados",
+    "issueType": "Sub-task",
+    "parentId": "297",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Reasignar turno de un empleado a otro",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "300",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Reasignar turno de un empleado a otro",
+    "description": "Sub-tarea del área Frontend para la historia: Reasignar turno de un empleado a otro",
+    "issueType": "Sub-task",
+    "parentId": "300",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Reasignar turno de un empleado a otro",
+    "description": "Sub-tarea del área Backend para la historia: Reasignar turno de un empleado a otro",
+    "issueType": "Sub-task",
+    "parentId": "300",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver base de datos de clientes del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "303",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver base de datos de clientes del local",
+    "description": "Sub-tarea del área Backend para la historia: Ver base de datos de clientes del local",
+    "issueType": "Sub-task",
+    "parentId": "303",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver base de datos de clientes del local",
+    "description": "Sub-tarea del área Frontend para la historia: Ver base de datos de clientes del local",
+    "issueType": "Sub-task",
+    "parentId": "303",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver total de turnos (Atendidos vs Cancelados)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "306",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver total de turnos (Atendidos vs Cancelados)",
+    "description": "Sub-tarea del área Backend para la historia: Ver total de turnos (Atendidos vs Cancelados)",
+    "issueType": "Sub-task",
+    "parentId": "306",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver total de turnos (Atendidos vs Cancelados)",
+    "description": "Sub-tarea del área Frontend para la historia: Ver total de turnos (Atendidos vs Cancelados)",
+    "issueType": "Sub-task",
+    "parentId": "306",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver cantidad de turnos por profesional",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "309",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver cantidad de turnos por profesional",
+    "description": "Sub-tarea del área Backend para la historia: Ver cantidad de turnos por profesional",
+    "issueType": "Sub-task",
+    "parentId": "309",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver cantidad de turnos por profesional",
+    "description": "Sub-tarea del área Frontend para la historia: Ver cantidad de turnos por profesional",
+    "issueType": "Sub-task",
+    "parentId": "309",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Exportar base de datos de clientes",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "312",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Generación de archivo (Excel/CSV) para Exportar base de datos de clientes",
+    "description": "Sub-tarea del área Backend para la historia: Exportar base de datos de clientes",
+    "issueType": "Sub-task",
+    "parentId": "312",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descarga de archivos desde UI",
+    "description": "Sub-tarea del área Frontend para la historia: Exportar base de datos de clientes",
+    "issueType": "Sub-task",
+    "parentId": "312",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Generar link público general del negocio",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "315",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Generar link público general del negocio",
+    "description": "Sub-tarea del área Frontend para la historia: Generar link público general del negocio",
+    "issueType": "Sub-task",
+    "parentId": "315",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Generar link público general del negocio",
+    "description": "Sub-tarea del área Backend para la historia: Generar link público general del negocio",
+    "issueType": "Sub-task",
+    "parentId": "315",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear/Editar perfil del empleado (Foto, rol)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "318",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "API CRUD para Crear/Editar perfil del empleado (Foto, rol)",
+    "description": "Sub-tarea del área Backend para la historia: Crear/Editar perfil del empleado (Foto, rol)",
+    "issueType": "Sub-task",
+    "parentId": "318",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Formulario y validaciones UI para Crear/Editar perfil del empleado (Foto, rol)",
+    "description": "Sub-tarea del área Frontend para la historia: Crear/Editar perfil del empleado (Foto, rol)",
+    "issueType": "Sub-task",
+    "parentId": "318",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar días/horarios de cada empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar días/horarios de cada empleado",
+    "description": "Sub-tarea del área Backend para la historia: Configurar días/horarios de cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar días/horarios de cada empleado",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar días/horarios de cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Configurar días/horarios de cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "321",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Filtrar vista por empleado específico",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "325",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Filtrar vista por empleado específico",
+    "description": "Sub-tarea del área Frontend para la historia: Filtrar vista por empleado específico",
+    "issueType": "Sub-task",
+    "parentId": "325",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Filtrar vista por empleado específico",
+    "description": "Sub-tarea del área Backend para la historia: Filtrar vista por empleado específico",
+    "issueType": "Sub-task",
+    "parentId": "325",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Bloquear agenda de empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "328",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Bloquear agenda de empleado",
+    "description": "Sub-tarea del área Frontend para la historia: Bloquear agenda de empleado",
+    "issueType": "Sub-task",
+    "parentId": "328",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Bloquear agenda de empleado",
+    "description": "Sub-tarea del área Backend para la historia: Bloquear agenda de empleado",
+    "issueType": "Sub-task",
+    "parentId": "328",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial global del cliente en el local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "331",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver historial global del cliente en el local",
+    "description": "Sub-tarea del área Backend para la historia: Ver historial global del cliente en el local",
+    "issueType": "Sub-task",
+    "parentId": "331",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver historial global del cliente en el local",
+    "description": "Sub-tarea del área Frontend para la historia: Ver historial global del cliente en el local",
+    "issueType": "Sub-task",
+    "parentId": "331",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver ingresos estimados del mes",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "334",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver ingresos estimados del mes",
+    "description": "Sub-tarea del área Backend para la historia: Ver ingresos estimados del mes",
+    "issueType": "Sub-task",
+    "parentId": "334",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver ingresos estimados del mes",
+    "description": "Sub-tarea del área Frontend para la historia: Ver ingresos estimados del mes",
+    "issueType": "Sub-task",
+    "parentId": "334",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Ver ingresos generados por cada empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "337",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver ingresos generados por cada empleado",
+    "description": "Sub-tarea del área Backend para la historia: Ver ingresos generados por cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "337",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver ingresos generados por cada empleado",
+    "description": "Sub-tarea del área Frontend para la historia: Ver ingresos generados por cada empleado",
+    "issueType": "Sub-task",
+    "parentId": "337",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Exportar liquidación mensual a Excel/CSV",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "340",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Generación de archivo (Excel/CSV) para Exportar liquidación mensual a Excel/CSV",
+    "description": "Sub-tarea del área Backend para la historia: Exportar liquidación mensual a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "340",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Descarga de archivos desde UI",
+    "description": "Sub-tarea del área Frontend para la historia: Exportar liquidación mensual a Excel/CSV",
+    "issueType": "Sub-task",
+    "parentId": "340",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Configurar horarios de apertura del local",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Lógica de persistencia para Configurar horarios de apertura del local",
+    "description": "Sub-tarea del área Backend para la historia: Configurar horarios de apertura del local",
+    "issueType": "Sub-task",
+    "parentId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Interfaz de configuración para Configurar horarios de apertura del local",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar horarios de apertura del local",
+    "issueType": "Sub-task",
+    "parentId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Validación de conflictos de horarios",
+    "description": "Sub-tarea del área Backend para la historia: Configurar horarios de apertura del local",
+    "issueType": "Sub-task",
+    "parentId": "343",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Dar de baja/Suspender a un empleado",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "347",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Dar de baja/Suspender a un empleado",
+    "description": "Sub-tarea del área Frontend para la historia: Dar de baja/Suspender a un empleado",
+    "issueType": "Sub-task",
+    "parentId": "347",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Dar de baja/Suspender a un empleado",
+    "description": "Sub-tarea del área Backend para la historia: Dar de baja/Suspender a un empleado",
+    "issueType": "Sub-task",
+    "parentId": "347",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Asignar roles (Admin general vs. Empleado)",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Configuración de negocio y staff\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "350",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Asignar roles (Admin general vs. Empleado)",
+    "description": "Sub-tarea del área Frontend para la historia: Asignar roles (Admin general vs. Empleado)",
+    "issueType": "Sub-task",
+    "parentId": "350",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Asignar roles (Admin general vs. Empleado)",
+    "description": "Sub-tarea del área Backend para la historia: Asignar roles (Admin general vs. Empleado)",
+    "issueType": "Sub-task",
+    "parentId": "350",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Filtrar vista por servicio",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "353",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Filtrar vista por servicio",
+    "description": "Sub-tarea del área Frontend para la historia: Filtrar vista por servicio",
+    "issueType": "Sub-task",
+    "parentId": "353",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Filtrar vista por servicio",
+    "description": "Sub-tarea del área Backend para la historia: Filtrar vista por servicio",
+    "issueType": "Sub-task",
+    "parentId": "353",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear turno manual",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "356",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Crear turno manual",
+    "description": "Sub-tarea del área Frontend para la historia: Crear turno manual",
+    "issueType": "Sub-task",
+    "parentId": "356",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Crear turno manual",
+    "description": "Sub-tarea del área Backend para la historia: Crear turno manual",
+    "issueType": "Sub-task",
+    "parentId": "356",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Añadir notas internas al perfil del cliente",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Supervisión global de la agenda\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "359",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ]
+  },
+  {
+    "summary": "Desarrollo funcional de Añadir notas internas al perfil del cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Añadir notas internas al perfil del cliente",
+    "issueType": "Sub-task",
+    "parentId": "359",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar servicios necesarios para Añadir notas internas al perfil del cliente",
+    "description": "Sub-tarea del área Backend para la historia: Añadir notas internas al perfil del cliente",
+    "issueType": "Sub-task",
+    "parentId": "359",
+    "labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver servicios más populares",
+    "description": "*Rol:* Grupo de profesionales\n*Categoría:* Reportes y métricas\n\n",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "362",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ]
+  },
+  {
+    "summary": "Endpoint de consulta para Ver servicios más populares",
+    "description": "Sub-tarea del área Backend para la historia: Ver servicios más populares",
+    "issueType": "Sub-task",
+    "parentId": "362",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Implementar vista/componente para Ver servicios más populares",
+    "description": "Sub-tarea del área Frontend para la historia: Ver servicios más populares",
+    "issueType": "Sub-task",
+    "parentId": "362",
+    "labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas",
+      "Frontend"
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "Numero": null,
+    "Titulo": "Registro de cliente",
+    "Prioridad": null,
+    "Estimacion": "2",
+    "Descripcion": "Como persona que quiere reservar un turno\nquiero registrarme en la plataforma con mis datos básicos\npara poder gestionar mis reservas y recibir recordatorios",
+    "Criterios de aceptacion": "- El cliente puede registrarse con nombre, email, contraseña y número de WhatsApp.\n- El email debe ser único en el sistema.\n- El número de WhatsApp es obligatorio para poder recibir recordatorios. En caso de no completarlo, no se recibirá notificacion.\n- Al registrarse exitosamente, se redirige a la búsqueda o perfil del profesional.\n- Si el email ya está registrado, se muestra un mensaje de error.\n- La contraseña tiene un mínimo de 8 caracteres."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Registro de profesional",
+    "Prioridad": null,
+    "Estimacion": "2",
+    "Descripcion": "Como profesional independiente\nquiero registrarme en la plataforma con mis datos básicos\npara poder configurar mi agenda y empezar a recibir turnos",
+    "Criterios de aceptacion": "El profesional puede registrarse con nombre, email y contraseña.\nEl email debe ser único en el sistema.\nLa contraseña tiene un mínimo de 8 caracteres.\nAl registrarse exitosamente, se redirige al panel del profesional.\nSi el email ya está registrado, se muestra un mensaje de error."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Inicio de Sesión",
+    "Prioridad": null,
+    "Estimacion": "2",
+    "Descripcion": "Como usuario registrado (profesional o cliente)\nquiero iniciar sesión con mi email y contraseña\npara acceder a mi cuenta y mis funcionalidades correspondientes",
+    "Criterios de aceptacion": "- El cliente puede ver el calendario de disponibilidad del profesional.\n- El cliente puede seleccionar una franja horaria y confirmar la reserva.\n- Al confirmar, el turno queda registrado y la franja se marca como ocupada si ya completó el cupo.\n- No es posible reservar una franja que ya está ocupada.\n- El cliente recibe confirmación de la reserva en pantalla."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Cancelar Turno Reservado",
+    "Prioridad": null,
+    "Estimacion": "3",
+    "Descripcion": "Como plataforma con dos tipos de usuarios\nquiero que cada rol acceda únicamente a las funcionalidades que le corresponden\npara que los clientes no puedan hacer cosas de profesionales y viceversa",
+    "Criterios de aceptacion": "El cliente puede ver sus turnos próximos desde su cuenta.\nEl cliente puede cancelar un turno y el horario vuelve a quedar disponible.\nEl profesional recibe una notificación cuando un cliente cancela.\nEl cliente ve confirmación de la cancelación en pantalla."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Definir horarios de atencion y longitud de turnos",
+    "Prioridad": null,
+    "Estimacion": "5",
+    "Descripcion": "Como profesional registrado en la plataforma\nquiero configurar mis días y franjas horarias disponibles\npara que los clientes solo puedan reservar en los horarios que yo habilito",
+    "Criterios de aceptacion": "El profesional puede seleccionar qué días de la semana atiende.\nEl profesional puede definir el horario de inicio y fin de su jornada.\nEl profesional puede seleccionar la duración de cada turno a partir de un listado de opciones predefinidas.\nLas franjas se generan automáticamente a partir del horario y la duración elegida.\nEl profesional puede configurar cuántos clientes atiende por franja.\nLos clientes solo ven como disponibles las franjas habilitadas.\nLos cambios no afectan reservas ya existentes."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Visualizar Agenda de Turnos",
+    "Prioridad": null,
+    "Estimacion": "5",
+    "Descripcion": "Como profesional registrado en la plataforma\nquiero ver un panel con todos mis turnos reservados\npara organizar mi jornada y saber quién viene y cuándo",
+    "Criterios de aceptacion": "El profesional ve una lista con turnos reservados y disponibles.\nPuede filtrar la vista por día o semana.\nCada turno muestra nombre del cliente, horario y estado.\nLa agenda se actualiza automáticamente ante nuevas reservas o cancelaciones."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Realizar seña para confirmar turno",
+    "Prioridad": null,
+    "Estimacion": "8",
+    "Descripcion": "Como cliente que quiere reservar un turno\nquiero poder pagar una seña al momento de la reserva\npara confirmar mi lugar y garantizar el turno",
+    "Criterios de aceptacion": "El profesional puede configurar si requiere seña para confirmar turnos y el monto.\nSi el profesional requiere seña, el cliente debe abonarla para completar la reserva.\nEl pago se mockea, no se necesita un procesador de pagos real para el MVP\nUna vez abonada la seña, el cliente recibe confirmación del pago y la reserva.\nEl profesional recibe una notificación cuando se realiza una seña exitosa.\nSi el profesional no requiere seña, la reserva se confirma sin pasar por el flujo de pago."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Recover de contraseñas",
+    "Prioridad": null,
+    "Estimacion": "3",
+    "Descripcion": "Como usuario que olvidó su contraseña\nquiero poder recuperar el acceso a mi cuenta vía email\npara no perder mi cuenta ni tener que registrarme de nuevo",
+    "Criterios de aceptacion": "El usuario puede solicitar un reseteo de contraseña desde el login ingresando su email.\nSi el email existe, se envía un link de recuperación.\nEl link expira después de 24 horas.\nAl usar el link, el usuario puede ingresar y confirmar una nueva contraseña.\nSi el email no está registrado, se muestra un mensaje genérico sin revelar si existe o no."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Integracion Google calendar",
+    "Prioridad": null,
+    "Estimacion": "8",
+    "Descripcion": "Como usuario que reservo un turno\nquiero que me de la opcion de agendar ese turno en mi calendario de Google\npara tener el recordatorio fuera de la aplicacion",
+    "Criterios de aceptacion": "Al hacer una reserva, se debe ver la informacion en Google calendar correctamente\nEl turno debe reservarse igual aun si el usuario no lo agenda en Google Calendar"
+  },
+  {
+    "Numero": null,
+    "Titulo": "Recibir Recordatorio por whatsapp",
+    "Prioridad": null,
+    "Estimacion": "13",
+    "Descripcion": "Como plataforma que gestiona turnos\nquiero enviar un recordatorio automático por WhatsApp al cliente 24 horas antes de su turno\npara reducir el ausentismo y que el cliente no se olvide de su cita",
+    "Criterios de aceptacion": "El recordatorio se envía automáticamente 24 horas antes del turno reservado.\nEl mensaje incluye fecha, horario y nombre del profesional.\nSolo se envía si el cliente tiene número de WhatsApp cargado en su cuenta.\nSi el turno fue cancelado antes de las 24 horas, no se envía el recordatorio.\nEl profesional puede activar o desactivar el envío de recordatorios desde su configuración."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Marcar asistencia a clientes",
+    "Prioridad": null,
+    "Estimacion": "2",
+    "Descripcion": "Como profesional que gestiona turnos\nquiero poder marcar si un cliente asistió o no a su turno\npara llevar un registro de inasistencias y tener visibilidad real de mi agenda",
+    "Criterios de aceptacion": "El profesional puede marcar un turno como \"asistió\" o \"no asistió\" una vez pasado el horario del turno.\nNo se puede marcar asistencia de un turno que todavía no ocurrió.\nLos turnos cancelados no permiten registro de asistencia.\nEl estado de asistencia queda visible en la agenda del profesional junto al turno.\nEl profesional puede modificar el registro de asistencia en caso de error."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Suspender o dar de baja a un empleado",
+    "Prioridad": null,
+    "Estimacion": null,
+    "Descripcion": "Como administrador del local\nquiero poder suspender temporalmente o dar de baja a un empleado\npara gestionar el staff cuando alguien deja de trabajar o se ausenta",
+    "Criterios de aceptacion": "- El administrador puede suspender a un empleado: deja de aparecer como reservable pero conserva sus datos.\n- Puede reactivar un empleado suspendido en cualquier momento.\n- Puede dar de baja a un empleado: se desvincula del local pero los turnos pasados quedan en el historial.\n- Los turnos futuros del empleado dado de baja deben ser reasignados o cancelados antes de la baja."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Editar y previsualizar perfil profesional",
+    "Prioridad": null,
+    "Estimacion": "3",
+    "Descripcion": "Como profesional ya configurado\nquiero editar mi perfil y previsualizar cómo lo ven los clientes\npara asegurarme de que la información sea correcta antes de publicarla",
+    "Criterios de aceptacion": "- El profesional puede modificar cualquier dato de su perfil en cualquier momento.\n- Los cambios impactan inmediatamente en el perfil público.\n- Existe una vista de previsualización que muestra el perfil tal como lo ve un cliente.\n- No se afectan turnos ya reservados al editar el perfil."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Generar link público de reservas",
+    "Prioridad": null,
+    "Estimacion": "5",
+    "Descripcion": "Como profesional\nquiero obtener un link público único para mi perfil\npara compartirlo con clientes por WhatsApp, redes o web y que puedan reservar",
+    "Criterios de aceptacion": "- El sistema genera automáticamente una URL pública única por profesional.\n- El profesional puede copiar el link desde su panel con un botón.\n- El link redirige a la vista pública del profesional con sus servicios y disponibilidad.\n- El link es accesible sin necesidad de estar logueado.\n- Si el profesional pausa su agenda, el link sigue accesible pero indica que no hay disponibilidad."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Bloquear fechas (vacaciones/feriados)",
+    "Prioridad": null,
+    "Estimacion": "8",
+    "Descripcion": "Como profesional\nquiero bloquear fechas o rangos de días en mi agenda\npara que los clientes no puedan reservar durante mis vacaciones o feriados",
+    "Criterios de aceptacion": "- El profesional puede seleccionar fechas individuales o rangos de fechas a bloquear.\n- Las fechas bloqueadas no aparecen como disponibles en el perfil público.\n- Si hay turnos ya reservados en las fechas bloqueadas, el sistema avisa al profesional para gestionarlos.\n- Puede desbloquear fechas en cualquier momento.\n- Los bloqueos quedan visibles en su panel."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Cancelar turno de cliente",
+    "Prioridad": null,
+    "Estimacion": "3",
+    "Descripcion": "Como profesional\nquiero poder cancelar el turno de un cliente desde mi panel\npara gestionar imprevistos o cierres de agenda",
+    "Criterios de aceptacion": "- El profesional puede cancelar cualquier turno futuro desde la agenda.\n- Al cancelar, debe ingresar un motivo (opcional o predefinido).\n- El cliente recibe notificación de la cancelación por email y WhatsApp (si tiene).\n- La franja horaria queda nuevamente disponible.\n- Si el cliente abonó seña, se dispara el flujo de reembolso."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Ver historial y notas del cliente",
+    "Prioridad": null,
+    "Estimacion": "2",
+    "Descripcion": "Como profesional\nquiero exportar mis turnos del mes a Excel o CSV\npara llevar registros contables o administrativos fuera de la plataforma",
+    "Criterios de aceptacion": "- El profesional puede seleccionar un rango de fechas a exportar.\n- El archivo descargado incluye: fecha, horario, cliente, servicio, estado de asistencia y seña.\n- El formato puede ser Excel (.xlsx) o CSV.\n- La descarga se inicia automáticamente al confirmar."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Editar datos personales",
+    "Prioridad": null,
+    "Estimacion": "2",
+    "Descripcion": "Como cliente registrado\nquiero poder editar mis datos personales o eliminar mi cuenta\npara mantener mi información actualizada o darme de baja",
+    "Criterios de aceptacion": "- El cliente puede editar nombre, celular/WhatsApp y email desde su perfil.\n- Si cambia el email, debe validarlo nuevamente.\n- Puede eliminar su cuenta desde la configuración con confirmación previa.\n- Al eliminar la cuenta, los turnos futuros se cancelan automáticamente y se notifica a los profesionales.\n- Los datos personales se anonimizan, manteniendo solo lo necesario para registros del profesional."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Seleccionar servicio al reservar",
+    "Prioridad": null,
+    "Estimacion": "3",
+    "Descripcion": "Como cliente\nquiero seleccionar el servicio que quiero reservar antes de elegir el horario\npara que el turno quede asociado al servicio correcto",
+    "Criterios de aceptacion": "- El cliente ve la lista de servicios disponibles del profesional.\n- Puede filtrar servicios por categoría (si el profesional las definió).\n- Al seleccionar un servicio, ve los horarios disponibles según la duración del mismo.\n- El servicio elegido queda registrado en la reserva final.\n- Si el servicio requiere seña, se muestra el monto antes de confirmar."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Configurar perfil del local",
+    "Prioridad": null,
+    "Estimacion": "5",
+    "Descripcion": "Como administrador de un local con varios profesionales\nquiero cargar los datos del local (nombre, logo, dirección, horarios)\npara que los clientes vean la información del negocio en lugar de un profesional individual",
+    "Criterios de aceptacion": "- El administrador puede cargar nombre del local, logo, dirección y horarios de apertura.\n- El sistema genera un link público general del negocio.\n- El perfil público del local muestra todos los profesionales del staff con sus servicios.\n- Los horarios de apertura del local limitan los horarios disponibles de los empleados.\n- El administrador puede editar los datos del local en cualquier momento."
+  },
+  {
+    "Numero": null,
+    "Titulo": "Crear y editar perfil de empleado",
+    "Prioridad": null,
+    "Estimacion": "3",
+    "Descripcion": "Como administrador del local\nquiero crear y editar el perfil de cada empleado (foto, rol, descripción)\npara que los clientes puedan elegir con qué profesional atenderse",
+    "Criterios de aceptacion": "- El administrador puede editar nombre, foto, especialidad y descripción de cada empleado.\n- Los datos del empleado se reflejan en el perfil público del local.\n- El empleado puede editar su propio perfil si tiene permisos.\n- Los cambios no afectan turnos ya reservados con ese empleado."
+  },
+  {
+    "Numero": null,
+    "Titulo": null,
+    "Prioridad": null,
+    "Estimacion": null,
+    "Descripcion": "Como \nquiero\npara",
+    "Criterios de aceptacion": null
+  },
+  {
+    "Numero": null,
+    "Titulo": null,
+    "Prioridad": null,
+    "Estimacion": null,
+    "Descripcion": "Como \nquiero\npara",
+    "Criterios de aceptacion": null
+  },
+  {
+    "Numero": null,
+    "Titulo": null,
+    "Prioridad": null,
+    "Estimacion": null,
+    "Descripcion": "Como \nquiero\npara",
+    "Criterios de aceptacion": null
+  },
+  {
+    "Numero": null,
+    "Titulo": null,
+    "Prioridad": null,
+    "Estimacion": null,
+    "Descripcion": "Como \nquiero\npara",
+    "Criterios de aceptacion": null
+  },
+  {
+    "Numero": null,
+    "Titulo": null,
+    "Prioridad": null,
+    "Estimacion": null,
+    "Descripcion": "Como \nquiero\npara",
+    "Criterios de aceptacion": null
+  }
+]

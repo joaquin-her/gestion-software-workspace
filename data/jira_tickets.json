@@ -1,0 +1,589 @@
+[
+  {
+    "summary": "Registro de cliente",
+    "description": "Como persona que quiere reservar un turno\nquiero registrarme en la plataforma con mis datos básicos\npara poder gestionar mis reservas y recibir recordatorios\n\n*Criterios de Aceptación:*\n- El cliente puede registrarse con nombre, email, contraseña y número de WhatsApp.\n- El email debe ser único en el sistema.\n- El número de WhatsApp es obligatorio para poder recibir recordatorios. En caso de no completarlo, no se recibirá notificacion.\n- Al registrarse exitosamente, se redirige a la búsqueda o perfil del profesional.\n- Si el email ya está registrado, se muestra un mensaje de error.\n- La contraseña tiene un mínimo de 8 caracteres.",
+    "issueType": "Story",
+    "storyPoints": 2,
+    "issueId": "1"
+  },
+  {
+    "summary": "Diseñar e implementar formulario de registro UI",
+    "description": "Sub-tarea del área Frontend para la historia: Registro de cliente",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint POST /api/register/cliente",
+    "description": "Sub-tarea del área Backend para la historia: Registro de cliente",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar modelo y migraciones para Cliente",
+    "description": "Sub-tarea del área BaseDeDatos para la historia: Registro de cliente",
+    "issueType": "Sub-task",
+    "parentId": "1",
+    "labels": [
+      "BaseDeDatos"
+    ]
+  },
+  {
+    "summary": "Registro de profesional",
+    "description": "Como profesional independiente\nquiero registrarme en la plataforma con mis datos básicos\npara poder configurar mi agenda y empezar a recibir turnos\n\n*Criterios de Aceptación:*\nEl profesional puede registrarse con nombre, email y contraseña.\nEl email debe ser único en el sistema.\nLa contraseña tiene un mínimo de 8 caracteres.\nAl registrarse exitosamente, se redirige al panel del profesional.\nSi el email ya está registrado, se muestra un mensaje de error.",
+    "issueType": "Story",
+    "storyPoints": 2,
+    "issueId": "5"
+  },
+  {
+    "summary": "Diseñar e implementar formulario de registro profesional UI",
+    "description": "Sub-tarea del área Frontend para la historia: Registro de profesional",
+    "issueType": "Sub-task",
+    "parentId": "5",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint POST /api/register/profesional",
+    "description": "Sub-tarea del área Backend para la historia: Registro de profesional",
+    "issueType": "Sub-task",
+    "parentId": "5",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Inicio de Sesión",
+    "description": "Como usuario registrado (profesional o cliente)\nquiero iniciar sesión con mi email y contraseña\npara acceder a mi cuenta y mis funcionalidades correspondientes\n\n*Criterios de Aceptación:*\n- El cliente puede ver el calendario de disponibilidad del profesional.\n- El cliente puede seleccionar una franja horaria y confirmar la reserva.\n- Al confirmar, el turno queda registrado y la franja se marca como ocupada si ya completó el cupo.\n- No es posible reservar una franja que ya está ocupada.\n- El cliente recibe confirmación de la reserva en pantalla.",
+    "issueType": "Story",
+    "storyPoints": 2,
+    "issueId": "8"
+  },
+  {
+    "summary": "Implementar vista de login y manejo de estado auth",
+    "description": "Sub-tarea del área Frontend para la historia: Inicio de Sesión",
+    "issueType": "Sub-task",
+    "parentId": "8",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint POST /api/login con generacion JWT",
+    "description": "Sub-tarea del área Backend para la historia: Inicio de Sesión",
+    "issueType": "Sub-task",
+    "parentId": "8",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cancelar Turno Reservado",
+    "description": "Como plataforma con dos tipos de usuarios\nquiero que cada rol acceda únicamente a las funcionalidades que le corresponden\npara que los clientes no puedan hacer cosas de profesionales y viceversa\n\n*Criterios de Aceptación:*\nEl cliente puede ver sus turnos próximos desde su cuenta.\nEl cliente puede cancelar un turno y el horario vuelve a quedar disponible.\nEl profesional recibe una notificación cuando un cliente cancela.\nEl cliente ve confirmación de la cancelación en pantalla.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "11"
+  },
+  {
+    "summary": "Agregar botón y modal de cancelación en UI del cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Cancelar Turno Reservado",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint DELETE/PUT /api/turnos/{id}/cancelar",
+    "description": "Sub-tarea del área Backend para la historia: Cancelar Turno Reservado",
+    "issueType": "Sub-task",
+    "parentId": "11",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Definir horarios de atencion y longitud de turnos",
+    "description": "Como profesional registrado en la plataforma\nquiero configurar mis días y franjas horarias disponibles\npara que los clientes solo puedan reservar en los horarios que yo habilito\n\n*Criterios de Aceptación:*\nEl profesional puede seleccionar qué días de la semana atiende.\nEl profesional puede definir el horario de inicio y fin de su jornada.\nEl profesional puede seleccionar la duración de cada turno a partir de un listado de opciones predefinidas.\nLas franjas se generan automáticamente a partir del horario y la duración elegida.\nEl profesional puede configurar cuántos clientes atiende por franja.\nLos clientes solo ven como disponibles las franjas habilitadas.\nLos cambios no afectan reservas ya existentes.",
+    "issueType": "Story",
+    "storyPoints": 5,
+    "issueId": "14"
+  },
+  {
+    "summary": "Diseñar interfaz de configuración de disponibilidad y días",
+    "description": "Sub-tarea del área Frontend para la historia: Definir horarios de atencion y longitud de turnos",
+    "issueType": "Sub-task",
+    "parentId": "14",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint PUT /api/profesional/disponibilidad",
+    "description": "Sub-tarea del área Backend para la historia: Definir horarios de atencion y longitud de turnos",
+    "issueType": "Sub-task",
+    "parentId": "14",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Diseñar esquema de BD para horarios y excepciones",
+    "description": "Sub-tarea del área BaseDeDatos para la historia: Definir horarios de atencion y longitud de turnos",
+    "issueType": "Sub-task",
+    "parentId": "14",
+    "labels": [
+      "BaseDeDatos"
+    ]
+  },
+  {
+    "summary": "Visualizar Agenda de Turnos",
+    "description": "Como profesional registrado en la plataforma\nquiero ver un panel con todos mis turnos reservados\npara organizar mi jornada y saber quién viene y cuándo\n\n*Criterios de Aceptación:*\nEl profesional ve una lista con turnos reservados y disponibles.\nPuede filtrar la vista por día o semana.\nCada turno muestra nombre del cliente, horario y estado.\nLa agenda se actualiza automáticamente ante nuevas reservas o cancelaciones.",
+    "issueType": "Story",
+    "storyPoints": 5,
+    "issueId": "18"
+  },
+  {
+    "summary": "Implementar vista de calendario/lista para la agenda del profesional",
+    "description": "Sub-tarea del área Frontend para la historia: Visualizar Agenda de Turnos",
+    "issueType": "Sub-task",
+    "parentId": "18",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint GET /api/turnos?profesionalId={id}",
+    "description": "Sub-tarea del área Backend para la historia: Visualizar Agenda de Turnos",
+    "issueType": "Sub-task",
+    "parentId": "18",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Realizar seña para confirmar turno",
+    "description": "Como cliente que quiere reservar un turno\nquiero poder pagar una seña al momento de la reserva\npara confirmar mi lugar y garantizar el turno\n\n*Criterios de Aceptación:*\nEl profesional puede configurar si requiere seña para confirmar turnos y el monto.\nSi el profesional requiere seña, el cliente debe abonarla para completar la reserva.\nEl pago se mockea, no se necesita un procesador de pagos real para el MVP\nUna vez abonada la seña, el cliente recibe confirmación del pago y la reserva.\nEl profesional recibe una notificación cuando se realiza una seña exitosa.\nSi el profesional no requiere seña, la reserva se confirma sin pasar por el flujo de pago.",
+    "issueType": "Story",
+    "storyPoints": 8,
+    "issueId": "21"
+  },
+  {
+    "summary": "Integrar flujo de pago simulado en la reserva del cliente",
+    "description": "Sub-tarea del área Frontend para la historia: Realizar seña para confirmar turno",
+    "issueType": "Sub-task",
+    "parentId": "21",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Actualizar endpoint de reserva para requerir y validar pago de seña",
+    "description": "Sub-tarea del área Backend para la historia: Realizar seña para confirmar turno",
+    "issueType": "Sub-task",
+    "parentId": "21",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recover de contraseñas",
+    "description": "Como usuario que olvidó su contraseña\nquiero poder recuperar el acceso a mi cuenta vía email\npara no perder mi cuenta ni tener que registrarme de nuevo\n\n*Criterios de Aceptación:*\nEl usuario puede solicitar un reseteo de contraseña desde el login ingresando su email.\nSi el email existe, se envía un link de recuperación.\nEl link expira después de 24 horas.\nAl usar el link, el usuario puede ingresar y confirmar una nueva contraseña.\nSi el email no está registrado, se muestra un mensaje genérico sin revelar si existe o no.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "24"
+  },
+  {
+    "summary": "Implementar vistas de 'Olvidé contraseña' y 'Nueva contraseña'",
+    "description": "Sub-tarea del área Frontend para la historia: Recover de contraseñas",
+    "issueType": "Sub-task",
+    "parentId": "24",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint POST /api/auth/recover y envío de email",
+    "description": "Sub-tarea del área Backend para la historia: Recover de contraseñas",
+    "issueType": "Sub-task",
+    "parentId": "24",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint POST /api/auth/reset con token",
+    "description": "Sub-tarea del área Backend para la historia: Recover de contraseñas",
+    "issueType": "Sub-task",
+    "parentId": "24",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Integracion Google calendar",
+    "description": "Como usuario que reservo un turno\nquiero que me de la opcion de agendar ese turno en mi calendario de Google\npara tener el recordatorio fuera de la aplicacion\n\n*Criterios de Aceptación:*\nAl hacer una reserva, se debe ver la informacion en Google calendar correctamente\nEl turno debe reservarse igual aun si el usuario no lo agenda en Google Calendar",
+    "issueType": "Story",
+    "storyPoints": 8,
+    "issueId": "28"
+  },
+  {
+    "summary": "Agregar botón 'Agregar a Google Calendar' en confirmación",
+    "description": "Sub-tarea del área Frontend para la historia: Integracion Google calendar",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar generación de link / .ics para Google Calendar",
+    "description": "Sub-tarea del área Backend para la historia: Integracion Google calendar",
+    "issueType": "Sub-task",
+    "parentId": "28",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Recibir Recordatorio por whatsapp",
+    "description": "Como plataforma que gestiona turnos\nquiero enviar un recordatorio automático por WhatsApp al cliente 24 horas antes de su turno\npara reducir el ausentismo y que el cliente no se olvide de su cita\n\n*Criterios de Aceptación:*\nEl recordatorio se envía automáticamente 24 horas antes del turno reservado.\nEl mensaje incluye fecha, horario y nombre del profesional.\nSolo se envía si el cliente tiene número de WhatsApp cargado en su cuenta.\nSi el turno fue cancelado antes de las 24 horas, no se envía el recordatorio.\nEl profesional puede activar o desactivar el envío de recordatorios desde su configuración.",
+    "issueType": "Story",
+    "storyPoints": 13,
+    "issueId": "31"
+  },
+  {
+    "summary": "Configurar CRON job o scheduler para buscar turnos próximos",
+    "description": "Sub-tarea del área Backend para la historia: Recibir Recordatorio por whatsapp",
+    "issueType": "Sub-task",
+    "parentId": "31",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Integrar API de mensajería para WhatsApp",
+    "description": "Sub-tarea del área Backend para la historia: Recibir Recordatorio por whatsapp",
+    "issueType": "Sub-task",
+    "parentId": "31",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Marcar asistencia a clientes",
+    "description": "Como profesional que gestiona turnos\nquiero poder marcar si un cliente asistió o no a su turno\npara llevar un registro de inasistencias y tener visibilidad real de mi agenda\n\n*Criterios de Aceptación:*\nEl profesional puede marcar un turno como \"asistió\" o \"no asistió\" una vez pasado el horario del turno.\nNo se puede marcar asistencia de un turno que todavía no ocurrió.\nLos turnos cancelados no permiten registro de asistencia.\nEl estado de asistencia queda visible en la agenda del profesional junto al turno.\nEl profesional puede modificar el registro de asistencia en caso de error.",
+    "issueType": "Story",
+    "storyPoints": 2,
+    "issueId": "34"
+  },
+  {
+    "summary": "Agregar acciones de 'Asistió'/'No asistió' en la agenda",
+    "description": "Sub-tarea del área Frontend para la historia: Marcar asistencia a clientes",
+    "issueType": "Sub-task",
+    "parentId": "34",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint PATCH /api/turnos/{id}/asistencia",
+    "description": "Sub-tarea del área Backend para la historia: Marcar asistencia a clientes",
+    "issueType": "Sub-task",
+    "parentId": "34",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Suspender o dar de baja a un empleado",
+    "description": "Como administrador del local\nquiero poder suspender temporalmente o dar de baja a un empleado\npara gestionar el staff cuando alguien deja de trabajar o se ausenta\n\n*Criterios de Aceptación:*\n- El administrador puede suspender a un empleado: deja de aparecer como reservable pero conserva sus datos.\n- Puede reactivar un empleado suspendido en cualquier momento.\n- Puede dar de baja a un empleado: se desvincula del local pero los turnos pasados quedan en el historial.\n- Los turnos futuros del empleado dado de baja deben ser reasignados o cancelados antes de la baja.",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "37"
+  },
+  {
+    "summary": "Agregar controles de gestión de estado de empleado en panel admin",
+    "description": "Sub-tarea del área Frontend para la historia: Suspender o dar de baja a un empleado",
+    "issueType": "Sub-task",
+    "parentId": "37",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint PATCH /api/admin/empleados/{id}/estado",
+    "description": "Sub-tarea del área Backend para la historia: Suspender o dar de baja a un empleado",
+    "issueType": "Sub-task",
+    "parentId": "37",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar y previsualizar perfil profesional",
+    "description": "Como profesional ya configurado\nquiero editar mi perfil y previsualizar cómo lo ven los clientes\npara asegurarme de que la información sea correcta antes de publicarla\n\n*Criterios de Aceptación:*\n- El profesional puede modificar cualquier dato de su perfil en cualquier momento.\n- Los cambios impactan inmediatamente en el perfil público.\n- Existe una vista de previsualización que muestra el perfil tal como lo ve un cliente.\n- No se afectan turnos ya reservados al editar el perfil.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "40"
+  },
+  {
+    "summary": "Implementar formulario de edición de perfil y vista previa",
+    "description": "Sub-tarea del área Frontend para la historia: Editar y previsualizar perfil profesional",
+    "issueType": "Sub-task",
+    "parentId": "40",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint PUT /api/profesional/perfil",
+    "description": "Sub-tarea del área Backend para la historia: Editar y previsualizar perfil profesional",
+    "issueType": "Sub-task",
+    "parentId": "40",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Generar link público de reservas",
+    "description": "Como profesional\nquiero obtener un link público único para mi perfil\npara compartirlo con clientes por WhatsApp, redes o web y que puedan reservar\n\n*Criterios de Aceptación:*\n- El sistema genera automáticamente una URL pública única por profesional.\n- El profesional puede copiar el link desde su panel con un botón.\n- El link redirige a la vista pública del profesional con sus servicios y disponibilidad.\n- El link es accesible sin necesidad de estar logueado.\n- Si el profesional pausa su agenda, el link sigue accesible pero indica que no hay disponibilidad.",
+    "issueType": "Story",
+    "storyPoints": 5,
+    "issueId": "43"
+  },
+  {
+    "summary": "Mostrar link público único en panel del profesional y opción de copiar",
+    "description": "Sub-tarea del área Frontend para la historia: Generar link público de reservas",
+    "issueType": "Sub-task",
+    "parentId": "43",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Implementar ruta pública /reserva/{username_o_slug}",
+    "description": "Sub-tarea del área Frontend para la historia: Generar link público de reservas",
+    "issueType": "Sub-task",
+    "parentId": "43",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Bloquear fechas (vacaciones/feriados)",
+    "description": "Como profesional\nquiero bloquear fechas o rangos de días en mi agenda\npara que los clientes no puedan reservar durante mis vacaciones o feriados\n\n*Criterios de Aceptación:*\n- El profesional puede seleccionar fechas individuales o rangos de fechas a bloquear.\n- Las fechas bloqueadas no aparecen como disponibles en el perfil público.\n- Si hay turnos ya reservados en las fechas bloqueadas, el sistema avisa al profesional para gestionarlos.\n- Puede desbloquear fechas en cualquier momento.\n- Los bloqueos quedan visibles en su panel.",
+    "issueType": "Story",
+    "storyPoints": 8,
+    "issueId": "46"
+  },
+  {
+    "summary": "Añadir selector de fechas bloqueadas en panel de configuración",
+    "description": "Sub-tarea del área Frontend para la historia: Bloquear fechas (vacaciones/feriados)",
+    "issueType": "Sub-task",
+    "parentId": "46",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint POST /api/profesional/bloqueos",
+    "description": "Sub-tarea del área Backend para la historia: Bloquear fechas (vacaciones/feriados)",
+    "issueType": "Sub-task",
+    "parentId": "46",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Cancelar turno de cliente",
+    "description": "Como profesional\nquiero poder cancelar el turno de un cliente desde mi panel\npara gestionar imprevistos o cierres de agenda\n\n*Criterios de Aceptación:*\n- El profesional puede cancelar cualquier turno futuro desde la agenda.\n- Al cancelar, debe ingresar un motivo (opcional o predefinido).\n- El cliente recibe notificación de la cancelación por email y WhatsApp (si tiene).\n- La franja horaria queda nuevamente disponible.\n- Si el cliente abonó seña, se dispara el flujo de reembolso.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "49"
+  },
+  {
+    "summary": "Añadir botón de cancelar con motivo en vista del profesional",
+    "description": "Sub-tarea del área Frontend para la historia: Cancelar turno de cliente",
+    "issueType": "Sub-task",
+    "parentId": "49",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Manejar notificaciones al cliente en la lógica de cancelación",
+    "description": "Sub-tarea del área Backend para la historia: Cancelar turno de cliente",
+    "issueType": "Sub-task",
+    "parentId": "49",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Ver historial y notas del cliente",
+    "description": "Como profesional\nquiero exportar mis turnos del mes a Excel o CSV\npara llevar registros contables o administrativos fuera de la plataforma\n\n*Criterios de Aceptación:*\n- El profesional puede seleccionar un rango de fechas a exportar.\n- El archivo descargado incluye: fecha, horario, cliente, servicio, estado de asistencia y seña.\n- El formato puede ser Excel (.xlsx) o CSV.\n- La descarga se inicia automáticamente al confirmar.",
+    "issueType": "Story",
+    "storyPoints": 2,
+    "issueId": "52"
+  },
+  {
+    "summary": "Implementar exportación CSV en frontend",
+    "description": "Sub-tarea del área Frontend para la historia: Ver historial y notas del cliente",
+    "issueType": "Sub-task",
+    "parentId": "52",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint GET /api/turnos/exportar que devuelva archivo",
+    "description": "Sub-tarea del área Backend para la historia: Ver historial y notas del cliente",
+    "issueType": "Sub-task",
+    "parentId": "52",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Editar datos personales",
+    "description": "Como cliente registrado\nquiero poder editar mis datos personales o eliminar mi cuenta\npara mantener mi información actualizada o darme de baja\n\n*Criterios de Aceptación:*\n- El cliente puede editar nombre, celular/WhatsApp y email desde su perfil.\n- Si cambia el email, debe validarlo nuevamente.\n- Puede eliminar su cuenta desde la configuración con confirmación previa.\n- Al eliminar la cuenta, los turnos futuros se cancelan automáticamente y se notifica a los profesionales.\n- Los datos personales se anonimizan, manteniendo solo lo necesario para registros del profesional.",
+    "issueType": "Story",
+    "storyPoints": 2,
+    "issueId": "55"
+  },
+  {
+    "summary": "Implementar vista de perfil de cliente con opciones de edición y eliminación",
+    "description": "Sub-tarea del área Frontend para la historia: Editar datos personales",
+    "issueType": "Sub-task",
+    "parentId": "55",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint PUT /api/cliente/perfil y DELETE /api/cliente",
+    "description": "Sub-tarea del área Backend para la historia: Editar datos personales",
+    "issueType": "Sub-task",
+    "parentId": "55",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Seleccionar servicio al reservar",
+    "description": "Como cliente\nquiero seleccionar el servicio que quiero reservar antes de elegir el horario\npara que el turno quede asociado al servicio correcto\n\n*Criterios de Aceptación:*\n- El cliente ve la lista de servicios disponibles del profesional.\n- Puede filtrar servicios por categoría (si el profesional las definió).\n- Al seleccionar un servicio, ve los horarios disponibles según la duración del mismo.\n- El servicio elegido queda registrado en la reserva final.\n- Si el servicio requiere seña, se muestra el monto antes de confirmar.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "58"
+  },
+  {
+    "summary": "Añadir paso previo de selección de servicio antes de los horarios",
+    "description": "Sub-tarea del área Frontend para la historia: Seleccionar servicio al reservar",
+    "issueType": "Sub-task",
+    "parentId": "58",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Modificar cálculo de franjas horarias considerando duración de servicio",
+    "description": "Sub-tarea del área Backend para la historia: Seleccionar servicio al reservar",
+    "issueType": "Sub-task",
+    "parentId": "58",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Configurar perfil del local",
+    "description": "Como administrador de un local con varios profesionales\nquiero cargar los datos del local (nombre, logo, dirección, horarios)\npara que los clientes vean la información del negocio en lugar de un profesional individual\n\n*Criterios de Aceptación:*\n- El administrador puede cargar nombre del local, logo, dirección y horarios de apertura.\n- El sistema genera un link público general del negocio.\n- El perfil público del local muestra todos los profesionales del staff con sus servicios.\n- Los horarios de apertura del local limitan los horarios disponibles de los empleados.\n- El administrador puede editar los datos del local en cualquier momento.",
+    "issueType": "Story",
+    "storyPoints": 5,
+    "issueId": "61"
+  },
+  {
+    "summary": "Implementar formulario para datos e imágenes del local",
+    "description": "Sub-tarea del área Frontend para la historia: Configurar perfil del local",
+    "issueType": "Sub-task",
+    "parentId": "61",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoint PUT /api/local/config",
+    "description": "Sub-tarea del área Backend para la historia: Configurar perfil del local",
+    "issueType": "Sub-task",
+    "parentId": "61",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": "Crear y editar perfil de empleado",
+    "description": "Como administrador del local\nquiero crear y editar el perfil de cada empleado (foto, rol, descripción)\npara que los clientes puedan elegir con qué profesional atenderse\n\n*Criterios de Aceptación:*\n- El administrador puede editar nombre, foto, especialidad y descripción de cada empleado.\n- Los datos del empleado se reflejan en el perfil público del local.\n- El empleado puede editar su propio perfil si tiene permisos.\n- Los cambios no afectan turnos ya reservados con ese empleado.",
+    "issueType": "Story",
+    "storyPoints": 3,
+    "issueId": "64"
+  },
+  {
+    "summary": "Añadir CRUD de empleados en el panel de administrador",
+    "description": "Sub-tarea del área Frontend para la historia: Crear y editar perfil de empleado",
+    "issueType": "Sub-task",
+    "parentId": "64",
+    "labels": [
+      "Frontend"
+    ]
+  },
+  {
+    "summary": "Crear endpoints REST para gestión de empleados del local",
+    "description": "Sub-tarea del área Backend para la historia: Crear y editar perfil de empleado",
+    "issueType": "Sub-task",
+    "parentId": "64",
+    "labels": [
+      "Backend"
+    ]
+  },
+  {
+    "summary": null,
+    "description": "Como \nquiero\npara",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "67"
+  },
+  {
+    "summary": null,
+    "description": "Como \nquiero\npara",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "68"
+  },
+  {
+    "summary": null,
+    "description": "Como \nquiero\npara",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "69"
+  },
+  {
+    "summary": null,
+    "description": "Como \nquiero\npara",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "70"
+  },
+  {
+    "summary": null,
+    "description": "Como \nquiero\npara",
+    "issueType": "Story",
+    "storyPoints": null,
+    "issueId": "71"
+  }
+]

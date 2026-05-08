@@ -1,0 +1,152 @@
+[
+  {
+    "Historia": "Registro de cliente",
+    "Tareas": [
+      { "Titulo": "Diseñar e implementar formulario de registro UI", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint POST /api/register/cliente", "Tipo": "Backend" },
+      { "Titulo": "Configurar modelo y migraciones para Cliente", "Tipo": "BaseDeDatos" }
+    ]
+  },
+  {
+    "Historia": "Registro de profesional",
+    "Tareas": [
+      { "Titulo": "Diseñar e implementar formulario de registro profesional UI", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint POST /api/register/profesional", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Inicio de Sesión",
+    "Tareas": [
+      { "Titulo": "Implementar vista de login y manejo de estado auth", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint POST /api/login con generacion JWT", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Cancelar Turno Reservado",
+    "Tareas": [
+      { "Titulo": "Agregar botón y modal de cancelación en UI del cliente", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint DELETE/PUT /api/turnos/{id}/cancelar", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Definir horarios de atencion y longitud de turnos",
+    "Tareas": [
+      { "Titulo": "Diseñar interfaz de configuración de disponibilidad y días", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint PUT /api/profesional/disponibilidad", "Tipo": "Backend" },
+      { "Titulo": "Diseñar esquema de BD para horarios y excepciones", "Tipo": "BaseDeDatos" }
+    ]
+  },
+  {
+    "Historia": "Visualizar Agenda de Turnos",
+    "Tareas": [
+      { "Titulo": "Implementar vista de calendario/lista para la agenda del profesional", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint GET /api/turnos?profesionalId={id}", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Realizar seña para confirmar turno",
+    "Tareas": [
+      { "Titulo": "Integrar flujo de pago simulado en la reserva del cliente", "Tipo": "Frontend" },
+      { "Titulo": "Actualizar endpoint de reserva para requerir y validar pago de seña", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Recover de contraseñas",
+    "Tareas": [
+      { "Titulo": "Implementar vistas de 'Olvidé contraseña' y 'Nueva contraseña'", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint POST /api/auth/recover y envío de email", "Tipo": "Backend" },
+      { "Titulo": "Crear endpoint POST /api/auth/reset con token", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Integracion Google calendar",
+    "Tareas": [
+      { "Titulo": "Agregar botón 'Agregar a Google Calendar' en confirmación", "Tipo": "Frontend" },
+      { "Titulo": "Implementar generación de link / .ics para Google Calendar", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Recibir Recordatorio por whatsapp",
+    "Tareas": [
+      { "Titulo": "Configurar CRON job o scheduler para buscar turnos próximos", "Tipo": "Backend" },
+      { "Titulo": "Integrar API de mensajería para WhatsApp", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Marcar asistencia a clientes",
+    "Tareas": [
+      { "Titulo": "Agregar acciones de 'Asistió'/'No asistió' en la agenda", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint PATCH /api/turnos/{id}/asistencia", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Suspender o dar de baja a un empleado",
+    "Tareas": [
+      { "Titulo": "Agregar controles de gestión de estado de empleado en panel admin", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint PATCH /api/admin/empleados/{id}/estado", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Editar y previsualizar perfil profesional",
+    "Tareas": [
+      { "Titulo": "Implementar formulario de edición de perfil y vista previa", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint PUT /api/profesional/perfil", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Generar link público de reservas",
+    "Tareas": [
+      { "Titulo": "Mostrar link público único en panel del profesional y opción de copiar", "Tipo": "Frontend" },
+      { "Titulo": "Implementar ruta pública /reserva/{username_o_slug}", "Tipo": "Frontend" }
+    ]
+  },
+  {
+    "Historia": "Bloquear fechas (vacaciones/feriados)",
+    "Tareas": [
+      { "Titulo": "Añadir selector de fechas bloqueadas en panel de configuración", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint POST /api/profesional/bloqueos", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Cancelar turno de cliente",
+    "Tareas": [
+      { "Titulo": "Añadir botón de cancelar con motivo en vista del profesional", "Tipo": "Frontend" },
+      { "Titulo": "Manejar notificaciones al cliente en la lógica de cancelación", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Ver historial y notas del cliente",
+    "Tareas": [
+      { "Titulo": "Implementar exportación CSV en frontend", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint GET /api/turnos/exportar que devuelva archivo", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Editar datos personales",
+    "Tareas": [
+      { "Titulo": "Implementar vista de perfil de cliente con opciones de edición y eliminación", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint PUT /api/cliente/perfil y DELETE /api/cliente", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Seleccionar servicio al reservar",
+    "Tareas": [
+      { "Titulo": "Añadir paso previo de selección de servicio antes de los horarios", "Tipo": "Frontend" },
+      { "Titulo": "Modificar cálculo de franjas horarias considerando duración de servicio", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Configurar perfil del local",
+    "Tareas": [
+      { "Titulo": "Implementar formulario para datos e imágenes del local", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoint PUT /api/local/config", "Tipo": "Backend" }
+    ]
+  },
+  {
+    "Historia": "Crear y editar perfil de empleado",
+    "Tareas": [
+      { "Titulo": "Añadir CRUD de empleados en el panel de administrador", "Tipo": "Frontend" },
+      { "Titulo": "Crear endpoints REST para gestión de empleados del local", "Tipo": "Backend" }
+    ]
+  }
+]

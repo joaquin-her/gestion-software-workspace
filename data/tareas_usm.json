@@ -1,0 +1,1574 @@
+[
+  {
+    "Historia": "Registrarse con Email y Contraseña",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Registrarse con Email y Contraseña)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Registrarse con Email y Contraseña",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar Perfil Básico",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Configurar Perfil Básico",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Configurar Perfil Básico",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Administrar Suscripción",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Administrar Suscripción",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Administrar Suscripción",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Definir estructura base",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Definir estructura base",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Definir estructura base",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar servicios y capacidad",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Configurar servicios y capacidad",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Configurar servicios y capacidad",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Revisar agenda",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Revisar agenda",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Revisar agenda",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Administrar reservas",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Administrar reservas",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Administrar reservas",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Seguimiento de clientes",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Seguimiento de clientes",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Seguimiento de clientes",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Validar Email",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Validar Email)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Validar Email",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Cargar nombre, especialidad y foto",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Cargar nombre, especialidad y foto",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Cargar nombre, especialidad y foto",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver estado del plan actual",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver estado del plan actual",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver estado del plan actual",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Establecer días laborables y franjas horarias",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Establecer días laborables y franjas horarias",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Establecer días laborables y franjas horarias",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Crear un servicio",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Crear un servicio",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Crear un servicio",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver panel de turnos (Dashboard)",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver panel de turnos (Dashboard)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver panel de turnos (Dashboard)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Cancelar el turno de un cliente",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Cancelar el turno de un cliente",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Cancelar el turno de un cliente",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Recibir notificaciones sobre cierto cliente",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Recibir notificaciones sobre cierto cliente",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Recibir notificaciones sobre cierto cliente",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Iniciar Sesión / Recuperar Contraseña",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Iniciar Sesión / Recuperar Contraseña)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Iniciar Sesión / Recuperar Contraseña",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Definir modalidad (Presencial/Virtual)",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Definir modalidad (Presencial/Virtual)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Definir modalidad (Presencial/Virtual)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Hacer Upgrade a Premium",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Hacer Upgrade a Premium",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Hacer Upgrade a Premium",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Definir duración estándar del turno",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Definir duración estándar del turno",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Definir duración estándar del turno",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar capacidad por turno",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Configurar capacidad por turno",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Configurar capacidad por turno",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver detalle del turno",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver detalle del turno",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver detalle del turno",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Marcar asistencia (Asistió / No asistió)",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Marcar asistencia (Asistió / No asistió)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Marcar asistencia (Asistió / No asistió)",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Botón de contacto rápido por WhatsApp",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Botón de contacto rápido por WhatsApp",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Botón de contacto rápido por WhatsApp",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Cambiar contraseña / Eliminar",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Cambiar contraseña / Eliminar",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Cambiar contraseña / Eliminar",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Generar link público de reservas",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Generar link público de reservas",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Generar link público de reservas",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Cancelar Suscripción Premium",
+    "Tareas": [
+      {
+        "Titulo": "Integración de pasarela de pagos para Cancelar Suscripción Premium",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Flujo de confirmación y feedback de pago para Cancelar Suscripción Premium",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Registro contable y estado de transacción",
+        "Tipo": "BaseDeDatos"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar descansos entre turnos",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Configurar descansos entre turnos",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Configurar descansos entre turnos",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Editar o eliminar servicios",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Editar o eliminar servicios",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Editar o eliminar servicios",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Exportar turnos del mes a Excel/CSV",
+    "Tareas": [
+      {
+        "Titulo": "Generación de archivo (Excel/CSV) para Exportar turnos del mes a Excel/CSV",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Descarga de archivos desde UI",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Reprogramar turno desde el panel",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Reprogramar turno desde el panel",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Reprogramar turno desde el panel",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver historial del cliente",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver historial del cliente",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver historial del cliente",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Agregar links a Redes Sociales",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Agregar links a Redes Sociales",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Agregar links a Redes Sociales",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Sincronización con Google Calendar",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Sincronización con Google Calendar",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Sincronización con Google Calendar",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Habilitar cobro de seña por servicio",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Habilitar cobro de seña por servicio",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Habilitar cobro de seña por servicio",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Añadir notas internas privadas",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Añadir notas internas privadas",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Añadir notas internas privadas",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Editar perfil",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Editar perfil",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Editar perfil",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Personalizar preguntas del formulario al cliente",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Personalizar preguntas del formulario al cliente",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Personalizar preguntas del formulario al cliente",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Crear cuenta",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Crear cuenta)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Crear cuenta",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Acceder a la cuenta",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Acceder a la cuenta",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Acceder a la cuenta",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Gestionar perfil personal",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Gestionar perfil personal",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Gestionar perfil personal",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Dashboard de Inicio",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Dashboard de Inicio",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Dashboard de Inicio",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Mis Profesionales",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Mis Profesionales",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Mis Profesionales",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Historial de Pagos",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Historial de Pagos",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Historial de Pagos",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Explorar perfil y servicios",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Explorar perfil y servicios",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Explorar perfil y servicios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Elegir disponibilidad",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Elegir disponibilidad",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Elegir disponibilidad",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Confirmar y abonar",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Confirmar y abonar",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Confirmar y abonar",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Revisar mis turnos",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Revisar mis turnos",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Revisar mis turnos",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Modificar reserva",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Modificar reserva",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Modificar reserva",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Notificaciones y Sincronización",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Notificaciones y Sincronización",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Notificaciones y Sincronización",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Registrarse con Email y WhatsApp",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Registrarse con Email y WhatsApp)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Registrarse con Email y WhatsApp",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Iniciar sesión con Email y Pass",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Iniciar sesión con Email y Pass)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Iniciar sesión con Email y Pass",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Editar mis datos (Nombre, Celular)",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Editar mis datos (Nombre, Celular)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Editar mis datos (Nombre, Celular)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver resumen de próximos turnos agendados",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver resumen de próximos turnos agendados",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver resumen de próximos turnos agendados",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver lista de profesionales con los que ya se atendió",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver lista de profesionales con los que ya se atendió",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver lista de profesionales con los que ya se atendió",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver historial de señas pagadas",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver historial de señas pagadas",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver historial de señas pagadas",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Aterrizar en URL pública del profesional",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Aterrizar en URL pública del profesional",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Aterrizar en URL pública del profesional",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Navegar por el calendario (Mes/Semana)",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Navegar por el calendario (Mes/Semana)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Navegar por el calendario (Mes/Semana)",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Completar datos básicos / Comentarios",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Completar datos básicos / Comentarios",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Completar datos básicos / Comentarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver panel de \"Mis Turnos\" (Próximos)",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver panel de \"Mis Turnos\" (Próximos)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver panel de \"Mis Turnos\" (Próximos)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Cancelar turno reservado",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Cancelar turno reservado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Cancelar turno reservado",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Recibir confirmación de reserva por Email",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Recibir confirmación de reserva por Email",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Recibir confirmación de reserva por Email",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Validar cuenta (Email)",
+    "Tareas": [
+      {
+        "Titulo": "Implementar lógica de Auth (Validar cuenta (Email))",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Desarrollar UI de Autenticación para Validar cuenta (Email)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Configurar esquema de seguridad y tokens",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Recuperar contraseña",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Recuperar contraseña",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Recuperar contraseña",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver notificaciones/alertas importantes",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver notificaciones/alertas importantes",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver notificaciones/alertas importantes",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Descargar comprobante de turno/seña",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Descargar comprobante de turno/seña",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Descargar comprobante de turno/seña",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver descripción y modalidad (Presencial/Virtual)",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver descripción y modalidad (Presencial/Virtual)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver descripción y modalidad (Presencial/Virtual)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver horarios disponibles en tiempo real",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver horarios disponibles en tiempo real",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver horarios disponibles en tiempo real",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Confirmar reserva (Pantalla de éxito)",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Confirmar reserva (Pantalla de éxito)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Confirmar reserva (Pantalla de éxito)",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver historial de turnos pasados",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver historial de turnos pasados",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver historial de turnos pasados",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Indicar motivo de cancelación",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Indicar motivo de cancelación",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Indicar motivo de cancelación",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Recibir aviso si el profesional le cancela",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Recibir aviso si el profesional le cancela",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Recibir aviso si el profesional le cancela",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Guardar un profesional en \"Favoritos\"",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Guardar un profesional en \"Favoritos\"",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Guardar un profesional en \"Favoritos\"",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver lista de servicios y duraciones",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver lista de servicios y duraciones",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver lista de servicios y duraciones",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Seleccionar franja horaria",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Seleccionar franja horaria",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Seleccionar franja horaria",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Completar formulario personalizado",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Completar formulario personalizado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Completar formulario personalizado",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver detalle (Dirección, link de Zoom, etc.)",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver detalle (Dirección, link de Zoom, etc.)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver detalle (Dirección, link de Zoom, etc.)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Recibir recordatorio por WhatsApp (24hs)",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Recibir recordatorio por WhatsApp (24hs)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Recibir recordatorio por WhatsApp (24hs)",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Seleccionar el servicio deseado",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Seleccionar el servicio deseado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Seleccionar el servicio deseado",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver estado de pagos / señas realizadas",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver estado de pagos / señas realizadas",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver estado de pagos / señas realizadas",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Filtrar servicios por categoría",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Filtrar servicios por categoría",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Filtrar servicios por categoría",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar perfil del local",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Configurar perfil del local",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Configurar perfil del local",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Administrar Staff (Empleados)",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Administrar Staff (Empleados)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Administrar Staff (Empleados)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Asignar servicios y horarios",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Asignar servicios y horarios",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Asignar servicios y horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Monitorear agenda unificada",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Monitorear agenda unificada",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Monitorear agenda unificada",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Gestión administrativa",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Gestión administrativa",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Gestión administrativa",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Base de clientes compartida",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Base de clientes compartida",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Base de clientes compartida",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Analítica de negocio",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Analítica de negocio",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Analítica de negocio",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Rendimiento por empleado",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Rendimiento por empleado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Rendimiento por empleado",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Exportación de datos",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Exportación de datos",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Exportación de datos",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Cargar nombre, logo y dirección del local",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Cargar nombre, logo y dirección del local",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Cargar nombre, logo y dirección del local",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Invitar profesionales por email",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Invitar profesionales por email",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Invitar profesionales por email",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Definir qué servicios da cada empleado",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Definir qué servicios da cada empleado",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Definir qué servicios da cada empleado",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver calendario con todos los turnos de todos los empleados",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver calendario con todos los turnos de todos los empleados",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver calendario con todos los turnos de todos los empleados",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Reasignar turno de un empleado a otro",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Reasignar turno de un empleado a otro",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Reasignar turno de un empleado a otro",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver base de datos de clientes del local",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver base de datos de clientes del local",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver base de datos de clientes del local",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver total de turnos (Atendidos vs Cancelados)",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver total de turnos (Atendidos vs Cancelados)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver total de turnos (Atendidos vs Cancelados)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver cantidad de turnos por profesional",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver cantidad de turnos por profesional",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver cantidad de turnos por profesional",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Exportar base de datos de clientes",
+    "Tareas": [
+      {
+        "Titulo": "Generación de archivo (Excel/CSV) para Exportar base de datos de clientes",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Descarga de archivos desde UI",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Generar link público general del negocio",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Generar link público general del negocio",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Generar link público general del negocio",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Crear/Editar perfil del empleado (Foto, rol)",
+    "Tareas": [
+      {
+        "Titulo": "API CRUD para Crear/Editar perfil del empleado (Foto, rol)",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Formulario y validaciones UI para Crear/Editar perfil del empleado (Foto, rol)",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar días/horarios de cada empleado",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Configurar días/horarios de cada empleado",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Configurar días/horarios de cada empleado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Filtrar vista por empleado específico",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Filtrar vista por empleado específico",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Filtrar vista por empleado específico",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Bloquear agenda de empleado",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Bloquear agenda de empleado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Bloquear agenda de empleado",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver historial global del cliente en el local",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver historial global del cliente en el local",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver historial global del cliente en el local",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver ingresos estimados del mes",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver ingresos estimados del mes",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver ingresos estimados del mes",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver ingresos generados por cada empleado",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver ingresos generados por cada empleado",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver ingresos generados por cada empleado",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Exportar liquidación mensual a Excel/CSV",
+    "Tareas": [
+      {
+        "Titulo": "Generación de archivo (Excel/CSV) para Exportar liquidación mensual a Excel/CSV",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Descarga de archivos desde UI",
+        "Tipo": "Frontend"
+      }
+    ]
+  },
+  {
+    "Historia": "Configurar horarios de apertura del local",
+    "Tareas": [
+      {
+        "Titulo": "Lógica de persistencia para Configurar horarios de apertura del local",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Interfaz de configuración para Configurar horarios de apertura del local",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Validación de conflictos de horarios",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Dar de baja/Suspender a un empleado",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Dar de baja/Suspender a un empleado",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Dar de baja/Suspender a un empleado",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Asignar roles (Admin general vs. Empleado)",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Asignar roles (Admin general vs. Empleado)",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Asignar roles (Admin general vs. Empleado)",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Filtrar vista por servicio",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Filtrar vista por servicio",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Filtrar vista por servicio",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Crear turno manual",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Crear turno manual",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Crear turno manual",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Añadir notas internas al perfil del cliente",
+    "Tareas": [
+      {
+        "Titulo": "Desarrollo funcional de Añadir notas internas al perfil del cliente",
+        "Tipo": "Frontend"
+      },
+      {
+        "Titulo": "Implementar servicios necesarios para Añadir notas internas al perfil del cliente",
+        "Tipo": "Backend"
+      }
+    ]
+  },
+  {
+    "Historia": "Ver servicios más populares",
+    "Tareas": [
+      {
+        "Titulo": "Endpoint de consulta para Ver servicios más populares",
+        "Tipo": "Backend"
+      },
+      {
+        "Titulo": "Implementar vista/componente para Ver servicios más populares",
+        "Tipo": "Frontend"
+      }
+    ]
+  }
+]

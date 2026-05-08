@@ -1,0 +1,893 @@
+[
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10000",
+        "resumen": "[AUTH] [BASE] Registrarse con Email y contraseña",
+        "sprint": "Sprint 1",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "USER",
+        "id": "10056",
+        "resumen": "[USER] [BASE] Gestionar perfil personal: Editar datos (Nombre, Celular)",
+        "sprint": "Sprint 1",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10001",
+        "resumen": "[PERFIL] [BASE] Configurar perfil basico: Cargar nombre, especialidad, foto",
+        "sprint": "Sprint 1",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AGENDA",
+        "id": "10020",
+        "resumen": "[AGENDA] [BASE] Definir estructura base: Establecer días laborables y franjas horarias",
+        "sprint": "Sprint 1",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "SERVICIOS",
+        "id": "10024",
+        "resumen": "[SERVICIOS] [BASE] Configurar servicios: Crear un servicio",
+        "sprint": "Sprint 1",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10003",
+        "resumen": "[AUTH] [BASE] Validar Email",
+        "sprint": "Sprint 1",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "USER",
+        "id": "10057",
+        "resumen": "[USER] [BASE] Cambiar contraseña",
+        "sprint": "Sprint 1",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10010",
+        "resumen": "[PERFIL] [BASE] Configurar Perfil Básico: Cargar nombre, especialidad y foto",
+        "sprint": "Sprint 1",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AGENDA",
+        "id": "10021",
+        "resumen": "[AGENDA] [BASE] Definir duración estándar del turno",
+        "sprint": "Sprint 1",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "SERVICIOS",
+        "id": "10025",
+        "resumen": "[SERVICIOS] [BASE] Configurar capacidad por turno",
+        "sprint": "Sprint 1",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10004",
+        "resumen": "[AUTH] [BASE] Iniciar sesión / Recuperar contraseña",
+        "sprint": "Sprint 1",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "USER",
+        "id": "10058",
+        "resumen": "[USER] [BASE] Eliminar mi cuenta",
+        "sprint": "Sprint 1",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10011",
+        "resumen": "[PERFIL] [BASE] Definir modalidad (Presencial/Virtual)",
+        "sprint": "Sprint 1",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AGENDA",
+        "id": "10022",
+        "resumen": "[AGENDA] [BASE] Configurar descansos entre turnos",
+        "sprint": "Sprint 2",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "SERVICIOS",
+        "id": "10026",
+        "resumen": "[SERVICIOS] [BASE] Editar o eliminar servicios",
+        "sprint": "Sprint 2",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10005",
+        "resumen": "[AUTH] [BASE] Cambiar contraseña / Eliminar",
+        "sprint": "Sprint 2",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10012",
+        "resumen": "[PERFIL] [BASE] Generar link público de reservas",
+        "sprint": "Sprint 2",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "PREM",
+        "modulo": "AGENDA",
+        "id": "10023",
+        "resumen": "[AGENDA] [PREM] Sincronización con Google Calendar",
+        "sprint": "Sprint 2",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "PREM",
+        "modulo": "SERVICIOS",
+        "id": "10027",
+        "resumen": "[SERVICIOS] [PREM] Habilitar cobro de seña por servicio",
+        "sprint": "Sprint 2",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10009",
+        "resumen": "[AUTH] [BASE] Cambiar contraseña / Eliminar",
+        "sprint": "Sprint 2",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10013",
+        "resumen": "[PERFIL] [BASE] Agregar links a Redes Sociales",
+        "sprint": "Sprint 2",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10051",
+        "resumen": "[AUTH] [BASE] Crear cuenta: Registrarse con Email y WhatsApp",
+        "sprint": "Sprint 2",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10014",
+        "resumen": "[PERFIL] [BASE] Previsualizar perfil público",
+        "sprint": "Sprint 2",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10052",
+        "resumen": "[AUTH] [BASE] Validar cuenta (Email)",
+        "sprint": "Sprint 2",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "PERFIL",
+        "id": "10015",
+        "resumen": "[PERFIL] [BASE] Editar perfil",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10053",
+        "resumen": "[AUTH] [BASE] Acceder a la cuenta: Iniciar sesión con Email y Pass",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "PREM",
+        "modulo": "PERFIL",
+        "id": "10016",
+        "resumen": "[PERFIL] [PREM] Personalizar preguntas del formulario al cliente",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10054",
+        "resumen": "[AUTH] [BASE] Recuperar contraseña",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 1",
+        "capa": "BASE",
+        "modulo": "AUTH",
+        "id": "10055",
+        "resumen": "[AUTH] [BASE] Login rápido con Google (OAuth)",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10066",
+        "resumen": "[BOOKING] [BASE] Explorar perfil: Aterrizar en URL pública del profesional",
+        "sprint": "Sprint 3",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "DASH",
+        "id": "10059",
+        "resumen": "[DASH] [BASE] Dashboard de Inicio: Ver resumen de próximos turnos agendados",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10067",
+        "resumen": "[BOOKING] [BASE] Ver descripción y modalidad",
+        "sprint": "Sprint 3",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "DASH",
+        "id": "10060",
+        "resumen": "[DASH] [BASE] Ver notificaciones/alertas importantes",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10068",
+        "resumen": "[BOOKING] [BASE] Ver lista de servicios y duraciones",
+        "sprint": "Sprint 3",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "DASH",
+        "id": "10061",
+        "resumen": "[DASH] [BASE] Mis Profesionales: Ver lista de profesionales previos",
+        "sprint": "Sprint 3",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10069",
+        "resumen": "[BOOKING] [BASE] Filtrar servicios por categoría",
+        "sprint": "Sprint 3",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "DASH",
+        "id": "10062",
+        "resumen": "[DASH] [BASE] Botón de \"Volver a reservar\"",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10070",
+        "resumen": "[BOOKING] [BASE] Elegir disponibilidad: Navegar por el calendario",
+        "sprint": "Sprint 3",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "DASH",
+        "id": "10063",
+        "resumen": "[DASH] [BASE] Guardar un profesional en \"Favoritos\"",
+        "sprint": "Sprint 3",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10071",
+        "resumen": "[BOOKING] [BASE] Ver horarios disponibles en real-time",
+        "sprint": "Sprint 3",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10072",
+        "resumen": "[BOOKING] [BASE] Seleccionar franja horaria",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10073",
+        "resumen": "[BOOKING] [BASE] Seleccionar el servicio deseado",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10074",
+        "resumen": "[BOOKING] [BASE] Confirmar y abonar: Completar datos básicos / Comentarios",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10075",
+        "resumen": "[BOOKING] [BASE] Confirmar reserva (Pantalla de éxito)",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 2",
+        "capa": "BASE",
+        "modulo": "BOOKING",
+        "id": "10076",
+        "resumen": "[BOOKING] [BASE] Completar formulario personalizado",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10028",
+        "resumen": "[TURNOS] [BASE] Manejar excepciones: Pausar agenda temporalmente",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "GESTION",
+        "id": "10081",
+        "resumen": "[GESTION] [BASE] Modificar reserva: Cancelar turno reservado",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "MIS-TURNOS",
+        "id": "10077",
+        "resumen": "[MIS-TURNOS] [BASE] Revisar mis turnos: Ver panel de \"Mis Turnos\"",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "PAGOS",
+        "id": "10064",
+        "resumen": "[PAGOS] [BASE] Historial de Pagos: Ver historial de señas pagadas",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "CLIENTE",
+        "id": "10037",
+        "resumen": "[CLIENTE] [BASE] Seguimiento: Recibir notificaciones sobre cierto cliente",
+        "sprint": "Sprint 4",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "NOTIF",
+        "id": "10084",
+        "resumen": "[NOTIF] [BASE] Recibir confirmación de reserva por Email",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10029",
+        "resumen": "[TURNOS] [BASE] Bloquear fechas (Vacaciones/Feriados)",
+        "sprint": "Sprint 4",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "GESTION",
+        "id": "10082",
+        "resumen": "[GESTION] [BASE] Indicar motivo de cancelación",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "MIS-TURNOS",
+        "id": "10078",
+        "resumen": "[MIS-TURNOS] [BASE] Ver historial de turnos pasados",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "PAGOS",
+        "id": "10065",
+        "resumen": "[PAGOS] [BASE] Descargar comprobante de turno/seña",
+        "sprint": "Sprint 4",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "CLIENTE",
+        "id": "10038",
+        "resumen": "[CLIENTE] [BASE] Botón de contacto rápido por WhatsApp",
+        "sprint": "Sprint 4",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "NOTIF",
+        "id": "10085",
+        "resumen": "[NOTIF] [BASE] Recibir aviso si el profesional cancela",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10030",
+        "resumen": "[TURNOS] [BASE] Revisar agenda: Ver panel de turnos (Dashboard)",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "GESTION",
+        "id": "10083",
+        "resumen": "[GESTION] [BASE] Reprogramar turno (Mover fecha)",
+        "sprint": "Sprint 4",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "MIS-TURNOS",
+        "id": "10079",
+        "resumen": "[MIS-TURNOS] [BASE] Ver detalle (Dirección, link de Zoom, etc.)",
+        "sprint": "Sprint 5",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "CLIENTE",
+        "id": "10039",
+        "resumen": "[CLIENTE] [BASE] Ver historial del cliente",
+        "sprint": "Sprint 5",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "PREM",
+        "modulo": "NOTIF",
+        "id": "10086",
+        "resumen": "[NOTIF] [PREM] Recibir recordatorio por WhatsApp (24hs)",
+        "sprint": "Sprint 5",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10031",
+        "resumen": "[TURNOS] [BASE] Ver detalle del turno",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "MIS-TURNOS",
+        "id": "10080",
+        "resumen": "[MIS-TURNOS] [BASE] Ver estado de pagos / señas",
+        "sprint": "Sprint 5",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "PREM",
+        "modulo": "CLIENTE",
+        "id": "10040",
+        "resumen": "[CLIENTE] [PREM] Añadir notas internas privadas",
+        "sprint": "Sprint 5",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "PREM",
+        "modulo": "TURNOS",
+        "id": "10032",
+        "resumen": "[TURNOS] [PREM] Exportar turnos del mes a Excel/CSV",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10033",
+        "resumen": "[TURNOS] [BASE] Administrar reservas: Cancelar el turno de un cliente",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10034",
+        "resumen": "[TURNOS] [BASE] Marcar asistencia (Asistió / No asistió)",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "BASE",
+        "modulo": "TURNOS",
+        "id": "10035",
+        "resumen": "[TURNOS] [BASE] Reprogramar turno desde el panel",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 3",
+        "capa": "PREM",
+        "modulo": "TURNOS",
+        "id": "10036",
+        "resumen": "[TURNOS] [PREM] Gestionar reembolsos de seña",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "BASE",
+        "modulo": "SUBS",
+        "id": "10002",
+        "resumen": "[SUBS] [BASE] Administrar suscripcion: Ver estado del plan actual",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "ADMIN",
+        "id": "10087",
+        "resumen": "[ADMIN] [PREM] Configurar perfil del local: Cargar nombre, logo y dirección",
+        "sprint": "Sprint 5",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "STAFF",
+        "id": "10090",
+        "resumen": "[STAFF] [PREM] Administrar Staff: Invitar profesionales por email",
+        "sprint": "Sprint 5",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "CRM",
+        "id": "10102",
+        "resumen": "[CRM] [PREM] Base de clientes compartida: Ver base de datos del local",
+        "sprint": "Sprint 5",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "BASE",
+        "modulo": "SUBS",
+        "id": "10017",
+        "resumen": "[SUBS] [BASE] Administrar Suscripción: Ver estado del plan actual",
+        "sprint": "Sprint 6",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "ADMIN",
+        "id": "10088",
+        "resumen": "[ADMIN] [PREM] Generar link público general del negocio",
+        "sprint": "Sprint 6",
+        "story_points": 0
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "STAFF",
+        "id": "10091",
+        "resumen": "[STAFF] [PREM] Crear/Editar perfil del empleado",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "CRM",
+        "id": "10103",
+        "resumen": "[CRM] [PREM] Ver historial global del cliente en el local",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "SUBS",
+        "id": "10018",
+        "resumen": "[SUBS] [PREM] Hacer Upgrade a Premium",
+        "sprint": "Sprint 6",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "ADMIN",
+        "id": "10089",
+        "resumen": "[ADMIN] [PREM] Configurar horarios de apertura del local",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "STAFF",
+        "id": "10092",
+        "resumen": "[STAFF] [PREM] Dar de baja/Suspender a un empleado",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "CRM",
+        "id": "10104",
+        "resumen": "[CRM] [PREM] Añadir notas internas al perfil del cliente",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "BASE",
+        "modulo": "SUBS",
+        "id": "10019",
+        "resumen": "[SUBS] [BASE] Cancelar Suscripción Premium",
+        "sprint": "Sprint 6",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "STAFF",
+        "id": "10093",
+        "resumen": "[STAFF] [PREM] Asignar servicios y horarios: Definir qué servicios da cada empleado",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "STAFF",
+        "id": "10094",
+        "resumen": "[STAFF] [PREM] Configurar días/horarios de cada empleado",
+        "sprint": "Sprint 6",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 4",
+        "capa": "PREM",
+        "modulo": "STAFF",
+        "id": "10095",
+        "resumen": "[STAFF] [PREM] Asignar roles (Admin general vs. Empleado)",
+        "sprint": "Sprint 6",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "GLOBAL",
+        "id": "10096",
+        "resumen": "[GLOBAL] [PREM] Monitorear agenda: Ver calendario unificado (Todos los empleados)",
+        "sprint": "Sprint 6",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "METRICAS",
+        "id": "10105",
+        "resumen": "[METRICAS] [PREM] Analítica: Ver total de turnos (Atendidos vs Cancelados)",
+        "sprint": "Sprint 6",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "DATA",
+        "id": "10110",
+        "resumen": "[DATA] [PREM] Exportación: Exportar base de datos de clientes",
+        "sprint": "Sprint 6",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "GLOBAL",
+        "id": "10097",
+        "resumen": "[GLOBAL] [PREM] Filtrar vista por empleado específico",
+        "sprint": "Sprint 6",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "METRICAS",
+        "id": "10106",
+        "resumen": "[METRICAS] [PREM] Ver ingresos estimados del mes",
+        "sprint": "Sprint 7",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "DATA",
+        "id": "10111",
+        "resumen": "[DATA] [PREM] Exportar liquidación mensual a Excel/CSV",
+        "sprint": "Sprint 7",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "GLOBAL",
+        "id": "10098",
+        "resumen": "[GLOBAL] [PREM] Filtrar vista por servicio",
+        "sprint": "Sprint 7",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "METRICAS",
+        "id": "10107",
+        "resumen": "[METRICAS] [PREM] Ver servicios más populares",
+        "sprint": "Sprint 7",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "GLOBAL",
+        "id": "10099",
+        "resumen": "[GLOBAL] [PREM] Gestión administrativa: Reasignar turno de un empleado a otro",
+        "sprint": "Sprint 7",
+        "story_points": 2
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "METRICAS",
+        "id": "10108",
+        "resumen": "[METRICAS] [PREM] Rendimiento: Ver cantidad de turnos por profesional",
+        "sprint": "Sprint 7",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "GLOBAL",
+        "id": "10100",
+        "resumen": "[GLOBAL] [PREM] Bloquear agenda de empleado",
+        "sprint": "Sprint 7",
+        "story_points": 3
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "METRICAS",
+        "id": "10109",
+        "resumen": "[METRICAS] [PREM] Ver ingresos generados por cada empleado",
+        "sprint": "Sprint 7",
+        "story_points": 5
+    },
+    {
+        "fase": "Fase 5",
+        "capa": "PREM",
+        "modulo": "GLOBAL",
+        "id": "10101",
+        "resumen": "[GLOBAL] [PREM] Crear turno manual",
+        "sprint": "Sprint 7",
+        "story_points": 2
+    }
+]

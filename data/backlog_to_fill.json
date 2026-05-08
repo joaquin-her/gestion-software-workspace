@@ -1,0 +1,1398 @@
+[
+  {
+    "Titulo": "Registrarse con Email y Contraseña",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Configurar Perfil Básico",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Administrar Suscripción",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Definir estructura base",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Configurar servicios y capacidad",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Revisar agenda",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Administrar reservas",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Seguimiento de clientes",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Validar Email",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Cargar nombre, especialidad y foto",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver estado del plan actual",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Establecer días laborables y franjas horarias",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Crear un servicio",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver panel de turnos (Dashboard)",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Cancelar el turno de un cliente",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Recibir notificaciones sobre cierto cliente",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Iniciar Sesión / Recuperar Contraseña",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Definir modalidad (Presencial/Virtual)",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Hacer Upgrade a Premium",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Definir duración estándar del turno",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Configurar capacidad por turno",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver detalle del turno",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Marcar asistencia (Asistió / No asistió)",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Botón de contacto rápido por WhatsApp",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Cambiar contraseña / Eliminar",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Numero": null,
+    "Titulo": "Generar link público de reservas",
+    "Prioridad": null,
+    "Estimacion": "5",
+    "Descripcion": "Como profesional\nquiero obtener un link público único para mi perfil\npara compartirlo con clientes por WhatsApp, redes o web y que puedan reservar",
+    "Criterios de aceptacion": "- El sistema genera automáticamente una URL pública única por profesional.\n- El profesional puede copiar el link desde su panel con un botón.\n- El link redirige a la vista pública del profesional con sus servicios y disponibilidad.\n- El link es accesible sin necesidad de estar logueado.\n- Si el profesional pausa su agenda, el link sigue accesible pero indica que no hay disponibilidad.",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ]
+  },
+  {
+    "Titulo": "Cancelar Suscripción Premium",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Configurar descansos entre turnos",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Editar o eliminar servicios",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Exportar turnos del mes a Excel/CSV",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Reprogramar turno desde el panel",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver historial del cliente",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Agregar links a Redes Sociales",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Sincronización con Google Calendar",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Habilitar cobro de seña por servicio",
+    "Rol": "Profesional independiente",
+    "Categoria": "Configuración de agenda",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "ConfiguracionDeAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Añadir notas internas privadas",
+    "Rol": "Profesional independiente",
+    "Categoria": "Gestión diaria de turnos",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "GestionDiariaDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Editar perfil",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Personalizar preguntas del formulario al cliente",
+    "Rol": "Profesional independiente",
+    "Categoria": "Autenticación y Perfil",
+    "Labels": [
+      "ProfesionalIndependiente",
+      "AutenticacionYPerfil"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Crear cuenta",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Acceder a la cuenta",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Gestionar perfil personal",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Dashboard de Inicio",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Mis Profesionales",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Historial de Pagos",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Explorar perfil y servicios",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Elegir disponibilidad",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Confirmar y abonar",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Revisar mis turnos",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Modificar reserva",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Notificaciones y Sincronización",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Registrarse con Email y WhatsApp",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Iniciar sesión con Email y Pass",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Editar mis datos (Nombre, Celular)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver resumen de próximos turnos agendados",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver lista de profesionales con los que ya se atendió",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver historial de señas pagadas",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Aterrizar en URL pública del profesional",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Navegar por el calendario (Mes/Semana)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Completar datos básicos / Comentarios",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver panel de \"Mis Turnos\" (Próximos)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Cancelar turno reservado",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Recibir confirmación de reserva por Email",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Validar cuenta (Email)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Recuperar contraseña",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Acceso a la plataforma",
+    "Labels": [
+      "ClientePaciente",
+      "AccesoALaPlataforma"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver notificaciones/alertas importantes",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Botón de \"Volver a reservar\" (Acceso rápido al perfil)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Descargar comprobante de turno/seña",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver descripción y modalidad (Presencial/Virtual)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver horarios disponibles en tiempo real",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Confirmar reserva (Pantalla de éxito)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver historial de turnos pasados",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Indicar motivo de cancelación",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Recibir aviso si el profesional le cancela",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Guardar un profesional en \"Favoritos\"",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Panel central y de re-reserva",
+    "Labels": [
+      "ClientePaciente",
+      "PanelCentralYDeRereserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver lista de servicios y duraciones",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Seleccionar franja horaria",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Completar formulario personalizado",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver detalle (Dirección, link de Zoom, etc.)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Recibir recordatorio por WhatsApp (24hs)",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Seleccionar el servicio deseado",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver estado de pagos / señas realizadas",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Autogestión de turnos",
+    "Labels": [
+      "ClientePaciente",
+      "AutogestionDeTurnos"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Filtrar servicios por categoría",
+    "Rol": "Cliente Paciente",
+    "Categoria": "Exploración y reserva",
+    "Labels": [
+      "ClientePaciente",
+      "ExploracionYReserva"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Numero": null,
+    "Titulo": "Configurar perfil del local",
+    "Prioridad": null,
+    "Estimacion": "5",
+    "Descripcion": "Como administrador de un local con varios profesionales\nquiero cargar los datos del local (nombre, logo, dirección, horarios)\npara que los clientes vean la información del negocio en lugar de un profesional individual",
+    "Criterios de aceptacion": "- El administrador puede cargar nombre del local, logo, dirección y horarios de apertura.\n- El sistema genera un link público general del negocio.\n- El perfil público del local muestra todos los profesionales del staff con sus servicios.\n- Los horarios de apertura del local limitan los horarios disponibles de los empleados.\n- El administrador puede editar los datos del local en cualquier momento.",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ]
+  },
+  {
+    "Titulo": "Administrar Staff (Empleados)",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Asignar servicios y horarios",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Monitorear agenda unificada",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Gestión administrativa",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Base de clientes compartida",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Analítica de negocio",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Rendimiento por empleado",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Exportación de datos",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Cargar nombre, logo y dirección del local",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Invitar profesionales por email",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Definir qué servicios da cada empleado",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver calendario con todos los turnos de todos los empleados",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Reasignar turno de un empleado a otro",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver base de datos de clientes del local",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver total de turnos (Atendidos vs Cancelados)",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver cantidad de turnos por profesional",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Exportar base de datos de clientes",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Generar link público general del negocio",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Crear/Editar perfil del empleado (Foto, rol)",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Configurar días/horarios de cada empleado",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Filtrar vista por empleado específico",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Bloquear agenda de empleado",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver historial global del cliente en el local",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver ingresos estimados del mes",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver ingresos generados por cada empleado",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Exportar liquidación mensual a Excel/CSV",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Configurar horarios de apertura del local",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Dar de baja/Suspender a un empleado",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Asignar roles (Admin general vs. Empleado)",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Configuración de negocio y staff",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ConfiguracionDeNegocioYStaff"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Filtrar vista por servicio",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Crear turno manual",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Añadir notas internas al perfil del cliente",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Supervisión global de la agenda",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "SupervisionGlobalDeLaAgenda"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  },
+  {
+    "Titulo": "Ver servicios más populares",
+    "Rol": "Grupo de profesionales",
+    "Categoria": "Reportes y métricas",
+    "Labels": [
+      "GrupoDeProfesionales",
+      "ReportesYMetricas"
+    ],
+    "Descripcion": null,
+    "Criterios de aceptacion": null,
+    "Estimacion": null
+  }
+]
