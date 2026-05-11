@@ -19,7 +19,12 @@ class ProfesionalCreate(ProfesionalBase):
     phone: Optional[str] = None
 
 
-class ProfesionalUpdate(ProfesionalBase):
+class ProfesionalUpdate(BaseModel):
+    specialty: Optional[str] = Field(None, min_length=2)
+    license_number: Optional[str] = None
+    experience_years: Optional[int] = Field(None, ge=0)
+    bio: Optional[str] = None
+    consultation_fee: Optional[Decimal] = Field(None, ge=0)
     full_name: Optional[str] = Field(None, min_length=2)
     phone: Optional[str] = None
 

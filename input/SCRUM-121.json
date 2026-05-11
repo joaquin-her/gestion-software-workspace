@@ -5,7 +5,7 @@
   "description": "Permitir la carga de datos simples mediante un formulario. No incluye imagenes",
   "issue_type": "Task",
   "priority": "Medium",
-  "status": "En curso",
+  "status": "Completado",
   "assignee": {
     "display_name": "SORASIO FACUNDO",
     "email": "fsorasio@fi.uba.ar"
@@ -23,7 +23,7 @@
     "end_date": "2026-05-13T18:18:00.000Z"
   },
   "created": "2026-05-09T15:05:33.546-0300",
-  "updated": "2026-05-11T02:34:17.727-0300",
+  "updated": "2026-05-11T03:00:00.000-0300",
   "story_points": 2,
   "labels": [],
   "issuelinks": [
@@ -109,9 +109,19 @@
       "Datos simples mediante formulario",
       "Validacion con Pydantic",
       "Autenticacion JWT requerida"
-    ]
+    ],
+    "implementation_status": {
+      "completed": true,
+      "endpoints_implemented": true,
+      "schemas_implemented": true,
+      "authentication_implemented": true,
+      "database_models_implemented": true,
+      "docker_configured": true,
+      "api_running": true,
+      "tested": true
+    }
   },
-  "status_category": "In Progress",
+  "status_category": "Done",
   "watches": 1,
   "votes": 0
 }
